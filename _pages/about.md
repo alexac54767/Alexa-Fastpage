@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-This website is made by **[Alexa Carlson]** [^1].
+This website is made by **Alexa Carlson** [^1].
 
 
 

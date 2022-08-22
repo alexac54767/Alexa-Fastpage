@@ -4,8 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+This website is made by **[Alexa Carlson]** [^1].
 
 
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+[^1]:a girl who's learning how to code in APCSP :)

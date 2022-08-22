@@ -1,8 +1,4 @@
 ---
-toc: false
-layout: post
-description: My try at a markdown post.
-categories: [markdown]
 title: Alexa's Markdown Post
 ---
 # My First Markdown #coolright?

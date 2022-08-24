@@ -2,22 +2,22 @@
   
     
         "post0": {
-            "title": "Alexamarkdown",
-            "content": "My First Markdown #coolright? . I’m starting to figure this out! :joy: . Here are some things I love . My dog, Mocha | my family (twin sister included) | Allstar Cheerleading | Marvel Movies (btw Spiderman is the best) | my friends &lt;3 |",
-            "url": "https://alexac54767.github.io/Alexa-Fastpage/2022/08/22/AlexaMarkdown.html",
-            "relUrl": "/2022/08/22/AlexaMarkdown.html",
-            "date": " • Aug 22, 2022"
+            "title": "This is my First Jupyter Notebook",
+            "content": "print (&quot;Hello, World!&quot;) . Hello, World! .",
+            "url": "https://alexac54767.github.io/Alexa-Fastpage/2022/08/23/try3jupyternotebook.html",
+            "relUrl": "/2022/08/23/try3jupyternotebook.html",
+            "date": " • Aug 23, 2022"
         }
         
     
   
     
         ,"post1": {
-            "title": "This is my First Jupyter Notebook",
-            "content": "print (&quot;Hello, World!&quot;) . Hello, World! .",
-            "url": "https://alexac54767.github.io/Alexa-Fastpage/2022/08/21/try3jupyternotebook.html",
-            "relUrl": "/2022/08/21/try3jupyternotebook.html",
-            "date": " • Aug 21, 2022"
+            "title": "Alexamarkdown",
+            "content": "My First Markdown #coolright? . I’m starting to figure this out! :joy: . Here are some things I love . My dog, Mocha | my family (twin sister included) | Allstar Cheerleading | Marvel Movies (btw Spiderman is the best) | my friends &lt;3 |",
+            "url": "https://alexac54767.github.io/Alexa-Fastpage/2022/08/22/AlexaMarkdown.html",
+            "relUrl": "/2022/08/22/AlexaMarkdown.html",
+            "date": " • Aug 22, 2022"
         }
         
     

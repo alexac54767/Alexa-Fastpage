@@ -142,6 +142,8 @@ window.onload = wrap_img;
 <span class="n">correct</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">ec_abort</span> <span class="o">=</span> <span class="mi">0</span>
 
+<span class="c1"># I created the variable &quot;ec_abort&quot; (stands for extra credit abort) </span>
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hey queen, make sure to think out of the box when taking this quiz.&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You will be asked 5 questions about me. Make sure the first letter of your answer is capitalized and that if it is numerical, use the number.&quot;</span><span class="p">)</span>
 <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;Are you ready?&quot;</span><span class="p">)</span>
@@ -157,6 +159,9 @@ window.onload = wrap_img;
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is no bueno:(&quot;</span><span class="p">)</span>
 
+<span class="c1"># The new variable allows me to code so that if the user of my quiz types &quot;Give me 100%&quot;, it skips to the end with a 5/5</span>
+
+
 <span class="k">if</span> <span class="n">ec_abort</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
     <span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What is my favorite color?&quot;</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;Blue&quot;</span><span class="p">:</span>
@@ -168,6 +173,9 @@ window.onload = wrap_img;
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is no bueno:(&quot;</span><span class="p">)</span>
 
+<span class="c1"># If they get the question correct, then the variable &quot;correct&quot; goes up by 1</span>
+
+
 <span class="k">if</span> <span class="n">ec_abort</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
     <span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;How many siblings to I have?&quot;</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;3&quot;</span><span class="p">:</span>
@@ -178,6 +186,8 @@ window.onload = wrap_img;
         <span class="n">ec_abort</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is no bueno:(&quot;</span><span class="p">)</span>
+
+<span class="c1"># If their answer is incorrect, the amount correct stays the same and it prints &quot;is no bueno:(&quot;</span>
 
 <span class="k">if</span> <span class="n">ec_abort</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
     <span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;What pet do I have?&quot;</span><span class="p">)</span>
@@ -206,6 +216,8 @@ window.onload = wrap_img;
 
 <span class="k">if</span> <span class="n">ec_abort</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
     <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Slayyy you scored &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">correct</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/5&quot;</span><span class="p">)</span>
+
+<span class="c1"># If they don&#39;t use the &quot;Give me 100%&quot; option, ec_abort is still 0, allowing this step that gives the perentage correct to show</span>
 </pre></div>
 
     </div>
@@ -242,7 +254,15 @@ You scored 5/5
 
 
 
-  </div><a class="u-url" href="/Alexa-Fastpage/2022/08/24/myquiz.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="alexac54767/Alexa-Fastpage"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/Alexa-Fastpage/2022/08/24/myquiz.html" hidden></a>
 </article>
 
       </div>

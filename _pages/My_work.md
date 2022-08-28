@@ -9,5 +9,5 @@ title: My Work
 
 | Trimester   | Week        | Project     |
 | ----------- | ----------- | ----------- |
-| 1           | 0           | First Jypyter Notebook |
-| 1           | 0           | First Markdown |
+| 1           | 0           | [My First Jupyter Notebook](https://alexac54767.github.io/Alexa-Fastpage/notebooks/myjupyternotebook). |
+| 1           | 0           | [My First Markdown Post](https://alexac54767.github.io/Alexa-Fastpage/markdown/1). |

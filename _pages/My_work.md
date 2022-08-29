@@ -4,7 +4,7 @@ permalink: /my_work
 title: My Work
 ---
 
-## Trimester 1 Work
+## Alexa's APCSP Work
 > This is all  of my APCSP work so far. Enjoy!
 
 | Trimester   | Week        | Project     |

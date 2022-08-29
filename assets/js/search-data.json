@@ -13,7 +13,7 @@
   
     
         ,"post1": {
-            "title": "Recource Videos",
+            "title": "Resource Videos",
             "content": "Github help: . GitHub Concepts. . GitHub Set-up Instructions. . Jupyter Notebooks Help: . Jupyter Basics. .",
             "url": "https://alexac54767.github.io/Alexa-Fastpage/markdown/videos",
             "relUrl": "/markdown/videos",
@@ -83,10 +83,10 @@
 
   
       ,"page2": {
-          "title": "Extra Recources",
-          "content": "Extra Recources for When You’re Stuck . Watch these videos. .",
-          "url": "https://alexac54767.github.io/Alexa-Fastpage/recources",
-          "relUrl": "/recources",
+          "title": "Extra Resources",
+          "content": "For When You’re Stuck . Watch these videos. .",
+          "url": "https://alexac54767.github.io/Alexa-Fastpage/resources",
+          "relUrl": "/resources",
           "date": ""
       }
       

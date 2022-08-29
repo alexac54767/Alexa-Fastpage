@@ -2,11 +2,11 @@
 toc: false
 comments: true
 layout: post
-title: Recource Videos
+title: Resource Videos
 description: Need Help? Watch These Videos
 permalink: /markdown/videos
 image: /images/helpful.jpg
-categories: [Recources]
+categories: [Resources]
 ---
 
 

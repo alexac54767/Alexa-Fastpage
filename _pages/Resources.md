@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /recources
-title: Extra Recources
+permalink: /resources
+title: Extra Resources
 ---
 
-# Extra Recources for When You're Stuck
+# For When You're Stuck
 
 ## Watch these [videos](https://alexac54767.github.io/Alexa-Fastpage/markdown/videos).

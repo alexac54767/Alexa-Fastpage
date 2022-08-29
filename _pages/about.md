@@ -14,7 +14,9 @@ This website is made by Alexa Carlson, a girl who's learning how to code in APCS
 
 ## Here are some of my besties
 ![]({{site.baseurl}}/images/IMG_0482)
+
 ![]({{site.baseurl}}/images/IMG_1180)
+
 ![]({{site.baseurl}}/images/img_0032)
 
 ## My dog

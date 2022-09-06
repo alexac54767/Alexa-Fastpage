@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      5 min read
     
 </span></p>
 
@@ -342,7 +342,7 @@ Ava Brynn Carlson
 <span class="c1"># for loop algorithm iterates on length of InfoDb</span>
 <span class="k">def</span> <span class="nf">for_loop</span><span class="p">():</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"For loop output reversed</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">):</span> <span class="c1"># this reverses the data in the InfoDB list</span>
         <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
 
 <span class="n">for_loop</span><span class="p">()</span>
@@ -477,10 +477,10 @@ Ava Brynn Carlson
 <span class="k">def</span> <span class="nf">while_loop</span><span class="p">():</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"While loop output reversed</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
     <span class="n">i</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">)</span>
-    <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="n">record</span> <span class="o">=</span> <span class="n">InfoDb</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># i has to be greater than 0 now that its is reversed (starting at 2 and can't go below 0)</span>
+        <span class="n">record</span> <span class="o">=</span> <span class="n">InfoDb</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># lists begin at 0, however, length begins at 1 (must -1 to have same record)</span>
         <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
-        <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span> <span class="c1"># the - allows to go in reverse order</span>
     <span class="k">return</span>
 
 <span class="n">while_loop</span><span class="p">()</span>
@@ -612,14 +612,14 @@ Ava Brynn Carlson
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># recursion algorithm loops incrementing on each call (n + 1) until exit condition is met</span>
 <span class="k">def</span> <span class="nf">recursive_loop</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># must be greater than or equal to 0 since the first record in length is 0 in the list</span>
         <span class="n">record</span> <span class="o">=</span> <span class="n">InfoDb</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
         <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
-        <span class="n">recursive_loop</span><span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">recursive_loop</span><span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="c1"># -1 makes it reversed</span>
     <span class="k">return</span>
     
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Recursive loop output reversed</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-<span class="n">recursive_loop</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">recursive_loop</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># once again the length is one more than the record in the list so there is -1</span>
 </pre></div>
 
     </div>

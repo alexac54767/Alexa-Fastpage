@@ -26,7 +26,7 @@ categories: [Week 3]
 - how to add images (and as buttons)
 - be creative (a way to click on pic to show answer?)
 
-![]({{site.baseurl}}/images/javascriptquiz.jpg)
+![]({{site.baseurl}}/images/Javascriptquiz.jpg)
 
 # [My finished quiz!](https://studio.code.org/projects/applab/oXLoKpnx1nxP7LAFffT-9ZtHzd4sCSOe2pKINlLZN-o)
 

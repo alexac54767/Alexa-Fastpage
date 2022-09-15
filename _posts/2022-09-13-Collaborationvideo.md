@@ -30,3 +30,7 @@ Explain hoe computing innovations are developed by groups of people.
 - GitHub (collaboration and repository)
 - Shared document or folder
 - ask friends and family to test drive your program and give you feedback
+
+## Quiz Results
+![]({{site.baseurl}}/images/collabquizreults.jpg)
+![]({{site.baseurl}}/images/MCQresults.jpg)

@@ -3,11 +3,16 @@ toc: true
 comments: true
 layout: post
 title: Collaboration Video Notes
-description: Here are my notes on collaboration!
+description: Here are my notes on the Unit 1.1 Collegeboard Collaboration Video about collaboration!
 permalink: /notes/1
 image: /images/collab.jpg
 categories: [week 4]
 ---
+## Goals:
+Explain how computing innovations are improved through collaboration.
+Demonstrate effective interpersonal skills during collaboration.
+Explain how computing innovations are improved through collaboration.
+Explain hoe computing innovations are developed by groups of people.
 
 ## Collaboration Importance
 - Collaboration is essential in everyday life 

@@ -15,10 +15,10 @@ Explain how computing innovations are improved through collaboration.
 Explain hoe computing innovations are developed by groups of people.
 
 ## Collaboration Importance
-- Collaboration is essential in everyday life 
+- <mark>Collaboration is essential in everyday life</mark>
 - Facebook (very successful tech company) says "Effective collaboration produces a computing innovation that reflects the diversity of talents and perspectives of those who designed it."
 - To create the new and improved Super Mario Brothers, 2 partners listened to each other and used eachother's ideas to create an even better version
-- interpersonal skills learned through collaboration: communication, consensus building, conflict resolution, negotiation
+- <mark>interpersonal skills learned through collaboration: communication, consensus building, conflict resolution, negotiation</mark>
 
 ## How to Collborate in APCSP
 - Pair programming (2 programmers): "the driver" writes program code while "the observer/pointer/navigator" reviews each line of program code as it is typed in

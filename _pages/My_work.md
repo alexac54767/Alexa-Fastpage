@@ -18,5 +18,5 @@ title: My Work
 | 1 | 3 | [My Javascript Quiz](https://studio.code.org/projects/applab/oXLoKpnx1nxP7LAFffT-9ZtHzd4sCSOe2pKINlLZN-o) |
 | 1 | 3 | [My Bog About My Quiz](https://alexac54767.github.io/Alexa-Fastpage/javascript/quiz) |
 | 1 | 4 | [Collaboration Notes](https://alexac54767.github.io/Alexa-Fastpage/notes/1) |
-| 1 | 4 | My Flask Python Site |
-| 1 | 4 | My Video |
+| 1 | 4 | [Python Web Server Project (video)](https://youtu.be/awcCm8_QRPQ) |
+| 1 | 4 | [My Group's Collaboration](https://alexac54767.github.io/Alexa-Fastpage/collaboration/1)|

@@ -6,7 +6,7 @@ title: My Java Script Quiz
 description: Learn about the Carlson twins with this quiz! (I will be grading you on this Mr. Mortenson)
 permalink: /javascript/quiz
 image: /images/cutecheerpic.jpg
-categories: [Week 3]
+categories: [week 3]
 ---
 
 # Planning Stage

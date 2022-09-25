@@ -6,7 +6,7 @@ title: Scrum Process
 description: How to use the scrum process in our group to insure success
 permalink: /AgileMethodology/scrumprocess
 image: /images/Scrum Board Process (1).png
-categories: [Week 5]
+categories: [week 5]
 ---
 
 # My Group's Scrum Process

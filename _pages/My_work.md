@@ -20,3 +20,5 @@ title: My Work
 | 1 | 4 | [Collaboration Notes](https://alexac54767.github.io/Alexa-Fastpage/notes/1) |
 | 1 | 4 | [Python Web Server Project (video)](https://youtu.be/awcCm8_QRPQ) |
 | 1 | 4 | [My Group's Collaboration](https://alexac54767.github.io/Alexa-Fastpage/collaboration/1)|
+| 1 | 5 | [Our Scrum Process](https://alexac54767.github.io/Alexa-Fastpage/AgileMethodology/scrumprocess) |
+| 1 | 5 | [Submenu with JS Table](https://alexac54767.github.io/Alexa-Fastpage/frontend/overview) |

@@ -181,7 +181,7 @@
   
       ,"page0": {
           "title": "Frontend",
-          "content": "| Overview | . Code in this Sub Menu . This is a link to my use of Javascript. I built a table using html, javascript, and collecting data through Json. | .",
+          "content": "| Overview | Overview | . Code in this Sub Menu . This is a link to my use of Javascript. I built a table using html, javascript, and collecting data through Json. | .",
           "url": "https://alexac54767.github.io/Alexa-Fastpage/frontend/overview",
           "relUrl": "/frontend/overview",
           "date": ""

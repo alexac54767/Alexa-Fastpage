@@ -20,109 +20,6 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="console.log-output">console.log output<a class="anchor-link" href="#console.log-output"> </a></h3><p>Output to console using the classic programming introduction using a "Hello, World!" message.</p>
-<ul>
-<li>The command or function is <mark>console.log()</mark></li>
-<li>"Hello, World" is a String literal. This is the referred to as <mark>Static text</mark>, as it does not change.</li>
-<li>"Hello, World" is a parameter to the console.log command.</li>
-<li>The console.log <mark>command outputs the parameter to the console</mark>, so you can see it in this Jupyter document.</li>
-<li>Note, in a Web Application, console.log is used for debugging and is not visible from the browser via HTML.  It is used behind the scenes, when using Inspect-&gt;Console from the browser.</li>
-</ul>
-
-</div>
-</div>
-</div>
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Hello, Alexa!&quot;</span><span class="p">);</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello, Alexa!
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="console.log-output-showing-use-of-variable">console.log output showing use of variable<a class="anchor-link" href="#console.log-output-showing-use-of-variable"> </a></h3><p>This second example is a <mark>sequence of code</mark>, two or more lines forms a sequence.  This example defines a variable, then outputs the msg to terminal.</p>
-<ul>
-<li>The variable "var msg =" is used to capture the data</li>
-<li>The console.log(msg) outputs to console</li>
-</ul>
-
-</div>
-</div>
-</div>
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="kd">var</span> <span class="nx">msg</span> <span class="o">=</span> <span class="s2">&quot;Hello, Alexa!&quot;</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">msg</span><span class="p">);</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello, Alexa!
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="console.log-output-showing-use-of-a-function">console.log output showing use of a function<a class="anchor-link" href="#console.log-output-showing-use-of-a-function"> </a></h3><p>This example passes the previously defined variable "msg" to the newly defined "function logIt(output)".</p>
-<ul>
-<li>There are two steps in the code, the <mark>definition of the function and the call to the function</mark>.<ul>
-<li>"function logIt(output) {}" and everything between curly braces is the definitions of the function.</li>
-<li>"logIt(msg)" is the call to the function, this actually activates the function.  If you remove this line you will not receive any output to console.</li>
-</ul>
-</li>
-<li>Since the variable "msg" was defined in previous cell, it is used a parameter when calling the logMessage function.</li>
-</ul>
-
-</div>
-</div>
-</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -157,17 +54,6 @@ layout: notebook
 </div>
     {% endraw %}
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Showing-reuse-of-a-function">Showing reuse of a function<a class="anchor-link" href="#Showing-reuse-of-a-function"> </a></h3><p>Now that a function is defined, it can be called from any of the subsequent cell in the Jupyter notebook.  A function/method, is a process of creating a <mark>procedural abstraction</mark>. This a programming practice to promote reuse versus coding the same thing over and over.</p>
-<ul>
-<li>First call sends a different string message</li>
-<li>Second call sends a number</li>
-</ul>
-
-</div>
-</div>
-</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -203,13 +89,6 @@ Hello, Students!
 </div>
     {% endraw %}
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Dynamic-or-Loosely-typed-language-(string,-number)">Dynamic or Loosely typed language (string, number)<a class="anchor-link" href="#Dynamic-or-Loosely-typed-language-(string,-number)"> </a></h3><p><mark>JavaScript is a loosely typed language</mark>, meaning you don't have to specify what type of information will be stored in a variable in advance.  The variable type is determined at runtime.  This is similar to Python and most interpretive languages.  Java which is a compiled language is strongly typed, thus you will see string, integer, double, and object in the source code. In JavaScript, the "typeof" keyword returns the type.</p>
-
-</div>
-</div>
-</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -250,18 +129,6 @@ object ; [ 1, 2, 3 ]
 </div>
     {% endraw %}
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Build-a-Person-Function/Class-object-and-JSON">Build a Person Function/Class object and JSON<a class="anchor-link" href="#Build-a-Person-Function/Class-object-and-JSON"> </a></h3><p>JavaScript functions have special properties and syntax is shown in many ways.  In fact, a Class in JavaScript is a special function.  Jupyter Notebooks seems to be more friendly to "function" definitions versus "Class", thus this lesson uses "function" and "prototype" versus "Class".</p>
-<ul>
-<li><mark>Definition of function allows for a collection of data</mark>, the "function Person" allows programmer to retain name, github id, and class of designation.</li>
-<li><mark>Definition of a prototype allow for the definition of a method associated with the function</mark> , the "Person.prototype.toJSON" allows the collection of data to be expressed in a json/string versus JavaScript object.</li>
-<li><mark>Instance of a function</mark>, the "var teacher = new Person("Mr M", "jm1021", 1977)" line makes a variable "teacher" which is an object representation of "function Person".</li>
-</ul>
-
-</div>
-</div>
-</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -328,17 +195,6 @@ string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;cla
 </div>
     {% endraw %}
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Build-a-Classroom-Array/List-of-Persons-and-JSON">Build a Classroom Array/List of Persons and JSON<a class="anchor-link" href="#Build-a-Classroom-Array/List-of-Persons-and-JSON"> </a></h3><p>Many key elements are shown again.  New elements include...</p>
-<ul>
-<li><mark>Building an Array</mark>, "var students" is an array of many persons</li>
-<li>Building a Classroom, this show <mark>forEach iteration</mark> through an array and <mark>.push adding</mark> to an array.  These are key concepts in all programming languages.</li>
-</ul>
-
-</div>
-</div>
-</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -464,22 +320,6 @@ object ; { name: &#39;Mr M&#39;,
 </div>
     {% endraw %}
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="IJavaScript-and-Table-formatting-using-toHTML-method">IJavaScript and Table formatting using toHTML method<a class="anchor-link" href="#IJavaScript-and-Table-formatting-using-toHTML-method"> </a></h3><p>This example builds a <mark>Classroom method _toHTML</mark> which is passed to the IJavaScript interpreter $$.html which renders output similarly to a real website.</p>
-<ul>
-<li>JavaScript in the _toHTML method is broken into three parts...<ul>
-<li>Style part is building CSS inline formatting</li>
-<li>Body part is constructing the Table Rows (tr), Table Headings (th), and Table Data (td).  The table data is obtained from a Classroom object.  The JavaScript for loop allows the construction of a new row of data for each person object in the Array.</li>
-<li>Return part creates the HTML fragment for rendering</li>
-</ul>
-</li>
-<li>The last line in the example <mark>$$.html is IJavaScript HTML interpreter</mark> and by passing the parameter of the _toHTML method it obtains HTML to render</li>
-</ul>
-
-</div>
-</div>
-</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">

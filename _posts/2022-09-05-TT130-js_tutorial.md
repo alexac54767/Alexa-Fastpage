@@ -6,7 +6,7 @@ toc: true
 comments: true
 permalink: /techtalk/javascript
 image: /images/javascript.png
-categories: [techtalk]
+categories: [week 5]
 nb_path: _notebooks/2022-09-05-TT130-js_tutorial.ipynb
 layout: notebook
 ---
@@ -277,11 +277,12 @@ object ; [ 1, 2, 3 ]
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-javascript"><pre><span></span><span class="c1">// define a function to hold data for a Person</span>
-<span class="kd">function</span> <span class="nx">Person</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="p">,</span> <span class="nx">classof</span><span class="p">,</span> <span class="nx">gpa</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">function</span> <span class="nx">Person</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="p">,</span> <span class="nx">classof</span><span class="p">,</span> <span class="nx">gpa</span><span class="p">,</span> <span class="nx">status</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span> <span class="o">=</span> <span class="nx">ghID</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">classof</span> <span class="o">=</span> <span class="nx">classof</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">gpa</span> <span class="o">=</span> <span class="nx">gpa</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">=</span> <span class="nx">status</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -292,13 +293,13 @@ object ; [ 1, 2, 3 ]
 
 <span class="c1">// define a JSON conversion &quot;method&quot; associated with Person</span>
 <span class="nx">Person</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toJSON</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span><span class="p">,</span> <span class="nx">classof</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">classof</span><span class="p">,</span> <span class="nx">gpa</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">gpa</span><span class="p">,</span> <span class="nx">role</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">role</span><span class="p">};</span>
+    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span><span class="p">,</span> <span class="nx">classof</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">classof</span><span class="p">,</span> <span class="nx">gpa</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">gpa</span><span class="p">,</span> <span class="nx">status</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">status</span><span class="p">,</span> <span class="nx">role</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">role</span><span class="p">};</span>
     <span class="kr">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
     <span class="k">return</span> <span class="nx">json</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="c1">// make a new Person and assign to variable teacher</span>
-<span class="kd">var</span> <span class="nx">teacher</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Mr M&quot;</span><span class="p">,</span> <span class="s2">&quot;jm1021&quot;</span><span class="p">,</span> <span class="s2">&quot;1901&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">teacher</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Mr M&quot;</span><span class="p">,</span> <span class="s2">&quot;jm1021&quot;</span><span class="p">,</span> <span class="s2">&quot;1901&quot;</span><span class="p">,</span> <span class="s2">&quot;  &quot;</span><span class="p">,</span> <span class="s2">&quot;VERY Cool&quot;</span><span class="p">);</span>
 <span class="nx">teacher</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Teacher&quot;</span><span class="p">);</span>
 
 <span class="c1">// output of Object and JSON/string associated with Teacher</span>
@@ -320,9 +321,10 @@ object ; [ 1, 2, 3 ]
   name: &#39;Mr M&#39;,
   ghID: &#39;jm1021&#39;,
   classof: &#39;1901&#39;,
-  gpa: &#39; &#39;,
+  gpa: &#39;  &#39;,
+  status: &#39;VERY Cool&#39;,
   role: &#39;Teacher&#39; }
-string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classof&#34;:&#34;1901&#34;,&#34;gpa&#34;:&#34; &#34;,&#34;role&#34;:&#34;Teacher&#34;}
+string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classof&#34;:&#34;1901&#34;,&#34;gpa&#34;:&#34;  &#34;,&#34;status&#34;:&#34;VERY Cool&#34;,&#34;role&#34;:&#34;Teacher&#34;}
 </pre>
 </div>
 </div>
@@ -351,16 +353,23 @@ string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;cla
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// define a student Array of Person(s)</span>
+<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// define a setter for role in Person data</span>
+<span class="nx">Person</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">setRole</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">role</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="nx">role</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="c1">// define a student Array of Person(s)</span>
 <span class="kd">var</span> <span class="nx">students</span> <span class="o">=</span> <span class="p">[</span> 
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Anthony&quot;</span><span class="p">,</span> <span class="s2">&quot;tonyhieu&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="mf">4.0</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Bria&quot;</span><span class="p">,</span> <span class="s2">&quot;B-G101&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="mf">3.5</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Allie&quot;</span><span class="p">,</span> <span class="s2">&quot;xiaoa0&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="mf">3.8</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Tigran&quot;</span><span class="p">,</span> <span class="s2">&quot;Tigran7&quot;</span><span class="p">,</span> <span class="mf">2036</span><span class="p">,</span> <span class="mf">4.2</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Rebecca&quot;</span><span class="p">,</span> <span class="s2">&quot;Rebecca-123&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="mf">4.135</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Vidhi&quot;</span><span class="p">,</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="mf">3.95</span><span class="p">)</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Anthony&quot;</span><span class="p">,</span> <span class="s2">&quot;tonyhieu&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="mf">4.0</span><span class="p">,</span> <span class="s2">&quot;cool&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Bria&quot;</span><span class="p">,</span> <span class="s2">&quot;B-G101&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="mf">3.5</span><span class="p">,</span> <span class="s2">&quot;not cool&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Allie&quot;</span><span class="p">,</span> <span class="s2">&quot;xiaoa0&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="mf">3.8</span><span class="p">,</span> <span class="s2">&quot;cool&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Tigran&quot;</span><span class="p">,</span> <span class="s2">&quot;Tigran7&quot;</span><span class="p">,</span> <span class="mf">2036</span><span class="p">,</span> <span class="mf">4.2</span><span class="p">,</span> <span class="s2">&quot;very cool&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Rebecca&quot;</span><span class="p">,</span> <span class="s2">&quot;Rebecca-123&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="mf">4.135</span><span class="p">,</span> <span class="s2">&quot;kinda cool&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Vidhi&quot;</span><span class="p">,</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="mf">3.95</span><span class="p">,</span> <span class="s2">&quot;not cool&quot;</span><span class="p">)</span>
 <span class="p">];</span>
-
+<span class="c1">// define a setter for role in Person data</span>
+<span class="nx">Person</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">setRole</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">role</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="nx">role</span><span class="p">;</span>
+<span class="p">}</span>
 <span class="c1">// define a classroom and build Classroom objects and json</span>
 <span class="kd">function</span> <span class="nx">Classroom</span><span class="p">(</span><span class="nx">teacher</span><span class="p">,</span> <span class="nx">students</span><span class="p">){</span> <span class="c1">// 1 teacher, many student</span>
     <span class="c1">// start Classroom with Teacher</span>
@@ -399,50 +408,58 @@ string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;cla
     name: &#39;Mr M&#39;,
     ghID: &#39;jm1021&#39;,
     classof: &#39;1901&#39;,
-    gpa: &#39; &#39;,
+    gpa: &#39;  &#39;,
+    status: &#39;VERY Cool&#39;,
     role: &#39;Teacher&#39; },
   Person {
     name: &#39;Anthony&#39;,
     ghID: &#39;tonyhieu&#39;,
     classof: 2023,
     gpa: 4,
+    status: &#39;cool&#39;,
     role: &#39;Student&#39; },
   Person {
     name: &#39;Bria&#39;,
     ghID: &#39;B-G101&#39;,
     classof: 2024,
     gpa: 3.5,
+    status: &#39;not cool&#39;,
     role: &#39;Student&#39; },
   Person {
     name: &#39;Allie&#39;,
     ghID: &#39;xiaoa0&#39;,
     classof: 2023,
     gpa: 3.8,
+    status: &#39;cool&#39;,
     role: &#39;Student&#39; },
   Person {
     name: &#39;Tigran&#39;,
     ghID: &#39;Tigran7&#39;,
     classof: 2036,
     gpa: 4.2,
+    status: &#39;very cool&#39;,
     role: &#39;Student&#39; },
   Person {
     name: &#39;Rebecca&#39;,
     ghID: &#39;Rebecca-123&#39;,
     classof: 2024,
     gpa: 4.135,
+    status: &#39;kinda cool&#39;,
     role: &#39;Student&#39; },
   Person {
     name: &#39;Vidhi&#39;,
     ghID: &#39;unknown&#39;,
     classof: 2023,
     gpa: 3.95,
+    status: &#39;not cool&#39;,
     role: &#39;Student&#39; } ]
 string ; Mr M
-string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classof&#34;:&#34;1901&#34;,&#34;gpa&#34;:&#34; &#34;,&#34;role&#34;:&#34;Teacher&#34;}
+string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classof&#34;:&#34;1901&#34;,&#34;gpa&#34;:&#34;  &#34;,&#34;status&#34;:&#34;VERY Cool&#34;,&#34;role&#34;:&#34;Teacher&#34;}
 object ; { name: &#39;Mr M&#39;,
   ghID: &#39;jm1021&#39;,
   classof: &#39;1901&#39;,
-  gpa: &#39; &#39;,
+  gpa: &#39;  &#39;,
+  status: &#39;VERY Cool&#39;,
   role: &#39;Teacher&#39; }
 </pre>
 </div>
@@ -495,6 +512,7 @@ object ; { name: &#39;Mr M&#39;,
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;GitHub ID&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Class of&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;GPA&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+  <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Status&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Role&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;/tr&gt;&quot;</span><span class="p">;</span>
   <span class="c1">// Data of Array, iterate through each row of compsci.classroom </span>
@@ -506,6 +524,7 @@ object ; { name: &#39;Mr M&#39;,
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">ghID</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">classof</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">gpa</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">status</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">role</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="c1">// tr to end line</span>
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
@@ -537,7 +556,7 @@ object ; { name: &#39;Mr M&#39;,
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<div style='display:inline-block;background:black;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;'><table><tr><th><mark>Name</mark></th><th><mark>GitHub ID</mark></th><th><mark>Class of</mark></th><th><mark>GPA</mark></th><th><mark>Role</mark></th></tr><tr><td>Mr M</td><td>jm1021</td><td>1901</td><td> </td><td>Teacher</td><tr><tr><td>Anthony</td><td>tonyhieu</td><td>2023</td><td>4</td><td>Student</td><tr><tr><td>Bria</td><td>B-G101</td><td>2024</td><td>3.5</td><td>Student</td><tr><tr><td>Allie</td><td>xiaoa0</td><td>2023</td><td>3.8</td><td>Student</td><tr><tr><td>Tigran</td><td>Tigran7</td><td>2036</td><td>4.2</td><td>Student</td><tr><tr><td>Rebecca</td><td>Rebecca-123</td><td>2024</td><td>4.135</td><td>Student</td><tr><tr><td>Vidhi</td><td>unknown</td><td>2023</td><td>3.95</td><td>Student</td><tr></table></div>
+<div style='display:inline-block;background:black;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;'><table><tr><th><mark>Name</mark></th><th><mark>GitHub ID</mark></th><th><mark>Class of</mark></th><th><mark>GPA</mark></th><th><mark>Status</mark></th><th><mark>Role</mark></th></tr><tr><td>Mr M</td><td>jm1021</td><td>1901</td><td>  </td><td>VERY Cool</td><td>Teacher</td><tr><tr><td>Anthony</td><td>tonyhieu</td><td>2023</td><td>4</td><td>cool</td><td>Student</td><tr><tr><td>Bria</td><td>B-G101</td><td>2024</td><td>3.5</td><td>not cool</td><td>Student</td><tr><tr><td>Allie</td><td>xiaoa0</td><td>2023</td><td>3.8</td><td>cool</td><td>Student</td><tr><tr><td>Tigran</td><td>Tigran7</td><td>2036</td><td>4.2</td><td>very cool</td><td>Student</td><tr><tr><td>Rebecca</td><td>Rebecca-123</td><td>2024</td><td>4.135</td><td>kinda cool</td><td>Student</td><tr><tr><td>Vidhi</td><td>unknown</td><td>2023</td><td>3.95</td><td>not cool</td><td>Student</td><tr></table></div>
 </div>
 
 </div>

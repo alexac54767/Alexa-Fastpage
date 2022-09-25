@@ -1,7 +1,7 @@
 ---
 keywords: fastai
-description: Quick launch into Variables, Functions, Arrays, IJavaScript HTML, using Jupyter Notebooks
-title: JavaScript Tutorial
+description: Using Javascript in jupyter notebookes to create a table.
+title: Using JavaScript
 toc: true
 comments: true
 permalink: /techtalk/javascript

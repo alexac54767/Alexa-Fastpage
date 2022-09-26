@@ -42,9 +42,23 @@ layout: notebook
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello, Alexa!
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+evalmachine.&lt;anonymous&gt;:4
+logIt(msg);
+      ^
+
+ReferenceError: msg is not defined
+    at evalmachine.&lt;anonymous&gt;:4:7
+    at ContextifyScript.Script.runInThisContext (vm.js:25:33)
+    at Object.runInThisContext (vm.js:97:38)
+    at run ([eval]:1020:15)
+    at onRunRequest ([eval]:864:18)
+    at onMessage ([eval]:828:13)
+    at emitTwo (events.js:106:13)
+    at process.emit (events.js:191:7)
+    at process.nextTick (internal/child_process.js:758:12)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</pre>
 </div>
 </div>
 
@@ -332,7 +346,7 @@ object ; { name: &#39;Mr M&#39;,
   <span class="c1">// HTML Style is build using inline structure</span>
   <span class="kd">var</span> <span class="nx">style</span> <span class="o">=</span> <span class="p">(</span>
     <span class="s2">&quot;display:inline-block;&quot;</span> <span class="o">+</span>
-    <span class="s2">&quot;background:black;&quot;</span> <span class="o">+</span>
+    <span class="s2">&quot;background:#3386FF;&quot;</span> <span class="o">+</span>
     <span class="s2">&quot;border: 2px solid grey;&quot;</span> <span class="o">+</span>
     <span class="s2">&quot;box-shadow: 0.8em 0.4em 0.4em grey;&quot;</span>
   <span class="p">);</span>
@@ -389,7 +403,7 @@ object ; { name: &#39;Mr M&#39;,
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<div style='display:inline-block;background:black;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;'><table><tr><th><mark>Name</mark></th><th><mark>GitHub ID</mark></th><th><mark>Class of</mark></th><th><mark>GPA</mark></th><th><mark>Status</mark></th><th><mark>Role</mark></th></tr><tr><td>Mr M</td><td>jm1021</td><td>1901</td><td>  </td><td>VERY Cool</td><td>Teacher</td><tr><tr><td>Anthony</td><td>tonyhieu</td><td>2023</td><td>4</td><td>cool</td><td>Student</td><tr><tr><td>Bria</td><td>B-G101</td><td>2024</td><td>3.5</td><td>not cool</td><td>Student</td><tr><tr><td>Allie</td><td>xiaoa0</td><td>2023</td><td>3.8</td><td>cool</td><td>Student</td><tr><tr><td>Tigran</td><td>Tigran7</td><td>2036</td><td>4.2</td><td>very cool</td><td>Student</td><tr><tr><td>Rebecca</td><td>Rebecca-123</td><td>2024</td><td>4.135</td><td>kinda cool</td><td>Student</td><tr><tr><td>Vidhi</td><td>unknown</td><td>2023</td><td>3.95</td><td>not cool</td><td>Student</td><tr></table></div>
+<div style='display:inline-block;background:#3386FF;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;'><table><tr><th><mark>Name</mark></th><th><mark>GitHub ID</mark></th><th><mark>Class of</mark></th><th><mark>GPA</mark></th><th><mark>Status</mark></th><th><mark>Role</mark></th></tr><tr><td>Mr M</td><td>jm1021</td><td>1901</td><td>  </td><td>VERY Cool</td><td>Teacher</td><tr><tr><td>Anthony</td><td>tonyhieu</td><td>2023</td><td>4</td><td>cool</td><td>Student</td><tr><tr><td>Bria</td><td>B-G101</td><td>2024</td><td>3.5</td><td>not cool</td><td>Student</td><tr><tr><td>Allie</td><td>xiaoa0</td><td>2023</td><td>3.8</td><td>cool</td><td>Student</td><tr><tr><td>Tigran</td><td>Tigran7</td><td>2036</td><td>4.2</td><td>very cool</td><td>Student</td><tr><tr><td>Rebecca</td><td>Rebecca-123</td><td>2024</td><td>4.135</td><td>kinda cool</td><td>Student</td><tr><tr><td>Vidhi</td><td>unknown</td><td>2023</td><td>3.95</td><td>not cool</td><td>Student</td><tr></table></div>
 </div>
 
 </div>

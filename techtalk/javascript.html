@@ -157,9 +157,23 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello, Alexa!
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+evalmachine.&lt;anonymous&gt;:4
+logIt(msg);
+      ^
+
+ReferenceError: msg is not defined
+    at evalmachine.&lt;anonymous&gt;:4:7
+    at ContextifyScript.Script.runInThisContext (vm.js:25:33)
+    at Object.runInThisContext (vm.js:97:38)
+    at run ([eval]:1020:15)
+    at onRunRequest ([eval]:864:18)
+    at onMessage ([eval]:828:13)
+    at emitTwo (events.js:106:13)
+    at process.emit (events.js:191:7)
+    at process.nextTick (internal/child_process.js:758:12)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</pre>
 </div>
 </div>
 
@@ -447,7 +461,7 @@ object ; { name: 'Mr M',
   <span class="c1">// HTML Style is build using inline structure</span>
   <span class="kd">var</span> <span class="nx">style</span> <span class="o">=</span> <span class="p">(</span>
     <span class="s2">"display:inline-block;"</span> <span class="o">+</span>
-    <span class="s2">"background:black;"</span> <span class="o">+</span>
+    <span class="s2">"background:#3386FF;"</span> <span class="o">+</span>
     <span class="s2">"border: 2px solid grey;"</span> <span class="o">+</span>
     <span class="s2">"box-shadow: 0.8em 0.4em 0.4em grey;"</span>
   <span class="p">);</span>
@@ -504,7 +518,7 @@ object ; { name: 'Mr M',
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<div style="display:inline-block;background:black;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;"><table>
+<div style="display:inline-block;background:#3386FF;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;"><table>
 <tr>
 <th><mark>Name</mark></th>
 <th><mark>GitHub ID</mark></th>

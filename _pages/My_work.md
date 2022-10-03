@@ -22,3 +22,5 @@ title: My Work
 | 1 | 4 | [My Group's Collaboration](https://alexac54767.github.io/Alexa-Fastpage/collaboration/1)|
 | 1 | 5 | [Our Scrum Process](https://alexac54767.github.io/Alexa-Fastpage/AgileMethodology/scrumprocess) |
 | 1 | 5 | [Submenu with JS Table](https://alexac54767.github.io/Alexa-Fastpage/frontend/overview) |
+| 1 | 5 | [Final Project Planning](https://avac54765.github.io/groupfastpage/finalplanning/markdown)
+| 1 | 6 | [Project Wire Frame/UML](https://avac54765.github.io/groupfastpage/finalplanning/wireframe)

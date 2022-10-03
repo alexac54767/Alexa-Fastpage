@@ -77,3 +77,7 @@ categories: [week 6]
 
 ![]({{site.baseurl}}/images/collegeboardvideos.jpg)
 ![]({{site.baseurl}}/images/ProjectDevquiz.jpg)
+
+## Dificulties:
+- I need to take my time when reading the questions and make sure I nderstand the parameters
+- I need to study the different types of inputs, outputs and functions

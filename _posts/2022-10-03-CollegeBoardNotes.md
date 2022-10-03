@@ -5,7 +5,7 @@ layout: post
 title: College Board Notes
 description: Notes of the Daily Videos 1.2-1.3
 permalink: /collegeboard/notes
-image: /images/thumbs up.jpg
+image: /images/collegeboardvidoes.jpg
 categories: [week 6]
 ---
 

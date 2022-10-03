@@ -76,3 +76,4 @@ categories: [week 6]
 - list of contributers/authors of program
 
 ![]({{site.baseurl}}/images/collegeboardvideos.jpg)
+![]({{site.baseurl}}/images/ProjectDevquiz.jpg)

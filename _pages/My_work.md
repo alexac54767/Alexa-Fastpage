@@ -25,3 +25,8 @@ title: My Work
 | 1 | 5 | [Final Project Planning](https://avac54765.github.io/groupfastpage/finalplanning/markdown) |
 | 1 | 6 | [Project Wire Frame/UML](https://avac54765.github.io/groupfastpage/finalplanning/wireframe) |
 | 1 | 6 | [College Board Video Notes](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/notes) |
+| 1 | 7 | [API Page with Sumbmenu](https://alexac54767.github.io/Alexa-Fastpage/api/overview) |
+| 1 | 7 | [Error Testing and Challenge](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/error) |
+| 1 | 7 | [My Group's API](https://alexac54767.github.io/Alexa-Fastpage/API/SpellCheck) |
+| 1 | 7 | [College Board 1.4 Notes](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/notes) |
+| 1 | 7 | [Our Project's College Board Criteria](https://avac54765.github.io/groupfastpage/finalplanning/criteria) |

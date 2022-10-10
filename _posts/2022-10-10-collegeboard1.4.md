@@ -5,7 +5,7 @@ layout: post
 title: College Board Notes
 description: Notes of the Daily Videos 1.2-1.3
 permalink: /collegeboard/notes
-image: /images/collegeboardvidoes.jpg
+image: /images/identifyingerrors.jpg
 categories: [week 6]
 ---
 
@@ -24,3 +24,6 @@ categories: [week 6]
 - debggers
 - adding extra output statment(s)
 
+### Test, test, test!
+
+![]({{site.baseurl}}/images/identifyingerrors.jpg)

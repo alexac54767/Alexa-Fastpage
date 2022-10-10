@@ -3,7 +3,7 @@ toc: true
 comments: true
 layout: post
 title: College Board Notes
-description: Notes of the Daily Videos 1.2-1.3
+description: Notes of the Daily Videos 1.4 and quiz
 permalink: /collegeboard/notes
 image: /images/identifyingerrors.jpg
 categories: [week 6]

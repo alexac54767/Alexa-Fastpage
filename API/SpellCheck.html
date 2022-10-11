@@ -262,7 +262,7 @@ Ukrainian  =  uk
 
 <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://dnaber-languagetool.p.rapidapi.com/v2/check&quot;</span>
 
-<span class="n">payload</span> <span class="o">=</span> <span class="s2">&quot;language=en-US&amp;text=&quot;</span> <span class="c1">#checking in English bc of use of code&#39;eu&#39;</span>
+<span class="n">payload</span> <span class="o">=</span> <span class="s2">&quot;language=en-US&amp;text=&quot;</span> <span class="c1">#checking in English bc of use of code&#39;en&#39;</span>
 <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
 	<span class="s2">&quot;content-type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/x-www-form-urlencoded&quot;</span><span class="p">,</span>
 	<span class="s2">&quot;X-RapidAPI-Key&quot;</span><span class="p">:</span> <span class="s2">&quot;7b146afe20msh92e84c02ae27c6ap1185b5jsnb7a574f24cbe&quot;</span><span class="p">,</span>
@@ -280,7 +280,7 @@ Ukrainian  =  uk
 
 <span class="c1">#print(json.dumps(response.json(), indent=4))</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">&quot;matches&quot;</span><span class="p">],</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">))</span> <span class="c1">#the json.dumps formats the data to ook better</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">&quot;matches&quot;</span><span class="p">],</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">))</span> <span class="c1">#the json.dumps formats the data to look better</span>
 </pre></div>
 
     </div>

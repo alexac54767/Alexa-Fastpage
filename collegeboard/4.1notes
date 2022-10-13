@@ -13,14 +13,14 @@
 <link rel="canonical" href="https://alexac54767.github.io/Alexa-Fastpage/collegeboard/4.1notes" />
 <meta property="og:url" content="https://alexac54767.github.io/Alexa-Fastpage/collegeboard/4.1notes" />
 <meta property="og:site_name" content="Alexa’s Fastpage" />
-<meta property="og:image" content="https://alexac54767.github.io/Alexa-Fastpage/images/identifyingerrors.jpg" />
+<meta property="og:image" content="https://alexac54767.github.io/Alexa-Fastpage/images/internetquiz.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-10-11T00:00:00-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://alexac54767.github.io/Alexa-Fastpage/images/identifyingerrors.jpg" />
+<meta property="twitter:image" content="https://alexac54767.github.io/Alexa-Fastpage/images/internetquiz.jpg" />
 <meta property="twitter:title" content="College Board Notes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-10-11T00:00:00-05:00","datePublished":"2022-10-11T00:00:00-05:00","description":"Notes of the Daily Videos 4.1 and quiz","headline":"College Board Notes","image":"https://alexac54767.github.io/Alexa-Fastpage/images/identifyingerrors.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://alexac54767.github.io/Alexa-Fastpage/collegeboard/4.1notes"},"url":"https://alexac54767.github.io/Alexa-Fastpage/collegeboard/4.1notes"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-10-11T00:00:00-05:00","datePublished":"2022-10-11T00:00:00-05:00","description":"Notes of the Daily Videos 4.1 and quiz","headline":"College Board Notes","image":"https://alexac54767.github.io/Alexa-Fastpage/images/internetquiz.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://alexac54767.github.io/Alexa-Fastpage/collegeboard/4.1notes"},"url":"https://alexac54767.github.io/Alexa-Fastpage/collegeboard/4.1notes"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Alexa-Fastpage/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://alexac54767.github.io/Alexa-Fastpage/feed.xml" title="Alexa's Fastpage" /><link rel="shortcut icon" type="image/x-icon" href="/Alexa-Fastpage/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -100,12 +100,18 @@ window.onload = wrap_img;
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h2"><a href="#internet">Internet</a></li>
 <li class="toc-entry toc-h2"><a href="#packet-switching">Packet Switching</a></li>
+<li class="toc-entry toc-h2"><a href="#layers-to-internet">Layers to Internet</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#the-saclibility-of-the-internet">The Saclibility of the Internet</a></li>
+</ul>
+</li>
 </ul><h2 id="internet">
 <a class="anchor" href="#internet" aria-hidden="true"><span class="octicon octicon-link"></span></a>Internet</h2>
 <ul>
   <li>packet = a small amount of data sent over a network (each packet includes source and destination of information)</li>
   <li>computer system = group of computing devices and programs working together for a joint purpose</li>
-  <li>computer network = group of interconnected computing devices capable of sending or receiving data</li>
+  <li>computer network = group of interconnected computing devices capable of sending or receiving data
+-packet comtains data and meta data containung info used for routing info</li>
 </ul>
 
 <h2 id="packet-switching">
@@ -116,6 +122,28 @@ window.onload = wrap_img;
   <li>path between 2 comuting devices on a computer network = sequence of directly connected computing devices that begins at the sender and ends at the receiver</li>
   <li>Bandwidth = maximum amount of data that can be sent in a fixed amount of time on a computer network (typically measured in bits per second)</li>
 </ul>
+
+<h2 id="layers-to-internet">
+<a class="anchor" href="#layers-to-internet" aria-hidden="true"><span class="octicon octicon-link"></span></a>Layers to Internet</h2>
+<ul>
+  <li>Network Access Layer</li>
+  <li>Network Access/Internet Layer Data Transmission (IP address)</li>
+  <li>Internet Layer (internet is scalable)</li>
+  <li>Transport Layer</li>
+</ul>
+
+<h3 id="the-saclibility-of-the-internet">
+<a class="anchor" href="#the-saclibility-of-the-internet" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Saclibility of the Internet</h3>
+<ul>
+  <li>Autonomous Systems (AS)</li>
+  <li>Local Area Network (LAN)</li>
+  <li>
+    <p>The Internet</p>
+  </li>
+  <li>World Wide Web is NOT the internet (linked data pages)</li>
+</ul>
+
+<p>![](/Alexa-Fastpage/images/internetquiz.jpg</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"

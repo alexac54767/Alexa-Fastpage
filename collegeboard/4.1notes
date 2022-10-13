@@ -105,6 +105,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#the-saclibility-of-the-internet">The Saclibility of the Internet</a></li>
 </ul>
 </li>
+<li class="toc-entry toc-h2"><a href="#this-is-my-diagram-showing-computer-systems-and-networks">This is my diagram showing computer systems and networks</a></li>
 </ul><h2 id="internet">
 <a class="anchor" href="#internet" aria-hidden="true"><span class="octicon octicon-link"></span></a>Internet</h2>
 <ul>
@@ -144,6 +145,10 @@ window.onload = wrap_img;
 </ul>
 
 <p>![](/Alexa-Fastpage/images/internetquiz.jpg</p>
+
+<h2 id="this-is-my-diagram-showing-computer-systems-and-networks">
+<a class="anchor" href="#this-is-my-diagram-showing-computer-systems-and-networks" aria-hidden="true"><span class="octicon octicon-link"></span></a>This is my diagram showing computer systems and networks</h2>
+<p>![](/Alexa-Fastpage/images/Web Applications Poster.jpg</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"

@@ -4,7 +4,7 @@ comments: true
 layout: post
 title: College Board Notes
 description: Notes of the Daily Videos 4.1 and quiz
-permalink: /collegeboard/4.1notes
+permalink: /collegeboard/fourpointonenotes
 image: /images/internetquiz.jpg
 categories: [week 8]
 ---

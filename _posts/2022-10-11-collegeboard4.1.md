@@ -36,3 +36,6 @@ categories: [week 8]
 - World Wide Web is NOT the internet (linked data pages)
 
 ![]({{site.baseurl}}/images/internetquiz.jpg
+
+## This is my diagram showing computer systems and networks
+![]({{site.baseurl}}/images/Web Applications Poster.jpg

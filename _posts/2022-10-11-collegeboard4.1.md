@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: College Board Notes
+title: College Board Notes 4.1
 description: Notes of the Daily Videos 4.1 and quiz
 permalink: /collegeboard/fourpointonenotes
 image: /images/internetquiz.jpg
@@ -35,7 +35,8 @@ categories: [week 8]
 
 - World Wide Web is NOT the internet (linked data pages)
 
-![]({{site.baseurl}}/images/internetquiz.jpg
+![]({{site.baseurl}}/images/internetquiz.jpg)
+
 
 ## This is my diagram showing computer systems and networks
-![]({{site.baseurl}}/images/Web Applications Poster.jpg
+![]({{site.baseurl}}/images/Web Applications Poster.jpg)

@@ -39,4 +39,4 @@ categories: [week 8]
 
 
 ## This is my diagram showing computer systems and networks
-![]({{site.baseurl}}/images/Web Applications Poster.jpg)
+![]({{site.baseurl}}/images/Web Applications Poster.png)

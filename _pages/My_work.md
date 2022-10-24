@@ -30,3 +30,10 @@ title: My Work
 | 1 | 7 | [My Group's API](https://alexac54767.github.io/Alexa-Fastpage/API/SpellCheck) |
 | 1 | 7 | [College Board 1.4 Notes](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/notes) |
 | 1 | 7 | [Our Project's College Board Criteria](https://avac54765.github.io/groupfastpage/finalplanning/criteria) |
+| 1 | 8 | [College Board Videos and Notes 4.1](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/fourpointonenotes) |
+| 1 | 8 | [Identifying and Correcting Errors Challenge](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/error) |
+| 1 | 8 | [Spell Check API](https://alexac54767.github.io/Alexa-Fastpage/API/SpellCheck) |
+| 1 | 8/9 | [Our Group's Deployed Flask Site](https://coolcoders.nighthawkcodescrums.gq/) |
+| 1 | 9 | [Project Week One Video Planning](https://alexac54767.github.io/Alexa-Fastpage/video/plan) |
+| 1 | 9 | [Our Stock API](https://avac54765.github.io/groupfastpage/data/stocks) |
+| 1 | 9 | [Project Week One Video]() |

@@ -36,4 +36,5 @@ title: My Work
 | 1 | 8/9 | [Our Group's Deployed Flask Site](https://coolcoders.nighthawkcodescrums.gq/) |
 | 1 | 9 | [Project Week One Video Planning](https://alexac54767.github.io/Alexa-Fastpage/video/plan) |
 | 1 | 9 | [Our Stock API](https://avac54765.github.io/groupfastpage/data/stocks) |
-| 1 | 9 | [Project Week One Video]() |
+| 1 | 9 | [Project Week One Video](https://youtu.be/NzPXKw8d5dg) |
+| 1 | 9 | [Blog about our API](https://avac54765.github.io/groupfastpage/finalproject/weekone) |

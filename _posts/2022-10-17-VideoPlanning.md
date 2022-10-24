@@ -43,5 +43,7 @@ categories: [week 9]
 - show html table (with screenshot of table in Fastpages)
 - highlight endpoint where connects to backend (link to subdomain)
 - edit in picture of "failed to fetch"
-- show attempt to run locally and edit in image of "failed to fetch" with local IP address
+- show attempt to run locally while backend debugs and edit in image of "failed to fetch" with local IP address
+- show progress and how API shows up 
+- add screen recording of attemting to click quantity (doesn't work)
 - show use of blogs?

@@ -35,3 +35,13 @@ categories: [week 9]
 - try and use more captions and less talking
 - use side by side screens?
 - show creating of table?
+
+## Updated Outline:
+- show wire frame and add captions about customer requirements and our stock API for project
+- Show VS code with frontend code (pause on certain parts and add arrows and captions)
+-  mention how customer will need to input their specific amount of quanity but for now just will work same as joke API except will minus one when you click the button
+- show html table (with screenshot of table in Fastpages)
+- highlight endpoint where connects to backend (link to subdomain)
+- edit in picture of "failed to fetch"
+- show attempt to run locally and edit in image of "failed to fetch" with local IP address
+- show use of blogs?

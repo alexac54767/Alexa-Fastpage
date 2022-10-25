@@ -2,8 +2,8 @@
 toc: true
 comments: true
 layout: post
-title: Video Planning Script
-description: This is my planning and script for my video for week 9.
+title: Video Planning Script/Learnings on Others' Videos
+description: This is my planning and script for my video for week 9. I also blog about other groups' videos.
 permalink: /video/plan
 image: /images/collab.jpg
 categories: [week 9]
@@ -47,3 +47,20 @@ categories: [week 9]
 - show progress and how API shows up 
 - add screen recording of attemting to click quantity (doesn't work)
 - show use of blogs?
+
+
+## Other Videos:
+### Group from APCSA (Period 2 Rebecca Su)
+- talked about weekly sprints (development, testing, deployment)
+- use issues on github to keep track of/assign work
+- very detailed uml and wire frames
+- have a post tracking all their progress for their project (list APIS, wesites, etc)
+- have a currency converter < very intresting and accounting for all groups
+
+### Group from APCSP (Drew Reed)
+- very descriptive uml on project (good to reference)
+- showed use of debugging
+- used CSS to create buttons on timer
+- very organized and end project will be very cool
+
+

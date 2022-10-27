@@ -37,4 +37,5 @@ title: My Work
 | 1 | 9 | [Project Week One Video Planning](https://alexac54767.github.io/Alexa-Fastpage/video/plan) |
 | 1 | 9 | [Our Stock API](https://avac54765.github.io/groupfastpage/data/stocks) |
 | 1 | 9 | [Project Week One Video](https://youtu.be/NzPXKw8d5dg) |
-| 1 | 9 | [Blog about our API](https://avac54765.github.io/groupfastpage/finalproject/weekone) |
+| 1 | 9 | [Blog About our API](https://avac54765.github.io/groupfastpage/finalproject/weekone) |
+| 1 | 10 | [Our Group's Plan for our Final Project](https://avac54765.github.io/groupfastpage/finalproject/weekone) |

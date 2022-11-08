@@ -40,4 +40,4 @@ title: My Work
 | 1 | 9 | [Blog About our API](https://avac54765.github.io/groupfastpage/finalproject/weekone) |
 | 1 | 10 | [Our Group's Plan for our Final Project](https://avac54765.github.io/groupfastpage/finalproject/weekone) |
 | 1 | 11 | [Night at the Museum Blog]() |
-| 1 | 12 | [Collegeboard Final and Corrections]() |
+| 1 | 12 | [Collegeboard Final and Corrections](https://alexac54767.github.io/Alexa-Fastpage/final/collegeboard) |

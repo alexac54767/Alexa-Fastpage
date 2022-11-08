@@ -32,4 +32,4 @@ I got a 48/50 on the final, which would be a 5 on the AP test. These were the pr
 ![Question 36]({{site.baseurl}}/images/question36.jpg)
 - This question was very hard for me to understand, even after seeing the correct answer. I asked a couple people for help, and their explanations aided in my current understanding.
 - At first, I thought that i  <- i + 1 needed to be first in order to make it even before multiplying it by 2 everytime. I misunderstood the parts of the code, and mixed up appending it to the list and iterating through it. 
-- The APPEND(evenlist, 2 * i) needs to be first. It appends an empty list, and then mltiplies i (with a current value of 1) by 2 in order to make it even. It then iterates through by adding one to i.
+- The APPEND(evenlist, 2 * i) needs to be first. It appends an empty list, and then multiplies i (with a current value of 1) by 2 in order to make it even. It then iterates through by adding one to i.

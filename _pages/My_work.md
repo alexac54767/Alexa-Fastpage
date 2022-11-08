@@ -39,5 +39,4 @@ title: My Work
 | 1 | 9 | [Project Week One Video](https://youtu.be/NzPXKw8d5dg) |
 | 1 | 9 | [Blog About our API](https://avac54765.github.io/groupfastpage/finalproject/weekone) |
 | 1 | 10 | [Our Group's Plan for our Final Project](https://avac54765.github.io/groupfastpage/finalproject/weekone) |
-| 1 | 11 | [Night at the Museum Blog]() |
-| 1 | 12 | [Collegeboard Final and Corrections](https://alexac54767.github.io/Alexa-Fastpage/final/collegeboard) |
+| 1 | 12 | [Collegeboard Final and NATM](https://alexac54767.github.io/Alexa-Fastpage/final/collegeboard) |

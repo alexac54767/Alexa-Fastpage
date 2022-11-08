@@ -2,8 +2,8 @@
 toc: true
 comments: true
 layout: post
-title: Collegebaord Final
-description: The Process/Corrections of Taking my Collegebaord Final
+title: Collegebaord Final Reflection/Night at the Museum
+description: The Process/Corrections of Taking my Collegebaord Final as well as aspects of Night at the Museum
 permalink: /final/collegeboard
 image: /images/collegeboardfinal.jpg
 categories: [week 12]
@@ -33,3 +33,12 @@ I got a 48/50 on the final, which would be a 5 on the AP test. These were the pr
 - This question was very hard for me to understand, even after seeing the correct answer. I asked a couple people for help, and their explanations aided in my current understanding.
 - At first, I thought that i  <- i + 1 needed to be first in order to make it even before multiplying it by 2 everytime. I misunderstood the parts of the code, and mixed up appending it to the list and iterating through it. 
 - The APPEND(evenlist, 2 * i) needs to be first. It appends an empty list, and then multiplies i (with a current value of 1) by 2 in order to make it even. It then iterates through by adding one to i.
+
+
+## Night at the Museum
+- The Night at the Museum process was a little chaotic for my group. Just before we had to leave to head to the school, our code was changed and made a major error. Our AWS wouldn't deploy, so we couldn't fetch data from our APIs. However, it was still a successful night with many intresting projects
+- it was so intresting to go around and see all the projects that other students created. They were very creative and all the projects were so differet. It was also cool to see the APCSA projects and how they were more advanced and detailed.
+
+some of other groups' projects:
+![Marketplace Project]({{site.baseurl}}/images/FullSizeRender.jpg)
+![Playlist Project]({{site.baseurl}}/images/IMG_7996.jpg)

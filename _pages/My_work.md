@@ -41,3 +41,4 @@ title: My Work
 | 1 | 10 | [Our Group's Plan for our Final Project](https://avac54765.github.io/groupfastpage/finalproject/weekone) |
 | 1 | 11 | [My Group's Final Project](https://avac54765.github.io/groupfastpage/) |
 | 1 | 12 | [Collegeboard Final and NATM](https://alexac54767.github.io/Alexa-Fastpage/final/collegeboard) |
+| 2 | 0 | [Binary Math](https://alexac54767.github.io/Alexa-Fastpage/frontend/binary) |

@@ -38,10 +38,10 @@ baseurl: "/Alexa-Fastpage" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
-  social_links:
-    twitter: 
-    github: alexac54767
+  skin: dark
 
+  social_links:
+    - { platform: github, user_url: "https://github.com/alexac54767"}
 # Set this to true to get LaTeX math equation support
 use_math: 
 

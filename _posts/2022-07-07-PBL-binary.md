@@ -8,6 +8,7 @@ tags: [week 0, binary]
 week: 13
 type: pbl
 ---
+{% include nav_data.html %}
 
 <!-- Hack 1: add a character display to text when 8 bits, determine if printable or not printable -->
 <!-- Hack 2: change to 24 bits and add a color code and display color when 24 bits, think about display on this one -->

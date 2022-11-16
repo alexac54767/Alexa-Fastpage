@@ -46,6 +46,10 @@ type: pbl
             {% assign bits = BITS | minus: 1 %} 
             <table class="table">
             <tr>
+                <td>4<td>
+                <td>2<td>
+                <td>1<td>
+            <tr>
                 {% comment %}Build many bits{% endcomment %}
                 {% for i in (0..bits) %}
                 <td><img class="img-responsive py-3" id="bulb{{ i }}" src="{{site.baseurl}}/images/bulb_off.png" alt="" width="40" height="Auto">

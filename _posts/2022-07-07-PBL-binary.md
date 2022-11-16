@@ -46,9 +46,10 @@ type: pbl
             {% assign bits = BITS | minus: 1 %} 
             <table class="table">
             <tr>
-                <td>4<td>
-                <td>2<td>
-                <td>1<td>
+                <td>+4</td>
+                <td>+2</td>
+                <td>+1</td>
+            </tr>
             <tr>
                 {% comment %}Build many bits{% endcomment %}
                 {% for i in (0..bits) %}

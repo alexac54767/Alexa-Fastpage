@@ -25,20 +25,24 @@ type: pbl
         <div class="col-8">
             <table class="table">
             <tr id="table">
+                <th>Shift Left(x2)</th>
                 <th>Plus</th>
                 <th>Binary</th>
                 <th>Octal</th>
                 <th>Hexadecimal</th>
                 <th>Decimal</th>
                 <th>Minus</th>
+                <th>Shift Right(/2)</th>
             </tr>
             <tr>
+                <td><button type="button" id="shiftleft" onclick="<<"><<</button></td>
                 <td><button type="button" id="add1" onclick="add(1)">+1</button></td>
                 <td id="binary">00000000</td>
                 <td id="octal">0</td>
                 <td id="hexadecimal">0</td>
                 <td id="decimal">0</td>
-                <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
+                <td><button type="button" id="sub1" onclick="subtract(1)">-1</button></td>
+                <td><button type="button" id="shiftright" onclick="a >> b">>></button></td>
             </tr>
             </table>
         </div>

@@ -171,6 +171,7 @@ type: pbl
         let decimal = parseInt(binary, 2);
         if (n > 0) {  // Shift Left
         decimal = MAX === decimal ? 0 : decimal << n; // OVERFLOW or LEFT
+        }
         // convert the result back to binary
         binary = decimal_2_base(decimal, 2);
         // update conversions
@@ -194,6 +195,7 @@ type: pbl
         let decimal = parseInt(binary, 2);
         if (n > 0) {  // Shift Right
         decimal = MAX === decimal ? 0 : decimal >> n; // OVERFLOW or Right
+        }
         // convert the result back to binary
         binary = decimal_2_base(decimal, 2);
         // update conversions
@@ -211,5 +213,5 @@ type: pbl
         }
         }
     }
-    }
+    
 </script>

@@ -4,7 +4,7 @@ layout: default
 description: A Binary Math illustrative application using HTML, Liquid, and JavaScript.
 permalink: /frontend/binary
 image: /images/binary.png
-tags: [week 0, binary]
+tags: [week 13, binary]
 week: 13
 type: pbl
 ---

@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "3.1 and 3.2 Student Lesson",
+            "content": "Hacks . . Answer these: . In your own words, briefly explain by writing down what an assignment operator is An assignment operator asigns the value on the right of it (in this case =) to the variable on the left. | In Collegeboard pseudocode, what symbol is used to assign values to variables? Collegeboard pseudocode uses the arrow, &lt;–, to assign values to variables. | A variable, x, is initially given a value of 15. Later on, the value for x is changed to 22. If you print x, would the command display 15 or 22? The command would display 22, since it has been updated and assigned the new value. | . . . . . .",
+            "url": "https://alexac54767.github.io/Alexa-Fastpage/students/3.1",
+            "relUrl": "/students/3.1",
+            "date": " • Nov 29, 2022"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Student Lessons",
             "content": "Week Team Lesson My Homework . 14 | 1 | 3.1-3.2 Variables, Assignments, and Data Abstractions |   | .",
             "url": "https://alexac54767.github.io/Alexa-Fastpage/students/lessons",
@@ -12,22 +23,11 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "My Quiz",
             "content": "def question_with_response(promt): print(&quot;Question: &quot; + promt) msg = input() return msg correct = 0 ec_abort = 0 # I created the variable &quot;ec_abort&quot; (stands for extra credit abort) print(&quot;Hey queen, make sure to think out of the box when taking this quiz.&quot;) print(&quot;You will be asked 5 questions about me. Make sure the first letter of your answer is capitalized and that if it is numerical, use the number.&quot;) question_with_response(&quot;Are you ready?&quot;) if ec_abort == 0: rsp = question_with_response(&quot;How old am I?&quot;) if rsp == &quot;16&quot;: print(rsp + &quot; is correct:)&quot;) correct += 1 elif rsp == &quot;Give me 100%&quot;: print(rsp + &quot; BOOM 100% YOU ARE DONE&quot;) ec_abort = 1 else: print(rsp + &quot; is no bueno:(&quot;) # The new variable allows me to code so that if the user of my quiz types &quot;Give me 100%&quot;, it skips to the end with a 5/5 if ec_abort == 0: rsp = question_with_response(&quot;What is my favorite color?&quot;) if rsp == &quot;Blue&quot;: print(rsp + &quot; is correct:)&quot;) correct +=1 elif rsp == &quot;Give me 100%&quot;: print(rsp + &quot; BOOM 100% YOU ARE DONE&quot;) ec_abort = 1 else: print(rsp + &quot; is no bueno:(&quot;) # If they get the question correct, then the variable &quot;correct&quot; goes up by 1 if ec_abort == 0: rsp = question_with_response(&quot;How many siblings to I have?&quot;) if rsp == &quot;3&quot;: print(rsp + &quot; is correct:)&quot;) correct +=1 elif rsp == &quot;Give me 100%&quot;: print(rsp + &quot; BOOM 100% YOU ARE DONE&quot;) ec_abort = 1 else: print(rsp + &quot; is no bueno:(&quot;) # If their answer is incorrect, the amount correct stays the same and it prints &quot;is no bueno:(&quot; if ec_abort == 0: rsp = question_with_response(&quot;What pet do I have?&quot;) if rsp == &quot;A dog&quot;: print(rsp + &quot; is correct:)&quot;) correct +=1 elif rsp == &quot;Give me 100%&quot;: print(rsp + &quot; BOOM 100% YOU ARE DONE&quot;) ec_abort = 1 else: print(rsp + &quot; is no bueno:(&quot;) if ec_abort == 0: rsp = question_with_response(&quot;What is my favorite subject?&quot;) if rsp == &quot;Math&quot;: print(rsp + &quot; is correct:)&quot;) correct +=1 elif rsp == &quot;Give me 100%&quot;: print(rsp + &quot; BOOM 100% YOU ARE DONE&quot;) ec_abort = 1 else: print(rsp + &quot; is no bueno:(&quot;) if ec_abort == 1: print(&quot;You scored 5/5&quot;) if ec_abort == 0: print (&quot;Slayyy you scored &quot; + str(correct) + &quot;/5&quot;) # If they don&#39;t use the &quot;Give me 100%&quot; option, ec_abort is still 0, allowing this step that gives the perentage correct to show . Hey queen, make sure to think out of the box when taking this quiz. You will be asked 5 questions about me. Make sure the first letter of your answer is capitalized and that if it is numerical, use the number. Question: Are you ready? Question: How old am I? 16 is correct:) Question: What is my favorite color? Blue is correct:) Question: How many siblings to I have? Give me 100% BOOM 100% YOU ARE DONE You scored 5/5 .",
             "url": "https://alexac54767.github.io/Alexa-Fastpage/notebooks/myquiz",
             "relUrl": "/notebooks/myquiz",
-            "date": " • Nov 28, 2022"
-        }
-        
-    
-  
-    
-        ,"post2": {
-            "title": "3.1 and 3.2 Student Lesson",
-            "content": "Hacks . . Answer these: . In your own words, briefly explain by writing down what an assignment operator is An assignment operator asigns the value on the right of it (in this case =) to the variable on the left. | In Collegeboard pseudocode, what symbol is used to assign values to variables? Collegeboard pseudocode uses the arrow, &lt;–, to assign values to variables. | A variable, x, is initially given a value of 15. Later on, the value for x is changed to 22. If you print x, would the command display 15 or 22? The command would display 22, since it has been updated and assigned the new value. | . . . . . .",
-            "url": "https://alexac54767.github.io/Alexa-Fastpage/students/3.1",
-            "relUrl": "/students/3.1",
             "date": " • Nov 28, 2022"
         }
         

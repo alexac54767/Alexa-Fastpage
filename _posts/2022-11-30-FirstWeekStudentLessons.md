@@ -20,6 +20,359 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="3.1-3.2">3.1-3.2<a class="anchor-link" href="#3.1-3.2"> </a></h3><h2 id="3.1.1-Data-Types-and-Variables">3.1.1 Data Types and Variables<a class="anchor-link" href="#3.1.1-Data-Types-and-Variables"> </a></h2>
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">age</span> <span class="o">=</span> <span class="s2">&quot;25&quot;</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Timmy&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span> <span class="o">+</span> <span class="s2">&quot; is &quot;</span> <span class="o">+</span> <span class="n">age</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Timmy is 25
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">car</span> <span class="o">=</span> <span class="s2">&quot;Tesla&quot;</span> <span class="c1">#example of a string</span>
+<span class="n">yearmake</span> <span class="o">=</span> <span class="s2">&quot;2020&quot;</span>
+<span class="n">ownerage</span> <span class="o">=</span> <span class="mi">16</span> <span class="c1">#example of an integer</span>
+<span class="n">haslicense</span> <span class="o">=</span> <span class="kc">True</span> <span class="c1">#example of a Boolean</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;My car is a &quot;</span> <span class="o">+</span> <span class="n">car</span> <span class="o">+</span> <span class="s2">&quot; made in &quot;</span> <span class="o">+</span> <span class="n">yearmake</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;age: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">ownerage</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="n">haslicense</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;can drive&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;cannot drive&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>My car is a Tesla made in 2020
+age: 16
+can drive
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.1.2-Variables">3.1.2 Variables<a class="anchor-link" href="#3.1.2-Variables"> </a></h2><ul>
+<li>An assignment operator asigns the value on the right of it (in this case =) to the variable on the left.</li>
+<li>Collegeboard pseudocode uses the arrow, &lt;--, to assign values to variables.</li>
+<li>A variable, x, is initially given a value of 15. Later on, the value for x is changed to 22. If you print x, the command would display 22, since it has been updated and assigned the new value.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.2.1-List-and-Strings-Using-Variables">3.2.1 List and Strings Using Variables<a class="anchor-link" href="#3.2.1-List-and-Strings-Using-Variables"> </a></h2><ul>
+<li>A list is finite series of ordered values.</li>
+<li>An element a smaller part in a bigger system, such as an item in a list.</li>
+<li>An easy way to reference the elements in a list/string is to index it (the 3rd element, 2nd element, etc).</li>
+<li>example of a string: "cookie monster"</li>
+</ul>
+
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">todolist</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;finish hacks&quot;</span><span class="p">,</span> <span class="s2">&quot;math hw&quot;</span><span class="p">,</span> <span class="s2">&quot;chores&quot;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">todolist</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># indexing from begining</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">todolist</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">])</span> <span class="c1"># indexing from the end</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>chores
+finish hacks
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.2.2-Data-Abstraction-with-Lists">3.2.2 Data Abstraction with Lists<a class="anchor-link" href="#3.2.2-Data-Abstraction-with-Lists"> </a></h2>
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">num1</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a number. &quot;</span><span class="p">)</span>
+<span class="n">num2</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a number. &quot;</span><span class="p">)</span>
+<span class="n">num3</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a number. &quot;</span><span class="p">)</span>
+<span class="n">add</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;How much would you like to add? &quot;</span><span class="p">)</span>
+
+<span class="c1"># Add code in the space below</span>
+
+<span class="n">numlist</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">),</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">),</span> <span class="nb">int</span><span class="p">(</span><span class="n">num3</span><span class="p">)]</span> <span class="c1"># Here I defined numlist so that it could be used in the abstraction later</span>
+
+<span class="c1"># The following is the code that adds the inputted addend to the other numbers. It is hidden from the user.</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">numlist</span><span class="p">:</span>
+    <span class="n">numlist</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="nb">int</span><span class="p">(</span><span class="n">add</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">numlist</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[2, 3, 4]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.2.3-Managing-Complexity-with-lists">3.2.3 Managing Complexity with lists<a class="anchor-link" href="#3.2.3-Managing-Complexity-with-lists"> </a></h2>
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">getpass</span><span class="o">,</span> <span class="nn">sys</span>
+
+<span class="k">def</span> <span class="nf">question_with_response</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Question: &quot;</span> <span class="o">+</span> <span class="n">prompt</span><span class="p">)</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">msg</span>
+
+<span class="n">questions</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="n">correct</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, &#39;</span> <span class="o">+</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot; running &quot;</span> <span class="o">+</span> <span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You will be asked &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; questions.&quot;</span><span class="p">)</span>
+<span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;Are you ready to take a test?&quot;</span><span class="p">)</span>
+
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;The purpose of lists and dictionaries are to manage the ____ of a program&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;complexity&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is correct!&quot;</span><span class="p">)</span>
+    <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect!&quot;</span><span class="p">)</span>
+
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;Lists are a form of data ______&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;abstraction&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is correct!&quot;</span><span class="p">)</span>
+    <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect!&quot;</span><span class="p">)</span>
+
+<span class="n">rsp</span> <span class="o">=</span> <span class="n">question_with_response</span><span class="p">(</span><span class="s2">&quot;Which brackets are used to assign values to a variable to make a list?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">rsp</span> <span class="o">==</span> <span class="s2">&quot;[]&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is correct!&quot;</span><span class="p">)</span>
+    <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">rsp</span> <span class="o">+</span> <span class="s2">&quot; is incorrect!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot; you scored &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">correct</span><span class="p">)</span> <span class="o">+</span><span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Hello, alexac54767 running /bin/python3
+You will be asked 4 questions.
+Question: Are you ready to take a test?
+Question: The purpose of lists and dictionaries are to manage the ____ of a program
+complexity is correct!
+Question: Lists are a form of data ______
+abstraction is correct!
+Question: Which brackets are used to assign values to a variable to make a list?
+[] is correct!
+alexac54767 you scored 3/4
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">food1</span> <span class="o">=</span> <span class="s2">&quot;pizza&quot;</span> 
+<span class="n">food2</span> <span class="o">=</span> <span class="s2">&quot;hot dog&quot;</span> 
+<span class="n">food3</span> <span class="o">=</span> <span class="s2">&quot;sushi&quot;</span>
+<span class="n">food4</span> <span class="o">=</span> <span class="s2">&quot;strawberry&quot;</span>
+<span class="n">food5</span> <span class="o">=</span> <span class="s2">&quot;sandwich&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">food1</span><span class="p">,</span> <span class="n">food2</span><span class="p">,</span> <span class="n">food3</span><span class="p">,</span> <span class="n">food4</span><span class="p">,</span> <span class="n">food5</span><span class="p">)</span>
+
+<span class="n">food</span> <span class="o">=</span> <span class="p">[</span><span class="n">food1</span><span class="p">,</span> <span class="n">food2</span><span class="p">,</span> <span class="n">food3</span><span class="p">,</span> <span class="n">food4</span><span class="p">,</span> <span class="n">food5</span><span class="p">]</span> <span class="c1">#this is simplifying it (making food a list and then only need one word to print it)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">food</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>pizza hot dog sushi strawberry sandwich
+[&#39;pizza&#39;, &#39;hot dog&#39;, &#39;sushi&#39;, &#39;strawberry&#39;, &#39;sandwich&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">name1</span> <span class="o">=</span> <span class="s2">&quot;Alexa&quot;</span>
+<span class="n">name2</span> <span class="o">=</span> <span class="s2">&quot;Ava&quot;</span>
+<span class="n">name3</span> <span class="o">=</span> <span class="s2">&quot;Lydia&quot;</span>
+<span class="n">name4</span> <span class="o">=</span> <span class="s2">&quot;Sri&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">name1</span><span class="p">,</span> <span class="n">name1</span><span class="p">,</span> <span class="n">name3</span><span class="p">,</span> <span class="n">name4</span><span class="p">)</span>
+
+<span class="c1"># managing complexity</span>
+<span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="n">name1</span><span class="p">,</span> <span class="n">name2</span><span class="p">,</span> <span class="n">name3</span><span class="p">,</span> <span class="n">name4</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Alexa Alexa Lydia Sri
+[&#39;Alexa&#39;, &#39;Ava&#39;, &#39;Lydia&#39;, &#39;Sri&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 </div>
  
 

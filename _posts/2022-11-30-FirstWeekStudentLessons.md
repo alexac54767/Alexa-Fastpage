@@ -373,6 +373,18 @@ alexac54767 you scored 3/4
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.3.1-algorithm-that-uses-sequencing-without-using-programming-language">3.3.1 algorithm that uses sequencing without using programming language<a class="anchor-link" href="#3.3.1-algorithm-that-uses-sequencing-without-using-programming-language"> </a></h2><ul>
+<li>algorithms: a finite set of instruction that accomplish a task (it can be expressed by natural language, diagrams, + more)</li>
+<li>3 parts to an algorithm: <mark>sequencing, selection, and iteration</mark>.</li>
+<li>every algorithm can be created by a mixture of sequencing, selection, and iteration</li>
+<li>sequence: the order of how to do something to achieve a result</li>
+</ul>
+
+</div>
+</div>
+</div>
 </div>
  
 

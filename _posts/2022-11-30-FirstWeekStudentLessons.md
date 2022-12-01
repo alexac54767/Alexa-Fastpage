@@ -438,9 +438,74 @@ alexac54767 you scored 3/4
 <li>division: a/b </li>
 <li>modulus: a MOD b<ul>
 <li>syntax of MOD is %</li>
-<li>divides given numerator by denominator to find a result = remainder for the division </li>
+<li>divides given numerator by denominator and result = remainder for the division </li>
+<li>ex: 10 % 3 = 1 </li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">num1</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="n">num3</span> <span class="o">=</span> <span class="n">num2</span> <span class="o">/</span> <span class="n">num1</span> <span class="o">*</span> <span class="p">(</span><span class="mi">9</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="mi">4</span>
+<span class="n">result</span> <span class="o">=</span> <span class="p">(</span><span class="n">num3</span> <span class="o">%</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span><span class="p">)</span> <span class="o">%</span> <span class="n">num3</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">/</span> <span class="mi">5</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>3.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="crossword-puzzle-hack">crossword puzzle hack<a class="anchor-link" href="#crossword-puzzle-hack"> </a></h3><ul>
+<li>1 down - Iteration (creates a loop in the algorithm)</li>
+<li>2 down - Selection (allows an algorithm to create a decision)</li>
+<li>3 across - Sequence (an order of events)</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.4-Evaluate-expression-that-manipulates-strings">3.4 Evaluate expression that manipulates strings<a class="anchor-link" href="#3.4-Evaluate-expression-that-manipulates-strings"> </a></h2><ul>
+<li>string concatenation: joins two or more strings end-to-end to make a new string</li>
+<li>substring: part of an existing string</li>
+<li>strings: ordered sequences of characters<ul>
+<li>len (str): returns the number of character is str</li>
+<li>concat (str1, str2): returns a single string consisting of str1 followed by str 2</li>
+<li>substring (str1, str2, length): returns a substring of consecutive character from str1, starting the character at position 'start' and containing 'length' character
+^ <a href="https://www.freecodecamp.org/news/how-to-substring-a-string-in-python/">Website that explains this</a></li>
 </ul>
 </li>
 </ul>

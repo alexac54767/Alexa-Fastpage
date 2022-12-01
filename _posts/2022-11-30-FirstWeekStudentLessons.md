@@ -412,7 +412,7 @@ alexac54767 you scored 3/4
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="3.3.-Mathematical-Expressions">3.3. Mathematical Expressions<a class="anchor-link" href="#3.3.-Mathematical-Expressions"> </a></h2><ul>
+<h2 id="3.3.2-Mathematical-Expressions">3.3.2 Mathematical Expressions<a class="anchor-link" href="#3.3.2-Mathematical-Expressions"> </a></h2><ul>
 <li><p>Question: How do we represent a step-by-step algorithmic process using sequential code statements?</p>
 </li>
 <li><p>Sequential statements are used in processes to specify how signals are assigned</p>
@@ -422,6 +422,27 @@ alexac54767 you scored 3/4
 <li>execute in the order in which they appear in the process (sequencing)</li>
 <li>numerical values can be within variables</li>
 <li>variable values can be inside other variables</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.3.3-Evaluate-expression-using-arithmetic-operator">3.3.3 Evaluate expression using arithmetic operator<a class="anchor-link" href="#3.3.3-Evaluate-expression-using-arithmetic-operator"> </a></h2><ul>
+<li>arithmetic operator: language that use addition, subtraction, multiplication, division, and modulus operators</li>
+<li>order of arithmetic operation = same with mathematic operation(PEMDAS but Subtraction first)<ul>
+<li>addition: a+b </li>
+<li>subtraction: a-b </li>
+<li>multiplication: a*b </li>
+<li>division: a/b </li>
+<li>modulus: a MOD b<ul>
+<li>syntax of MOD is %</li>
+<li>divides given numerator by denominator to find a result = remainder for the division </li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
 </div>

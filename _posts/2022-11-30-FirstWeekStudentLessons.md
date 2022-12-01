@@ -378,8 +378,50 @@ alexac54767 you scored 3/4
 <h2 id="3.3.1-algorithm-that-uses-sequencing-without-using-programming-language">3.3.1 algorithm that uses sequencing without using programming language<a class="anchor-link" href="#3.3.1-algorithm-that-uses-sequencing-without-using-programming-language"> </a></h2><ul>
 <li>algorithms: a finite set of instruction that accomplish a task (it can be expressed by natural language, diagrams, + more)</li>
 <li>3 parts to an algorithm: <mark>sequencing, selection, and iteration</mark>.</li>
-<li>every algorithm can be created by a mixture of sequencing, selection, and iteration</li>
+<li><p>every algorithm can be created by a mixture of sequencing, selection, and iteration</p>
+<ul>
 <li>sequence: the order of how to do something to achieve a result</li>
+<li>selection: allows an algorithm to make a decision based on if a condition is met</li>
+<li>iteration: a loop and doing something again until a condition is met</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Describe-the-given-algorithm">Describe the given algorithm<a class="anchor-link" href="#Describe-the-given-algorithm"> </a></h2><ul>
+<li>sequencing: <ul>
+<li>The sequencing in this algorithm provided is how it has the steps (1-5) that must be performed in order. To go onto step 2, you miust do step 1 first.</li>
+</ul>
+</li>
+<li>Selection:<ul>
+<li>Selection is used in this algorithm when it decides what to do when it evaluates if the numer equals the item. If it does, it must decide to display "item foud". However, if it doesn't, then the algorithm decides to display "item not found".</li>
+</ul>
+</li>
+<li>Iteration:<ul>
+<li>Iteration is used in this algorithm when it must cycle through the list, checking if the condition is met. Once it has gone through all of the number, it returns to step 2 to repeat.</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.3.-Mathematical-Expressions">3.3. Mathematical Expressions<a class="anchor-link" href="#3.3.-Mathematical-Expressions"> </a></h2><ul>
+<li><p>Question: How do we represent a step-by-step algorithmic process using sequential code statements?</p>
+</li>
+<li><p>Sequential statements are used in processes to specify how signals are assigned</p>
+</li>
+<li>the process is executed in order as a whole</li>
+<li>after all the sequential statements in the process are executed the signals are assigned new values. </li>
+<li>execute in the order in which they appear in the process (sequencing)</li>
+<li>numerical values can be within variables</li>
+<li>variable values can be inside other variables</li>
 </ul>
 
 </div>

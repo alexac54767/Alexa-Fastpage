@@ -13,3 +13,11 @@ categories: [week 14]
 | ----------- | ----------- | ----------- | ----------- |
 | 14          | 1          |   [3.1-3.2 Variables, Assignments, and Data Abstractions](https://liavb2.github.io/ominicient-lavebear/markdown/2022/11/26/GroupLesson.html)   | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupone) |
 | 14 | 2 | [3.3-3.4 Mathematical Expressions and Strings](https://hsinaditam.github.io/Tea_Lounge/wk2/2022/11/20/Lesson-presentation.html) | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/grouptwo) |
+
+
+
+
+
+| Week  | Overall Page |
+| ----------- | ----------- |
+| 14 | https://github.com/alexac54767/Alexa-Fastpage/blob/master/_notebooks/2022-11-30-FirstWeekStudentLessons.ipynb |

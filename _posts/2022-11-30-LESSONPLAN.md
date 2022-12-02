@@ -1,9 +1,10 @@
 ---
 keywords: fastai
+description: the lesson plan for 3.5-3.7
 title: LESSON PLAN
 toc: true
 categories: [tri2lesson]
-permalink: /lesson
+permalink: /lesson/group3
 tags: [tri2lesson]
 nb_path: _notebooks/2022-11-30-LESSONPLAN.ipynb
 layout: notebook

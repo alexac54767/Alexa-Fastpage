@@ -416,7 +416,7 @@ The exam reference sheet provides:</p>
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># also needs to iterate through to check every character (what if there are multiple of each wo)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># also needs to iterate through to check every character (what if there are multiple of each vowel?)</span>
 <span class="n">word</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a word to check how many vowels it has. &quot;</span><span class="p">)</span>
 <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="c1">#number of vowels</span>
 <span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">):</span>
@@ -475,7 +475,7 @@ The exam reference sheet provides:</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_string</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a string to check how many vowels it has. &quot;</span><span class="p">)</span>
 <span class="n">vowelcount</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">character</span> <span class="ow">in</span> <span class="n">input_string</span><span class="p">:</span>
+<span class="k">for</span> <span class="n">character</span> <span class="ow">in</span> <span class="n">input_string</span><span class="p">:</span> <span class="c1">#iterates through the string character by character</span>
     <span class="k">if</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">&quot;a&quot;</span><span class="p">:</span>
         <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">&quot;e&quot;</span><span class="p">:</span>

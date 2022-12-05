@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      10 min read
+      11 min read
     
 </span></p>
 
@@ -847,7 +847,7 @@ student is eligible for credit
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"What is your first number?"</span><span class="p">)</span>
 <span class="n">num2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"What is your second number?"</span><span class="p">)</span>
 <span class="n">sumofnumbers</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span>
-<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">100</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">sumofnumbers</span> <span class="o">&gt;=</span> <span class="mi">100</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" is greater than or equal to 100"</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
      <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" is less than than 100"</span><span class="p">)</span>
@@ -864,6 +864,54 @@ student is eligible for credit
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>202 is greater than or equal to 100
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># to test if a show is included in Netflix, and if it is recommended</span>
+<span class="n">showdictionary</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'Wednesday'</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span>  <span class="c1"># key=title name and value=rating out of 5 stars</span>
+    <span class="s1">'You'</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span> 
+    <span class="s1">'Knight Before Christmas'</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span> 
+    <span class="s1">'Red Notice'</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span>
+    <span class="s1">'Truth or Dare'</span><span class="p">:</span><span class="mi">1</span>
+<span class="p">}</span>
+<span class="n">show</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"What show are you looking for?"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">show</span> <span class="ow">in</span> <span class="n">showdictionary</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">show</span> <span class="o">+</span> <span class="s2">" is available on Netflix"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">showdictionary</span><span class="p">[</span><span class="n">show</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">3</span><span class="p">:</span>
+         <span class="nb">print</span><span class="p">(</span><span class="s2">"show/movie is reccomended"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"show is not recommended"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">show</span> <span class="o">+</span> <span class="s2">" is not available on Netflix"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>You is available on Netflix
+show/movie is reccomended
 </pre>
 </div>
 </div>

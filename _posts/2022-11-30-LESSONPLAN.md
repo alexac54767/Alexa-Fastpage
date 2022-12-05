@@ -510,6 +510,56 @@ The exam reference sheet provides:</p>
 </div>
     {% endraw %}
 
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numberstring</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a number to find the sum of all the multiples of 3 or 5 below it. &quot;</span><span class="p">)</span>
+<span class="n">numbertocheck</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">numberstring</span><span class="p">)</span>
+<span class="n">totalmultiples</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">if</span> <span class="n">numbertocheck</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># if the number is negative it will display the sum as 0</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">numbertocheck</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">n</span><span class="o">/</span><span class="mi">3</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="mi">3</span><span class="p">):</span> <span class="c1">#checks for multiples of 3</span>
+            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is a multiple of 3&quot;</span><span class="p">)</span>
+            <span class="n">totalmultiples</span> <span class="o">+=</span> <span class="n">n</span>    <span class="c1">#elif prevents duplicates of numbers with both multiples of 3 and 5</span>
+        <span class="k">elif</span> <span class="n">n</span><span class="o">/</span><span class="mi">5</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="mi">5</span><span class="p">):</span> <span class="c1"># checks for multiples of 5</span>
+            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is a multiple of 5&quot;</span><span class="p">)</span>
+            <span class="n">totalmultiples</span> <span class="o">+=</span> <span class="n">n</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">totalmultiples</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0 is a multiple of 3
+3 is a multiple of 3
+5 is a multiple of 5
+6 is a multiple of 3
+9 is a multiple of 3
+10 is a multiple of 5
+12 is a multiple of 3
+15 is a multiple of 3
+60
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Hacks">Hacks<a class="anchor-link" href="#Hacks"> </a></h3><ul>

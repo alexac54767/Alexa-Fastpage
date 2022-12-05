@@ -613,7 +613,7 @@ student is eligible for credit
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is your first number?&quot;</span><span class="p">)</span>
 <span class="n">num2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is your second number?&quot;</span><span class="p">)</span>
 <span class="n">sumofnumbers</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span>
-<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">100</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">sumofnumbers</span> <span class="o">&gt;=</span> <span class="mi">100</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is greater than or equal to 100&quot;</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
      <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is less than than 100&quot;</span><span class="p">)</span>
@@ -630,6 +630,54 @@ student is eligible for credit
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>202 is greater than or equal to 100
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># to test if a show is included in Netflix, and if it is recommended</span>
+<span class="n">showdictionary</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;Wednesday&#39;</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span>  <span class="c1"># key=title name and value=rating out of 5 stars</span>
+    <span class="s1">&#39;You&#39;</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span> 
+    <span class="s1">&#39;Knight Before Christmas&#39;</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span> 
+    <span class="s1">&#39;Red Notice&#39;</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span>
+    <span class="s1">&#39;Truth or Dare&#39;</span><span class="p">:</span><span class="mi">1</span>
+<span class="p">}</span>
+<span class="n">show</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What show are you looking for?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">show</span> <span class="ow">in</span> <span class="n">showdictionary</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">show</span> <span class="o">+</span> <span class="s2">&quot; is available on Netflix&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">showdictionary</span><span class="p">[</span><span class="n">show</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">3</span><span class="p">:</span>
+         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;show/movie is reccomended&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;show is not recommended&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">show</span> <span class="o">+</span> <span class="s2">&quot; is not available on Netflix&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>You is available on Netflix
+show/movie is reccomended
 </pre>
 </div>
 </div>

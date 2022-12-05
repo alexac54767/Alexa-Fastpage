@@ -560,6 +560,49 @@ The exam reference sheet provides:</p>
 </div>
     {% endraw %}
 
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">average</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+
+<span class="n">gradelist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">92</span><span class="p">,</span> <span class="mi">83</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="mi">86</span><span class="p">,</span> <span class="mi">97</span><span class="p">]</span>
+<span class="n">averagegrade</span> <span class="o">=</span> <span class="n">average</span><span class="p">(</span><span class="n">gradelist</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">averagegrade</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is the student&#39;s grade average&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">averagegrade</span> <span class="o">&gt;=</span> <span class="mi">75</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;student is eligible for credit&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;student needs to retake tests during break&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>87.0 is the student&#39;s grade average
+student is eligible for credit
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Hacks">Hacks<a class="anchor-link" href="#Hacks"> </a></h3><ul>

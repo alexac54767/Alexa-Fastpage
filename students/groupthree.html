@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      6 min read
     
 </span></p>
 
@@ -127,6 +127,7 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h3"><a href="#Hack-1:-3.5">Hack 1: 3.5 </a></li>
+<li class="toc-entry toc-h3"><a href="#Hack-1">Hack 1 </a></li>
 <li class="toc-entry toc-h3"><a href="#Hack-2:-3.6">Hack 2: 3.6 </a></li>
 <li class="toc-entry toc-h3"><a href="#Defining-Key-Terms:">Defining Key Terms: </a></li>
 <li class="toc-entry toc-h3"><a href="#Hack-3?">Hack 3? </a></li>
@@ -150,12 +151,136 @@ window.onload = wrap_img;
 <h3 id="Hack-1:-3.5">
 <a class="anchor" href="#Hack-1:-3.5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hack 1: 3.5<a class="anchor-link" href="#Hack-1:-3.5"> </a>
 </h3>
-<p>[] Explain in your own words what each logical operator does
-[] Code your own scenario that makes sense for each logical operator</p>
+<p>[x] Explain in your own words what each logical operator does
+[x] Code your own scenario that makes sense for each logical operator</p>
 
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Hack-1">
+<a class="anchor" href="#Hack-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hack 1<a class="anchor-link" href="#Hack-1"> </a>
+</h3>
+<ul>
+<li>
+<mark>NOT</mark>: The NOT logical operator returns the oppo#site condtion of the data</li>
+<li>
+<mark>AND</mark>: The AND logical operator determines if 2 conditions are met</li>
+<li>
+<mark>OR</mark>: The OR logical operator determines if 1 of the conditions are met</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ispassing</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">isstudentpassing</span> <span class="o">=</span> <span class="ow">not</span><span class="p">(</span><span class="n">ispassing</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">isstudentpassing</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>True
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"what is the temperature today?"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">40</span> <span class="ow">and</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">70</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Bring a hoodie!"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">40</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"bring snow gear!"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">70</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"No jacket today!"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Bring a hoodie!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">APscore</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="n">Finalscore</span> <span class="o">=</span> <span class="mi">68</span>
+<span class="k">if</span> <span class="n">APscore</span> <span class="o">&gt;=</span> <span class="mi">3</span> <span class="ow">or</span> <span class="n">Finalscore</span> <span class="o">&gt;=</span> <span class="mi">75</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"student passed this class"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"student did not pass this class"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>student passed this class
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -185,11 +310,11 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 <p>= <mark>Boolean</mark>:</p>
 <ul>
 <li>
-<mark>AND</mark>:</li>
+<mark>AND</mark>: AND is a logical operator that determines of 2 conditions are both met</li>
 <li>
-<mark>OR</mark>:</li>
+<mark>OR</mark>: OR is a logical operator that determines if 1 of 2 conditions is met</li>
 <li>
-<mark>NOT</mark>:</li>
+<mark>NOT</mark>: NOT is a logical operator that displays the oposition condition of the data</li>
 </ul>
 
 </div>
@@ -208,14 +333,13 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 <span class="n">logictype</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"What kind of logic do you want to use? Options: AND, OR, NOT"</span><span class="p">)</span>
 <span class="k">if</span> <span class="n">logictype</span> <span class="o">==</span> <span class="s2">"AND"</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" + "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" -&gt;"</span> <span class="p">,</span>
-    <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">))</span>
+    <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">))</span>
 <span class="k">if</span> <span class="n">logictype</span> <span class="o">==</span> <span class="s2">"OR"</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" | "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" -&gt;"</span> <span class="p">,</span>
-    <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">|</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">))</span>
-
+    <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">))</span>
 <span class="c1">#if logictype == "NOT":</span>
-    <span class="c1"># print(str(num1) + " ~ " + str(num2) + " -&gt;" ,</span>
-    <span class="c1"># int(num1) ~ int(num2))</span>
+   <span class="c1"># print(str(num1) + " ~ " + str(num2) + " -&gt;" ,</span>
+    <span class="c1"># int(num1) not int(num2))</span>
 </pre></div>
 
     </div>
@@ -228,7 +352,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>1 | 2 -&gt; 3
+<pre>1 | 3 -&gt; 1
 </pre>
 </div>
 </div>

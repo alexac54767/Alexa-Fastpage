@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      9 min read
+      10 min read
     
 </span></p>
 
@@ -650,7 +650,7 @@ The exam reference sheet provides:</p>
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># also needs to iterate through to check every character (what if there are multiple of each wo)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># also needs to iterate through to check every character (what if there are multiple of each vowel?)</span>
 <span class="n">word</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">"Input a word to check how many vowels it has. "</span><span class="p">)</span>
 <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="c1">#number of vowels</span>
 <span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">"a"</span><span class="p">):</span>
@@ -709,7 +709,7 @@ The exam reference sheet provides:</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_string</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Input a string to check how many vowels it has. "</span><span class="p">)</span>
 <span class="n">vowelcount</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">character</span> <span class="ow">in</span> <span class="n">input_string</span><span class="p">:</span>
+<span class="k">for</span> <span class="n">character</span> <span class="ow">in</span> <span class="n">input_string</span><span class="p">:</span> <span class="c1">#iterates through the string character by character</span>
     <span class="k">if</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">"a"</span><span class="p">:</span>
         <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">"e"</span><span class="p">:</span>
@@ -734,6 +734,56 @@ The exam reference sheet provides:</p>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>4
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numberstring</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Input a number to find the sum of all the multiples of 3 or 5 below it. "</span><span class="p">)</span>
+<span class="n">numbertocheck</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">numberstring</span><span class="p">)</span>
+<span class="n">totalmultiples</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">if</span> <span class="n">numbertocheck</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># if the number is negative it will display the sum as 0</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">numbertocheck</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">n</span><span class="o">/</span><span class="mi">3</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="mi">3</span><span class="p">):</span> <span class="c1">#checks for multiples of 3</span>
+            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" is a multiple of 3"</span><span class="p">)</span>
+            <span class="n">totalmultiples</span> <span class="o">+=</span> <span class="n">n</span>    <span class="c1">#elif prevents duplicates of numbers with both multiples of 3 and 5</span>
+        <span class="k">elif</span> <span class="n">n</span><span class="o">/</span><span class="mi">5</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="mi">5</span><span class="p">):</span> <span class="c1"># checks for multiples of 5</span>
+            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" is a multiple of 5"</span><span class="p">)</span>
+            <span class="n">totalmultiples</span> <span class="o">+=</span> <span class="n">n</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">totalmultiples</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0 is a multiple of 3
+3 is a multiple of 3
+5 is a multiple of 5
+6 is a multiple of 3
+9 is a multiple of 3
+10 is a multiple of 5
+12 is a multiple of 3
+15 is a multiple of 3
+60
 </pre>
 </div>
 </div>

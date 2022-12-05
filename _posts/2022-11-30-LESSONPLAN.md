@@ -603,6 +603,43 @@ student is eligible for credit
 </div>
     {% endraw %}
 
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">num1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is your first number?&quot;</span><span class="p">)</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is your second number?&quot;</span><span class="p">)</span>
+<span class="n">sumofnumbers</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">100</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is greater than or equal to 100&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+     <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is less than than 100&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>202 is greater than or equal to 100
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Hacks">Hacks<a class="anchor-link" href="#Hacks"> </a></h3><ul>

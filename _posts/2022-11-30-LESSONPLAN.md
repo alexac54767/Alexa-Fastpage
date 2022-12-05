@@ -416,7 +416,8 @@ The exam reference sheet provides:</p>
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">word</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a word to check how many vowels it has. &quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># also needs to iterate through to check every character (what if there are multiple of each wo)</span>
+<span class="n">word</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a word to check how many vowels it has. &quot;</span><span class="p">)</span>
 <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="c1">#number of vowels</span>
 <span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">):</span>
     <span class="n">i</span> <span class="o">=+</span> <span class="mi">1</span>
@@ -448,11 +449,12 @@ The exam reference sheet provides:</p>
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb Cell 24</span> in <span class="ansi-cyan-fg">&lt;cell line: 2&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=0&#39;&gt;1&lt;/a&gt;</span> word=input(&#34;Input a word to check how many vowels it has. &#34;)
-<span class="ansi-green-fg">----&gt; &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=1&#39;&gt;2&lt;/a&gt;</span> i == 0 #number of vowels
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=2&#39;&gt;3&lt;/a&gt;</span> if word.__contains__(&#34;a&#34;):
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=3&#39;&gt;4&lt;/a&gt;</span>     i =+ 1
+<span class="ansi-green-intense-fg ansi-bold">/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb Cell 24</span> in <span class="ansi-cyan-fg">&lt;cell line: 3&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=0&#39;&gt;1&lt;/a&gt;</span> # my first attempt at the Level 1 Challenge
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=1&#39;&gt;2&lt;/a&gt;</span> word=input(&#34;Input a word to check how many vowels it has. &#34;)
+<span class="ansi-green-fg">----&gt; &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=2&#39;&gt;3&lt;/a&gt;</span> i == 0 #number of vowels
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=3&#39;&gt;4&lt;/a&gt;</span> if word.__contains__(&#34;a&#34;):
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2022-11-30-LESSONPLAN.ipynb#X32sdnNjb2RlLXJlbW90ZQ%3D%3D?line=4&#39;&gt;5&lt;/a&gt;</span>     i =+ 1
 
 <span class="ansi-red-fg">NameError</span>: name &#39;i&#39; is not defined</pre>
 </div>
@@ -497,7 +499,7 @@ The exam reference sheet provides:</p>
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>3
+<pre>4
 </pre>
 </div>
 </div>

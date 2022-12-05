@@ -128,6 +128,7 @@ window.onload = wrap_img;
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h3"><a href="#Hack-1:-3.5">Hack 1: 3.5 </a></li>
 <li class="toc-entry toc-h3"><a href="#Hack-2:-3.6">Hack 2: 3.6 </a></li>
+<li class="toc-entry toc-h3"><a href="#Defining-Key-Terms:">Defining Key Terms: </a></li>
 <li class="toc-entry toc-h3"><a href="#Hack-3?">Hack 3? </a></li>
 <li class="toc-entry toc-h2"><a href="#Hack-4">Hack 4 </a>
 <ul>
@@ -175,6 +176,69 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Defining-Key-Terms:">
+<a class="anchor" href="#Defining-Key-Terms:" aria-hidden="true"><span class="octicon octicon-link"></span></a>Defining Key Terms:<a class="anchor-link" href="#Defining-Key-Terms:"> </a>
+</h3>
+<p>= <mark>Boolean</mark>:</p>
+<ul>
+<li>
+<mark>AND</mark>:</li>
+<li>
+<mark>OR</mark>:</li>
+<li>
+<mark>NOT</mark>:</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Binary Conditional Logic Code</span>
+<span class="n">num1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Type your first number"</span><span class="p">)</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Type your second number"</span><span class="p">)</span>
+<span class="n">logictype</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"What kind of logic do you want to use? Options: AND, OR, NOT"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">logictype</span> <span class="o">==</span> <span class="s2">"AND"</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" + "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" -&gt;"</span> <span class="p">,</span>
+    <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">logictype</span> <span class="o">==</span> <span class="s2">"OR"</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" | "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" -&gt;"</span> <span class="p">,</span>
+    <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">|</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">))</span>
+
+<span class="c1">#if logictype == "NOT":</span>
+    <span class="c1"># print(str(num1) + " ~ " + str(num2) + " -&gt;" ,</span>
+    <span class="c1"># int(num1) ~ int(num2))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1 | 2 -&gt; 3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
     
     
 <div class="cell border-box-sizing code_cell rendered">

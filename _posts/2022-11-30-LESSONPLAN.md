@@ -688,6 +688,53 @@ show/movie is reccomended
 </div>
     {% endraw %}
 
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">STEM</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Are you intrested in STEM? Y or N&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">STEM</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span><span class="p">:</span>
+    <span class="n">subject</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Do you like math or science better?&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">subject</span> <span class="o">==</span> <span class="s2">&quot;math&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Advanced Function Analysis, AP Calculus AB, AP Calculus BC, AP Statistics&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">subject</span> <span class="o">==</span> <span class="s2">&quot;science&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Class recommendations: Chemistry, Physics, AP Enviornmental Science, AP Physics, AP Chemistry&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">language</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Are you intrested in language? Y or N&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">language</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span><span class="p">:</span>
+        <span class="n">lansubject</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Do you prefer a foreign language or English?&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">lansubject</span> <span class="o">==</span> <span class="s2">&quot;foreign language&quot;</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Class recommendations: Spanish, Mandarin, AP Spanish, AP Mandarin&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">lansubject</span> <span class="o">==</span> <span class="s2">&quot;English&quot;</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Class recommendations: American Literature, AP English Literature&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">language</span> <span class="o">==</span> <span class="s2">&quot;N&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;See class list for more options!&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Advanced Function Analysis, AP Calculus AB, AP Calculus BC, AP Statistics
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Hacks">Hacks<a class="anchor-link" href="#Hacks"> </a></h3><ul>

@@ -15,7 +15,7 @@ categories: [week 14]
 | 14 | 2 | [3.3-3.4 Mathematical Expressions and Strings](https://hsinaditam.github.io/Tea_Lounge/wk2/2022/11/20/Lesson-presentation.html) | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/grouptwo) |
 | 14/15 | 3 |     |    |
 | 15 | 4 |      |     |
-| 15 | 5 |      |     |
+| 15 | 5 |   []   |     |
 
 
 

@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      13 min read
     
 </span></p>
 
@@ -134,6 +134,902 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.5-3.7-Student-Lesson-(group-3)">3.5-3.7 Student Lesson (group 3)<a class="anchor-link" href="#3.5-3.7-Student-Lesson-(group-3)"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="What-is-a-boolean?">What is a boolean?<a class="anchor-link" href="#What-is-a-boolean?"> </a></h2><ul>
+<li><mark>boolean</mark> = a denoting a system of algebraic notation used to represent logical propositions, especially in computing and electronics.</li>
+<li>simple terms: determines if something is true or false</li>
+<li>used in binary (0 = false and 1 = true)</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">score</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">i</span> <span class="o">=</span> <span class="n">score</span>
+<span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;True&quot;</span><span class="p">)</span> <span class="c1"># either is true or false</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;False&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>True
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Hack-1:-3.5">Hack 1: 3.5<a class="anchor-link" href="#Hack-1:-3.5"> </a></h3><p>[x] Explain in your own words what each logical operator does
+[x] Code your own scenario that makes sense for each logical operator</p>
+<ul>
+<li><mark>NOT</mark>: The NOT logical operator returns the opposite condtion of the data</li>
+<li><mark>AND</mark>: The AND logical operator determines if 2 conditions are met</li>
+<li><mark>OR</mark>: The OR logical operator determines if 1 of the conditions are met</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ispassing</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">isstudentpassing</span> <span class="o">=</span> <span class="ow">not</span><span class="p">(</span><span class="n">ispassing</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">isstudentpassing</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;what is the temperature today?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">40</span> <span class="ow">and</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">70</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bring a hoodie!&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">40</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;bring snow gear!&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">70</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No jacket today!&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">APscore</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="n">Finalscore</span> <span class="o">=</span> <span class="mi">68</span>
+<span class="k">if</span> <span class="n">APscore</span> <span class="o">&gt;=</span> <span class="mi">3</span> <span class="ow">or</span> <span class="n">Finalscore</span> <span class="o">&gt;=</span> <span class="mi">75</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;student passed this class&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;student did not pass this class&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Notes">Notes<a class="anchor-link" href="#Notes"> </a></h3><ul>
+<li><mark>Selection</mark>: specific block of code that will execute (depending on  algorithm condition returning true or false)</li>
+<li><mark>Algorithm</mark>: finite set of instructions that accomplish a specific task</li>
+<li><mark>Conditional Statement / If-Statement</mark>: statement that affects the sequence of control by executing certain statements depending on the value of a boolean (true or false)</li>
+<li><mark>Conditionals</mark> allow for the expression of algorithms that utilize selection without a programming language<ul>
+<li>"In which the code in block of statements is executed if the Boolean expression condition evaluates to true; no action is taken if condition evaluates to false"</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Conditionals-are-ues-in-many-languages">Conditionals are ues in many languages<a class="anchor-link" href="#Conditionals-are-ues-in-many-languages"> </a></h3><ul>
+<li>here is an example of one in Javascript:</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="mi">30</span> <span class="o">==</span> <span class="mi">7</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;The condition is true&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="mi">30</span> <span class="o">!=</span> <span class="mi">7</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;The condition is false&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Hack-2:-3.6">Hack 2: 3.6<a class="anchor-link" href="#Hack-2:-3.6"> </a></h3><p>[x] Level I: Vowel Count
+Return the number (count) of vowels in the given string. We will consider a, e, i, o, u as vowels for this challenge (but not y). The input string will only consist of lower case letters and/or spaces.</p>
+<p>Hint: If you use a lot of if-statements and there are more than one outcome, that is to be expected. If not, don't panic, just keep trying.</p>
+<p>[x] Level III: Mutliples of 3 or 5
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+<p>Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
+<p>Note: If the number is a multiple of both 3 and 5, only count it once.</p>
+<p>Hint: What do you know about for loops? Since your code incorporates a list of numbers from 1 to the max number, can you use for loops along with conditionals?</p>
+<p>[x] binary conditional logic
+[x] define key terms</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Defining-Key-Terms:">Defining Key Terms:<a class="anchor-link" href="#Defining-Key-Terms:"> </a></h3><ul>
+<li><mark>Boolean</mark>: a boolean is an operator that determines if a condition is true or false</li>
+<li><mark>Selection</mark>: When an algorithm must make a decision (if a condition is met)</li>
+<li><mark>AND</mark>: AND is a logical operator that determines of 2 conditions are both met</li>
+<li><mark>OR</mark>: OR is a logical operator that determines if 1 of 2 conditions is met</li>
+<li><mark>NOT</mark>: NOT is a logical operator that displays the oposition condition of the data</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">gpa</span> <span class="o">=</span> <span class="mf">4.0</span>
+<span class="n">extracirriculars</span> <span class="o">=</span> <span class="s2">&quot;present&quot;</span>
+<span class="k">if</span> <span class="n">gpa</span> <span class="o">&gt;=</span> <span class="mf">4.0</span> <span class="ow">and</span> <span class="n">extracirriculars</span> <span class="o">==</span> <span class="s2">&quot;present&quot;</span><span class="p">:</span>
+    <span class="n">major</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is your major&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">major</span> <span class="o">==</span> <span class="s2">&quot;math&quot;</span> <span class="ow">or</span> <span class="n">major</span> <span class="o">==</span> <span class="s2">&quot;science&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have been accepted into our STEM program!&quot;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">major</span> <span class="o">==</span> <span class="s2">&quot;english&quot;</span> <span class="ow">or</span> <span class="n">major</span> <span class="o">==</span> <span class="s2">&quot;history&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have been accepted into our arts program!&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have been accepted into our &quot;</span> <span class="o">+</span> <span class="n">major</span> <span class="o">+</span> <span class="s2">&quot; program!&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;I&#39;m sorry, you are not accepted to this program&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># my first attempt at the Level 1 Challenge &lt; better to not use the contians function</span>
+<span class="c1"># also needs to iterate through to check every character (what if there are multiple of each vowel?)</span>
+<span class="n">word</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a word to check how many vowels it has. &quot;</span><span class="p">)</span>
+<span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="c1">#number of vowels</span>
+<span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=+</span> <span class="mi">1</span>
+<span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">&quot;e&quot;</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=+</span> <span class="mi">1</span>
+<span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">&quot;i&quot;</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=+</span> <span class="mi">1</span>
+<span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">&quot;o&quot;</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=+</span> <span class="mi">1</span>
+<span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">&quot;u&quot;</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=+</span> <span class="mi">1</span>
+
+<span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;this word has no vowels&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_string</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a string to check how many vowels it has. &quot;</span><span class="p">)</span>
+<span class="n">vowelcount</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">character</span> <span class="ow">in</span> <span class="n">input_string</span><span class="p">:</span> <span class="c1">#iterates through the string character by character</span>
+    <span class="k">if</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">&quot;a&quot;</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">&quot;e&quot;</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">&quot;i&quot;</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">&quot;o&quot;</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">&quot;u&quot;</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">vowelcount</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numberstring</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Input a number to find the sum of all the multiples of 3 or 5 below it. &quot;</span><span class="p">)</span>
+<span class="n">numbertocheck</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">numberstring</span><span class="p">)</span>
+<span class="n">totalmultiples</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">if</span> <span class="n">numbertocheck</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># if the number is negative it will display the sum as 0</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">numbertocheck</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">n</span><span class="o">/</span><span class="mi">3</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="mi">3</span><span class="p">):</span> <span class="c1">#checks for multiples of 3</span>
+            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is a multiple of 3&quot;</span><span class="p">)</span>
+            <span class="n">totalmultiples</span> <span class="o">+=</span> <span class="n">n</span>    <span class="c1">#elif prevents duplicates of numbers with both multiples of 3 and 5</span>
+        <span class="k">elif</span> <span class="n">n</span><span class="o">/</span><span class="mi">5</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="mi">5</span><span class="p">):</span> <span class="c1"># checks for multiples of 5</span>
+            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is a multiple of 5&quot;</span><span class="p">)</span>
+            <span class="n">totalmultiples</span> <span class="o">+=</span> <span class="n">n</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">totalmultiples</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Hack-3">Hack 3<a class="anchor-link" href="#Hack-3"> </a></h3><p>[x] For the first hack, pretend you are a school's test grader. Create an array with integers, each integer representing one score from a student's taken tests. If the average of the student's test scores are at least 75 percent, then display that the student is elligible for credit, and if not, display that the student must retake the tests over break. 
+[x] The second hack is more number-oriented. Create an algorithm that calculates the sum of two numbers, then determines whether the sum is greater than or less than 100.
+[x] The hacks above was heavily derived from CollegeBoard. As a computer science student, you should be able to create an algorithm utilizing conditionals. Try something number-oriented if you get stuck. Creativity gets points.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">average</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+
+<span class="n">gradelist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">92</span><span class="p">,</span> <span class="mi">83</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="mi">86</span><span class="p">,</span> <span class="mi">97</span><span class="p">]</span>
+<span class="n">averagegrade</span> <span class="o">=</span> <span class="n">average</span><span class="p">(</span><span class="n">gradelist</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">averagegrade</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is the student&#39;s grade average&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">averagegrade</span> <span class="o">&gt;=</span> <span class="mi">75</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;student is eligible for credit&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;student needs to retake tests during break&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">num1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is your first number?&quot;</span><span class="p">)</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is your second number?&quot;</span><span class="p">)</span>
+<span class="n">sumofnumbers</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">sumofnumbers</span> <span class="o">&gt;=</span> <span class="mi">100</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is greater than or equal to 100&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+     <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sumofnumbers</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; is less than than 100&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># to test if a show is included in Netflix, and if it is recommended</span>
+<span class="n">showdictionary</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;Wednesday&#39;</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span>  <span class="c1"># key=title name and value=rating out of 5 stars</span>
+    <span class="s1">&#39;You&#39;</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span> 
+    <span class="s1">&#39;Knight Before Christmas&#39;</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span> 
+    <span class="s1">&#39;Red Notice&#39;</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span>
+    <span class="s1">&#39;Truth or Dare&#39;</span><span class="p">:</span><span class="mi">1</span>
+<span class="p">}</span>
+<span class="n">show</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What show are you looking for?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">show</span> <span class="ow">in</span> <span class="n">showdictionary</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">show</span> <span class="o">+</span> <span class="s2">&quot; is available on Netflix&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">showdictionary</span><span class="p">[</span><span class="n">show</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">3</span><span class="p">:</span>
+         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;show/movie is recommended&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;show is not recommended&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">show</span> <span class="o">+</span> <span class="s2">&quot; is not available on Netflix&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Nested-Conditions">Nested Conditions<a class="anchor-link" href="#Nested-Conditions"> </a></h2><ul>
+<li>conditional statements within conditional statements</li>
+<li>called "nested" within another</li>
+<li>else if inside of another ese if</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Hack-4">Hack 4<a class="anchor-link" href="#Hack-4"> </a></h2><p>[x] Create 3 differnt flow charts representing nested statements and transfer them into code.
+[] Create a piece of code that displays four statements instead of three. Try to do more if you can.
+[x] Make piece of code that gives three different recommandations for possible classes to take at a school based on two different condtions. These conditions could be if the student likes STEM or not.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">STEM</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Are you intrested in STEM? Y or N&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">STEM</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span><span class="p">:</span>
+    <span class="n">subject</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Do you like math or science better?&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">subject</span> <span class="o">==</span> <span class="s2">&quot;math&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Class recommendations: Advanced Function Analysis, AP Calculus AB, AP Calculus BC, AP Statistics&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">subject</span> <span class="o">==</span> <span class="s2">&quot;science&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Class recommendations: Chemistry, Physics, AP Enviornmental Science, AP Physics, AP Chemistry&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">language</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Are you intrested in language? Y or N&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">language</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span><span class="p">:</span>
+        <span class="n">lansubject</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Do you prefer a foreign language or English?&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">lansubject</span> <span class="o">==</span> <span class="s2">&quot;foreign language&quot;</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Class recommendations: Spanish, Mandarin, AP Spanish, AP Mandarin&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">lansubject</span> <span class="o">==</span> <span class="s2">&quot;English&quot;</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Class recommendations: American Literature, AP English Literature&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">language</span> <span class="o">==</span> <span class="s2">&quot;N&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;See class list for more options!&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Flowchart-#1:-Is-it-cold?">Flowchart #1: Is it cold?<a class="anchor-link" href="#Flowchart-#1:-Is-it-cold?"> </a></h3>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;what is the temperature today?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">73</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;It is cold!&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">40</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bring a snow jacket!&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bring a hoodie!&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;It&#39;s warm today! Don&#39;t bring a jacket :)&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Flowchart-#2:-Is-the-class-difficult?">Flowchart #2: Is the class difficult?<a class="anchor-link" href="#Flowchart-#2:-Is-the-class-difficult?"> </a></h3>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">passingrate</span> <span class="o">=</span> <span class="mi">72</span>
+<span class="n">testaverage</span> <span class="o">=</span> <span class="mi">82</span>
+<span class="k">if</span> <span class="n">passingrate</span> <span class="o">&gt;</span> <span class="mi">70</span> <span class="ow">and</span> <span class="n">passingrate</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">testaverage</span> <span class="o">&gt;=</span> <span class="mi">80</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;This class is not difficult&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;this class is difficult&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;this class is difficult&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Flowchart-#3:-Should-Alexa-work-at-school-during-first-period-off-roll?">Flowchart #3: Should Alexa work at school during first period off roll?<a class="anchor-link" href="#Flowchart-#3:-Should-Alexa-work-at-school-during-first-period-off-roll?"> </a></h3>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">feeling</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Are you tired today?&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">feeling</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Stay home and sleep&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">feeling</span> <span class="o">==</span> <span class="s2">&quot;no&quot;</span><span class="p">:</span>
+    <span class="n">homework</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Do you have homework to do?&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">homework</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Go to school&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Stay home and sleep&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">drinkable</span> <span class="o">=</span> <span class="s2">&quot;potable&quot;</span>
+<span class="n">temperature</span> <span class="o">=</span> <span class="s2">&quot;warm&quot;</span>
+<span class="k">if</span> <span class="n">drinkable</span> <span class="o">==</span> <span class="s2">&quot;potable&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;water is potable&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">temperature</span> <span class="o">==</span> <span class="s2">&quot;cold&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;water is &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">temperature</span><span class="p">))</span> 
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;water is in ideal condition&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;drink up!&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;water is &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">temperature</span><span class="p">))</span> 
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;water is not in ideal condition&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;chill with ice&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;do not drink, water is not potable&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.8-3.10-Student-Lesson-(group-4)">3.8-3.10 Student Lesson (group 4)<a class="anchor-link" href="#3.8-3.10-Student-Lesson-(group-4)"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><mark>Iteration</mark>: a repeating portion of an algorithm, repeats a specified number of times or until a given condition is met</li>
+<li><mark>Iteration Statements</mark>: change the sequential flow of control by repeating a set of statements zero or more times, until a stopping condition is met</li>
+<li><mark>Repeat Until</mark>: if the condition evaluates to true initially, the loop body is not executed at all, due to the condition being checked before the loop</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><mark>while loops</mark> = similar outpytut with variation in input</li>
+<li>similar to <mark>for loop</mark> (requires a variable which is the starting value)</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Hacks-Unit-3-Section-3.8.1"><strong>Hacks</strong> Unit 3 Section 3.8.1<a class="anchor-link" href="#Hacks-Unit-3-Section-3.8.1"> </a></h3><ol>
+<li>Define an Iteration</li>
+<li>Make your own example of an iteration with at least 4 steps and a stopping condition(Similar to mine that I did)</li>
+<li>Program a simple iteration.</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Iteration: loop that continues repeating until condition is met</li>
+<li>Example of iteration with stopping condition:<ul>
+<li>I am doing an easter egg hunt and trying to frind the golden egg. I have split the searching area into sections</li>
+</ul>
+<ol>
+<li>I walk to a section</li>
+<li>I look aroung to try and find the golden egg</li>
+<li>If it is not there, I add one to the section number (move onto next section)</li>
+<li>I repeat steps 1 through 4</li>
+<li>Once I find the egg, I stop searching to go brag to the kids</li>
+</ol>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hourshomework</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">hourshomework</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Too easy&quot;</span><span class="p">)</span>
+    <span class="n">hourshomework</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">hourshomework</span> <span class="o">==</span> <span class="mi">6</span><span class="p">:</span>
+        <span class="k">break</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Hacks-Unit-3-Section-3.8.2"><strong>Hacks</strong> Unit 3 Section 3.8.2<a class="anchor-link" href="#Hacks-Unit-3-Section-3.8.2"> </a></h3><ol>
+<li>What is an iteration statement, in your own words?</li>
+<li>Create a descending list of numbers using for loop</li>
+<li>Using while loop, make a list of numbers which will form an output of 3,16,29,42,55,68,81</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Iteration statement: a condition that must be met in a loop or it will continue repeating</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Lists-Commands">Lists Commands<a class="anchor-link" href="#Lists-Commands"> </a></h2><ul>
+<li><mark>append()</mark> - adding element to the end of the list</li>
+<li><mark>insert()</mark> - adding an element in a specific position</li>
+<li><mark>remove()</mark> - remove an item from the list</li>
+<li><mark>len()</mark> - returns the number of items in a list</li>
+<li><mark>sort()</mark> - changes order of list permanently </li>
+<li><mark>sorted()</mark> - returns a copy of the list which leaves the original copy unchanged</li>
+<li><mark>range()</mark> - use to work with number efficiently</li>
+<li><mark>min()</mark> - find the least value in list</li>
+<li><mark>max()</mark> - find the highest value in list</li>
+<li><mark>sum()</mark> - sum of all in list</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numlist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">numlist</span><span class="p">:</span>
+    <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="n">numlist</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1"># using append to add to the end of a list</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">break</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numlist</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">68</span><span class="p">:</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">13</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Find-the-lowest-value-in-a-list">Find the lowest value in a list<a class="anchor-link" href="#Find-the-lowest-value-in-a-list"> </a></h3><ul>
+<li>Use the list made bellow</li>
+<li>Make a variable to hold the minimum and set it to potential minimum value</li>
+<li>Loop</li>
+<li>Check each element to see if it is less than the minimum variable</li>
+<li>If the element is less than the minimum variable, update the minimum</li>
+<li>After all the elements of the list have been checked, display the minimum value</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;10&quot;</span><span class="p">,</span> <span class="s2">&quot;15&quot;</span><span class="p">,</span> <span class="s2">&quot;20&quot;</span><span class="p">,</span> <span class="s2">&quot;25&quot;</span><span class="p">,</span> <span class="s2">&quot;30&quot;</span><span class="p">,</span> <span class="s2">&quot;35&quot;</span><span class="p">]</span>
+<span class="nb">min</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">:</span>
+    <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nb">int</span><span class="p">(</span><span class="nb">min</span><span class="p">):</span>
+        <span class="nb">min</span> <span class="o">=</span> <span class="n">n</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">min</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">getpass</span><span class="o">,</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">def</span> <span class="nf">ask_question</span> <span class="p">(</span><span class="n">question</span><span class="p">,</span> <span class="n">answer</span><span class="p">):</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="n">question</span><span class="p">)</span>
+    <span class="n">ans</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="n">question</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
+   
+    <span class="k">if</span> <span class="n">ans</span> <span class="o">==</span> <span class="n">answer</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Correct!&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="mi">1</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Wrong&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="mi">0</span>
+
+<span class="n">question_list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;What allows a value to be inserted into a list at index i?&quot;</span> <span class="p">,</span> <span class="s2">&quot;What allows an element at index i to be deleted from a list?&quot;</span> <span class="p">,</span> <span class="s2">&quot;What returns the number of elements currently in a specific list?&quot;</span> <span class="p">,</span> <span class="s2">&quot;What allows a value to be added at the end of a list?&quot;</span><span class="p">]</span>
+<span class="n">answer_list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;index()&quot;</span><span class="p">,</span> <span class="s2">&quot;remove()&quot;</span><span class="p">,</span> <span class="s2">&quot;length()&quot;</span> <span class="p">,</span> <span class="s2">&quot;append()&quot;</span><span class="p">]</span>
+
+<span class="c1"># Set points to 0 at the start of the quiz</span>
+<span class="n">points</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="c1"># If the length of the quiz is greater than 0, then random questions will be chosen from the &quot;question_list&quot; set</span>
+<span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">question_list</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">index</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">question_list</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+    
+<span class="c1"># The points system where a point is rewarded for each correct answer    </span>
+    <span class="n">points</span> <span class="o">=</span> <span class="n">points</span> <span class="o">+</span> <span class="n">ask_question</span><span class="p">(</span><span class="n">question_list</span><span class="p">[</span><span class="n">index</span><span class="p">],</span> <span class="n">answer_list</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
+    
+<span class="c1"># If a question or answer has already been used, then it shall be deleted    </span>
+    <span class="k">del</span> <span class="n">question_list</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+    <span class="k">del</span> <span class="n">answer_list</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+
+<span class="c1"># Calculating score using the points system and dividing it by the total number of questions (6)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="p">(</span><span class="n">points</span> <span class="o">/</span> <span class="mi">4</span><span class="p">)</span>
+
+<span class="c1"># Calculating the percentage of correct answers by multiplying the score by 100</span>
+<span class="n">percent</span> <span class="o">=</span> <span class="p">(</span><span class="n">score</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
+
+<span class="c1"># Printing the percentage, and formatting the percentage in a way where two decimals can be shown (through &quot;{:.2f}&quot;)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">percent</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;%&quot;</span><span class="p">)</span>
+
+<span class="c1"># Adding final remarks based upon the users given scores</span>
+<span class="k">if</span> <span class="n">points</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
+         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your total score is: &quot;</span><span class="p">,</span> <span class="n">points</span><span class="p">,</span> <span class="s2">&quot;out of 4. Amazing job!&quot;</span><span class="p">)</span>
+
+<span class="k">elif</span> <span class="n">points</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your total score is: &quot;</span><span class="p">,</span> <span class="n">points</span><span class="p">,</span> <span class="s2">&quot;out of 4. Not too bad, keep on studying! &quot;</span> <span class="p">)</span>
+
+<span class="k">else</span><span class="p">:</span>
+         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your total score is: &quot;</span><span class="p">,</span> <span class="n">points</span><span class="p">,</span> <span class="s2">&quot;out of 4. Its alright, better luck next time!&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">monthly_earnings</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">money</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;How much money did you make this month?&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">money</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="n">monthly_earnings</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">money</span><span class="p">))</span> <span class="c1"># uses append()</span>
+
+<span class="n">sort</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Do you want to sort your earnings?&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">sort</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sorted:&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">monthly_earnings</span><span class="p">))</span> <span class="c1"># uses sorted() which returns a copy of list</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;unsorted:&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">monthly_earnings</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your highest monthly earning is $&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">monthly_earnings</span><span class="p">)))</span> <span class="c1">#uses max()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have been working for &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">monthly_earnings</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&quot; months&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 

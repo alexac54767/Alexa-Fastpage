@@ -461,9 +461,10 @@ You guessed the number in 7 guesses!
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index</span> <span class="o">=</span> <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="mi">57</span><span class="p">,</span> <span class="mi">79</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">99</span><span class="p">]</span>
-
+<span class="n">index</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
 <span class="n">mid</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">index</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"middle = </span><span class="si">{</span><span class="n">index</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"middle is"</span><span class="p">,</span><span class="n">index</span><span class="p">[</span><span class="n">mid</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -476,7 +477,8 @@ You guessed the number in 7 guesses!
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>middle = 57
+<pre>3
+middle is 57
 </pre>
 </div>
 </div>
@@ -494,10 +496,11 @@ You guessed the number in 7 guesses!
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">index</span> <span class="o">=</span> <span class="p">[</span><span class="mi">92</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
-
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">index</span> <span class="o">=</span><span class="p">[</span><span class="mi">92</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="n">index</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
 <span class="n">mid</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">index</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"middle = </span><span class="si">{</span><span class="n">index</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"middle is"</span><span class="p">,</span><span class="n">index</span><span class="p">[</span><span class="n">mid</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -510,7 +513,8 @@ You guessed the number in 7 guesses!
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>middle = 66
+<pre>3
+middle is 43
 </pre>
 </div>
 </div>
@@ -529,9 +533,10 @@ You guessed the number in 7 guesses!
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index</span> <span class="o">=</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">96</span><span class="p">,</span> <span class="mi">111</span><span class="p">,</span> <span class="mi">33</span><span class="p">,</span> <span class="mi">84</span><span class="p">,</span> <span class="mi">60</span><span class="p">]</span>
-
+<span class="n">index</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
 <span class="n">mid</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">index</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"middle = </span><span class="si">{</span><span class="n">index</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"middle is"</span><span class="p">,</span><span class="n">index</span><span class="p">[</span><span class="n">mid</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -544,7 +549,8 @@ You guessed the number in 7 guesses!
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>middle = 111
+<pre>3
+middle is 60
 </pre>
 </div>
 </div>

@@ -16,7 +16,8 @@ categories: [week 14]
 | 14/15 | 3 |  [3.5-3.7 Boolean Expression, Conditionals, Nested Conditionals](https://f1nnc.github.io/dolphins/lesson) | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupthree)  |
 | 15 | 4 |  [3.8 and 3.10 Boolean Iteration and Lists](https://teamorborb.github.io/TeamOrbOrb/lesson%20plans/2022/11/28/Unit_3.8_3.10.html) | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupfour) |
 | 15 | 5 | [3.9 and 3.11 Developing Algorithms and Binary Search](https://gwang1224.github.io/repository_1/trimester%202%20student%20teaching/2022/12/02/unit3-9-11.html) |  [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupfive) |
-| 15 | 6 | [3.12-1.13 Calling and Developing Procedures](https://davidvasilev1.github.io/group-tri2/2022/12/04/lesson3.12_3.13.html) | [Hacks]()  |
+| 15 | 6 | [3.12-3.13 Calling and Developing Procedures](https://davidvasilev1.github.io/group-tri2/2022/12/04/lesson3.12_3.13.html) | [Hacks]()  |
+| 16 | 7 | [3.14-3.15 Libraries and Random Values](https://davidvasilev1.github.io/group-tri2/2022/12/04/lesson3.12_3.13.html) | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupseven)  |
 
 
 

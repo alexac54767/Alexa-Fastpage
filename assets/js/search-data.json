@@ -25,7 +25,7 @@
     
         ,"post2": {
             "title": "multiplying javascript button",
-            "content": "Multiplying 2 Numbers . Multiply . . &lt;!-- function is called here --&gt; &lt;button id=&quot;enter&quot; onclick=&quot;print(a,b)&quot;&gt;Multiply&lt;/button&gt; &lt;p id=&quot;result&quot;&gt;&lt;/p&gt; &lt;!-- javascript --&gt; &lt;script&gt; function print(a,b) { document.getElementById(&quot;result&quot;).innerHTML = a * b // math } // variables are defined var a = 1 var b = 2 &lt;/script&gt; .",
+            "content": "Multiplying 2 Numbers . Multiply . . &lt;!-- function is called here --&gt; &lt;button id=&quot;enter&quot; onclick=&quot;print(a,b)&quot;&gt;Multiply&lt;/button&gt; &lt;p id=&quot;result&quot;&gt;&lt;/p&gt; &lt;!-- javascript --&gt; &lt;script&gt; function print(a,b) { document.getElementById(&quot;result&quot;).innerHTML = a * b // math } // variables are defined var a = int(input(&quot;what number?&quot;)) var b = int(input(&quot;what number?&quot;)) &lt;/script&gt; .",
             "url": "https://alexac54767.github.io/Alexa-Fastpage/collegeboard/students/groupsix/multiplicationbutton",
             "relUrl": "/collegeboard/students/groupsix/multiplicationbutton",
             "date": " • Dec 12, 2022"

@@ -28,3 +28,4 @@ categories: [week 14]
 | ----------- | ----------- |
 | 14 | [Check 1](https://github.com/alexac54767/Alexa-Fastpage/blob/master/_notebooks/2022-11-30-FirstWeekStudentLessons.ipynb) |
 | 15 |  [Check 2](https://alexac54767.github.io/Alexa-Fastpage/studentlessons/weektwo)   |
+| 16 | [Check 3](https://alexac54767.github.io/Alexa-Fastpage/studentlessons/weekthree) |

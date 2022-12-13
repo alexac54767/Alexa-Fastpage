@@ -16,8 +16,8 @@ categories: [week 15]
     function print(a,b) {
         document.getElementById("result").innerHTML = a * b
     }
-    var a = 1
-    var b = 2
+    var a = int(input("what number?"))
+    var b = int(input("what number?"))
 </script>
 
 ```html
@@ -30,7 +30,7 @@ categories: [week 15]
         document.getElementById("result").innerHTML = a * b // math
     }
     // variables are defined
-    var a = 1
-    var b = 2
+    var a = int(input("what number?"))
+    var b = int(input("what number?"))
 </script>
 ```

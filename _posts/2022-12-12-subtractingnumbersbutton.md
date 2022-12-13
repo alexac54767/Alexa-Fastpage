@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: asubtracting javascript button 
+title: subtracting javascript button 
 description: button for group 6 hacks
 permalink: /collegeboard/students/groupsix/subtractionbutton
 image: /images/thumbsup.jpg

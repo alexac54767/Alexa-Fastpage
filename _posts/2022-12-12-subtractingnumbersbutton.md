@@ -4,7 +4,7 @@ comments: true
 layout: post
 title: adding javascript button 
 description: button for group 6 hacks
-permalink: /collegeboard/students/groupsix/additionbutton
+permalink: /collegeboard/students/groupsix/subtractionbutton
 image: /images/thumbsup.jpg
 categories: [week 15]
 ---

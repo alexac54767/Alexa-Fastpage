@@ -4,8 +4,8 @@
         "post0": {
             "title": "adding javascript button",
             "content": "Subtracting 2 Numbers . Subtract . . &lt;!-- function is called here --&gt; &lt;button id=&quot;enter&quot; onclick=&quot;print(a,b)&quot;&gt;Subtract&lt;/button&gt; &lt;p id=&quot;result&quot;&gt;&lt;/p&gt; &lt;!-- javascript --&gt; &lt;script&gt; function print(a,b) { document.getElementById(&quot;result&quot;).innerHTML = a - b // math } // variables are defined var a = 1 var b = 2 &lt;/script&gt; .",
-            "url": "https://alexac54767.github.io/Alexa-Fastpage/collegeboard/students/groupsix/additionbutton",
-            "relUrl": "/collegeboard/students/groupsix/additionbutton",
+            "url": "https://alexac54767.github.io/Alexa-Fastpage/collegeboard/students/groupsix/subtractionbutton",
+            "relUrl": "/collegeboard/students/groupsix/subtractionbutton",
             "date": " • Dec 12, 2022"
         }
         

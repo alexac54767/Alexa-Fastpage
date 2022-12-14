@@ -44,7 +44,7 @@ categories: [week 16]
 - career paths won't always be a striaght line
 - Be adaptive
 - it's okay if you're not sure what your intrests are yet
-- requirements (can explain in non-technical terms)
+- Best technicians: listen and solve technical requirements (can explain in non-technical terms)
 - continuous learning
 - “Learn how to learn” = always be ready to learn more
 - learn multiple programming languages

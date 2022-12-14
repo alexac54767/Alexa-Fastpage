@@ -52,4 +52,7 @@ categories: [week 16]
 - the only risk is not learning
 - set good balance between work/hobbies and necessities
 
+### My Reflection:
+- I know I enjoy STEM classes, especially math. I also love APCSP when I can figure the problem/code out. However, sometimes I feel dicouraged to pursue opportunities or careers in computer science/tech because I find it difficult. However, after listening to Kris and Kathleen, I feel like I still am able to go into this industry. 
+
 

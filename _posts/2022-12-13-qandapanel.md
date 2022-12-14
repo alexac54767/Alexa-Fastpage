@@ -42,7 +42,7 @@ categories: [week 16]
 
 #### Important Tips/Skills:
 - career paths won't always be a striaght line
-Be adaptive
+- Be adaptive
 - it's okay if you're not sure what your intrests are yet
 - requirements (can explain in non-technical terms)
 - continuous learning

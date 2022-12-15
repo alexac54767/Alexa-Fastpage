@@ -157,28 +157,22 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">collatz</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
-    <span class="k">while</span> <span class="n">i</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-             <span class="n">i</span> <span class="o">=</span><span class="p">((</span><span class="mi">3</span> <span class="o">*</span> <span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-             <span class="n">list_</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">i</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
-            <span class="n">list_</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">list_</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Please enter a number: '</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
-        <span class="n">list_</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="p">]</span>
-        <span class="k">break</span>
-    <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">'Invaid selection, try again: '</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
-<span class="n">l</span> <span class="o">=</span> <span class="n">collatz</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">''</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Number of iterations:'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Hailstone numbers: "</span><span class="p">,</span> <span class="n">list_</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sequence</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">def</span> <span class="nf">combinedcollatz</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">%</span> <span class="mi">2</span><span class="p">):</span>    <span class="c1"># i is odd</span>
+            <span class="n">sequence</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="mi">3</span><span class="o">*</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>   <span class="c1"># i is even</span>
+            <span class="n">sequence</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">//</span><span class="mi">2</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">sequence</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="s2">"is invalid, please try again"</span><span class="p">)</span> <span class="c1">#this will print if the number is invalid</span>
+<span class="n">i</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">'Enter i: '</span><span class="p">))</span>
+<span class="n">combinedcollatz</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Hailstone numbers: "</span><span class="p">,</span> <span class="n">sequence</span><span class="p">,</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">Number of iterations: "</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -191,9 +185,8 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Please enter a number: 
-Number of iterations: 13
-Hailstone numbers:  [34, 17.0, 52.0, 26.0, 13.0, 40.0, 20.0, 10.0, 5.0, 16.0, 8.0, 4.0, 2.0, 1.0]
+<pre>Hailstone numbers:  [34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1] 
+Number of iterations:  13
 </pre>
 </div>
 </div>
@@ -235,10 +228,35 @@ Hailstone numbers:  [34, 17.0, 52.0, 26.0, 13.0, 40.0, 20.0, 10.0, 5.0, 16.0, 8.
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">123</span><span class="p">,</span> <span class="o">-</span><span class="mi">46</span><span class="p">]</span>
+<span class="n">negnumbers</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">def</span> <span class="nf">testforneg</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">negnumbers</span> <span class="o">=+</span> <span class="mi">1</span>
+            <span class="nb">print</span> <span class="p">(</span><span class="s2">"There are "</span><span class="p">,</span> <span class="n">negnumbers</span><span class="p">,</span> <span class="s2">" negative numbers"</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">negnumbers</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">"There are no negative numbers!"</span><span class="p">)</span>
+
+<span class="n">testforneg</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>There are  1  negative numbers
+There are  1  negative numbers
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -252,18 +270,7 @@ Hailstone numbers:  [34, 17.0, 52.0, 26.0, 13.0, 40.0, 20.0, 10.0, 5.0, 16.0, 8.
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numberstring</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Input a number to find the sum of all the multiples of 3 or 5 below it. "</span><span class="p">)</span>
-<span class="n">numbertocheck</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">numberstring</span><span class="p">)</span>
-<span class="n">totalmultiples</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">if</span> <span class="n">numbertocheck</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># if the number is negative it will display the sum as 0</span>
-    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">numbertocheck</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">n</span><span class="o">/</span><span class="mi">3</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="mi">3</span><span class="p">):</span> <span class="c1">#checks for multiples of 3</span>
-            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" is a multiple of 3"</span><span class="p">)</span>
-            <span class="n">totalmultiples</span> <span class="o">+=</span> <span class="n">n</span>    <span class="c1">#elif prevents duplicates of numbers with both multiples of 3 and 5</span>
-        <span class="k">elif</span> <span class="n">n</span><span class="o">/</span><span class="mi">5</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">n</span><span class="o">/</span><span class="mi">5</span><span class="p">):</span> <span class="c1"># checks for multiples of 5</span>
-            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" is a multiple of 5"</span><span class="p">)</span>
-            <span class="n">totalmultiples</span> <span class="o">+=</span> <span class="n">n</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">totalmultiples</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>

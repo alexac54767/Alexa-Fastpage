@@ -36,7 +36,7 @@ categories: [week 16]
 - **Binary Data Abstractions**: 
 - **Boolean**: a logical data type that can have only the values true or false
 
-![Boolean Truth Table]({{site.baseurl}}/images/booleantruthtable.png)
+![Boolean Truth Table]({{site.baseurl}}/images/booleanthruthtable.png)
 
 
 - **ASCII**: (American Standard Code for Information Interchange) a standard code for characters stored in a computer or to be transmitted between computers

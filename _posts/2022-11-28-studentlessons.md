@@ -27,6 +27,6 @@ categories: [week 14]
 
 | Week  | Overall Page |
 | ----------- | ----------- |
-| 14 | [Check 1](https://github.com/alexac54767/Alexa-Fastpage/blob/master/_notebooks/2022-11-30-FirstWeekStudentLessons.ipynb) |
-| 15 |  [Check 2](https://alexac54767.github.io/Alexa-Fastpage/studentlessons/weektwo)   |
-| 16 | [Check 3 (silent review)](https://alexac54767.github.io/Alexa-Fastpage/studentlessons/weekthree) |
+| 14 | [Teacher Blog Check 1 (live review)](https://github.com/alexac54767/Alexa-Fastpage/blob/master/_notebooks/2022-11-30-FirstWeekStudentLessons.ipynb) |
+| 15 |  [Teacher Blog Check 2 (live review)](https://alexac54767.github.io/Alexa-Fastpage/studentlessons/weektwo)   |
+| 16 | [Teacher Blog Chack 3 (silent review)](https://alexac54767.github.io/Alexa-Fastpage/studentlessons/weekthree) |

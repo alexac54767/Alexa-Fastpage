@@ -6,7 +6,7 @@ title: Computer Science Panel
 description: Notes from the Q and A with the panel
 permalink: /computerscience/panel
 image: /images/thumbs up.jpg
-categories: [week 16]
+categories: [week 16, recourses]
 ---
 
 ### Schooling Paths

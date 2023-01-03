@@ -5,7 +5,7 @@ layout: post
 title: Student Lessons
 description: Links to Presentations and my Homework
 permalink: /students/lessons
-image: /images/thumbsup.jpg
+image: /images/thumbs up.jpg
 categories: [week 14]
 ---
 

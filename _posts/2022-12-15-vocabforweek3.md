@@ -5,7 +5,7 @@ layout: post
 title:  Check Number 3 Vocabulary
 description: This is my vocabulary and examples for the third live review.
 permalink: /week3/vocab
-image: /images/thumbsup.jpg
+image: /images/thumbs up.jpg
 categories: [week 16]
 ---
 

@@ -5,7 +5,7 @@ layout: post
 title: Computer Science Panel 
 description: Notes from the Q and A with the panel
 permalink: /computerscience/panel
-image: /images/thumbsup.jpg
+image: /images/thumbs up.jpg
 categories: [week 16]
 ---
 

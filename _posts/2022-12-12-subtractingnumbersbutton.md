@@ -5,7 +5,7 @@ layout: post
 title: subtracting javascript button 
 description: button for group 6 hacks
 permalink: /collegeboard/students/groupsix/subtractionbutton
-image: /images/thumbsup.jpg
+image: /images/thumbs up.jpg
 categories: [week 15]
 ---
 

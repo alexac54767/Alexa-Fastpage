@@ -11,7 +11,7 @@ categories: [week 14]
 
 | Week  |  Team      | Lesson | Topics  |  My Homework | Grade |
 | ----------- | ----------- | ----------- | ----------- |
-| 14          | 1          |   [3.1-3.2 Variables, Assignments, and Data Abstractions](https://liavb2.github.io/ominicient-lavebear/markdown/2022/11/26/GroupLesson.html)   | Data Types, Variables, Lists, Strings, Data Abstraction, Managing Complexity |[Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupone) | 1/1 |
+| 14          | 1          |   [3.1-3.2 Variables, Assignments, and Data Abstractions](https://alexac54767.github.io/Alexa-Fastpage/jupyter/python/week%2014/2022/11/26/group1lesson.html)   | Data Types, Variables, Lists, Strings, Data Abstraction, Managing Complexity |[Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupone) | 1/1 |
 | 14 | 2 | [3.3-3.4 Mathematical Expressions and Strings](https://hsinaditam.github.io/Tea_Lounge/wk2/2022/11/20/Lesson-presentation.html) | Algorithims, sequence, selection, iteration, mathmatical expressions, MOD, string concatination | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/grouptwo) | 0.9/1 |
 | 14 | 3 |  [3.5-3.7 Boolean Expression, Conditionals, Nested Conditionals](https://f1nnc.github.io/dolphins/lesson) | Booleans, relational operators, logical operators, conditionals, truth tables, nested conditionals | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupthree)  | 1/1 |
 | 15 | 4 |  [3.8 and 3.10 Boolean Iteration and Lists](https://teamorborb.github.io/TeamOrbOrb/lesson%20plans/2022/11/28/Unit_3.8_3.10.html) | Lists, appending lists, iteration | [Hacks](https://alexac54767.github.io/Alexa-Fastpage/students/groupfour) | 0.975/1 |

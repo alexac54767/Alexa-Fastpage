@@ -67,7 +67,7 @@ categories: [week 17, recourses, collegeboard]
 
 ## Submission #2
 
-### My Score: 
+### My Score: 6/6
 [Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/20)
 
 ### Collegeboard Score: 6/6
@@ -77,6 +77,20 @@ categories: [week 17, recourses, collegeboard]
 - This submission got a perfect score from both me and Collegeboard
 - All the descriptions were well thought-out and detailed, with correct corresponding images.
 -  It is a <mark>great example</mark> to use as reference in the future for my project. 
+
+## Submission #3
+
+### My Score: 6/6
+[Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/21)
+
+### Collegeboard Score: 5/6
+[Link to their rubric](https://drive.google.com/file/d/1dX7KNT9axip5DQDEYdIYbuajcrWUB4lR/view)
+
+### Reflection
+- Row 1 (Program Purpose and Function): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - The student described the function of the program but not its purpose
+    - This one surprised me because when I read the purpose, it satisfied what I thought was the critera. However , it must not actually define a purpose
+- other than the purpose, this is another <mark>good example</mark> to go back to and use as reference for my project 
 
 
 ## Submission #4

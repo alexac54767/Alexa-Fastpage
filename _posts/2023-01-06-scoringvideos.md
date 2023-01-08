@@ -37,3 +37,29 @@ categories: [week 17, recourses, collegeboard]
 - Row 5 (Algorithm Implentation): I scored differently than college board on one the the critera here. I thought that the student didn't describe the code enough that one would be able to re-create it. However, that probably just reflects my current abilities in coding (especically compared to an expert working for collegeboard.)
 - I believe that this student did a wonderful job. I really love how they put text boxes within the images of code to describe it as they went. It made it much more organized and easier to follow. 
 - The student was also very thorough with all their explanations. It's good to keep in mind that quality really matters here (have more than you need)
+
+## Submission #3
+
+### My Score:
+[Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/18)
+
+### Collegeboard Score:
+[Link to their rubric](https://drive.google.com/file/d/1HXDauimq8edpT0-aZ2iIujzLdIxtyKMx/view)
+
+### Reflection
+- Row 1 (Program Purpose and Function): Both Collogeboard and I gave a 0 for this section. 
+    - The student incorrectly identifies the input and output, and descrived the functionality as the purpose. Thier given purpose was incorrect.
+- Row 2 (Data Abstraction): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - They did have images of lists and identified a name, however, the name did not correleate to the images provided.
+    - When I do my project, I need to make sure I spend careful attention to details, and make sure every description matches my images.
+- Row 3 (Managing Complexity): Both Collogeboard and I gave a 0 for this section.
+    - The images did not show a list being used, and the code was not complex.
+    - the sudent did not explain how the list manages complexity
+    - I need to make sure that my project will have a list that actually manges complexity and is useful
+- Row 4 (Procedural Abstraction): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - the response does not describe how this procedure contributes to the overall functionality
+- Row 5 (Algorithm Implentation): Both Collogeboard and I gave a 0 for this section.
+    - the description of the program was brief and doesn't allow for someone to recreate it
+- What I've learned with this project and scoring is that I will need to follow the directions completely when I do my project.
+
+

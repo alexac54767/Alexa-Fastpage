@@ -75,4 +75,12 @@ categories: [week 17, recourses, collegeboard]
 [Link to their rubric](https://drive.google.com/file/d/1so2WKNMi5vONuFCWZFFUqq8gVWNe_jCS/view)
 
 ### Reflection
-- 
+-  Row 2 (Data Abstraction): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - data stored in the list is not being used in the second image
+    - once again this shows how specific my images must be in order to recieve credit
+- Row 3 (Managing Complexity): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - the list is not used to manage complexity (acts as a counter, so it can be replaced with a single counter variable)
+    - like other examples, I need to make sure that my list is actually managing complexity and is useful
+- Row 6 (Testing): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - The response gives the conditions being tested rather than two different arguments that cause a different segment of code to execute. Arguments should be specific values used in the call to the procedure.
+    - this is the first time I've seen this score for section 6. I need to make sure to follow Collegeboard's critera for what an argument is (and not just test conditions)

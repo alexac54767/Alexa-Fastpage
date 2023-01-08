@@ -8,6 +8,7 @@ permalink: /collegeboard/submissions
 image: /images/collegeboardscoring.jpg
 categories: [week 17, recourses, collegeboard]
 ---
+# Performance Task Scoring 1
 
 ## Submission #1
 
@@ -38,12 +39,14 @@ categories: [week 17, recourses, collegeboard]
 - I believe that this student did a wonderful job. I really love how they put text boxes within the images of code to describe it as they went. It made it much more organized and easier to follow. 
 - The student was also very thorough with all their explanations. It's good to keep in mind that quality really matters here (have more than you need)
 
-## Submission #3
+# Performance Task Scoring 2
 
-### My Score:
+## Submission #1
+
+### My Score: 3/6
 [Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/18)
 
-### Collegeboard Score:
+### Collegeboard Score: 1/6
 [Link to their rubric](https://drive.google.com/file/d/1HXDauimq8edpT0-aZ2iIujzLdIxtyKMx/view)
 
 ### Reflection
@@ -63,3 +66,13 @@ categories: [week 17, recourses, collegeboard]
 - What I've learned with this project and scoring is that I will need to follow the directions completely when I do my project.
 
 
+## Submission #4
+
+### My Score: 6/6
+[Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/19)
+
+### Collegeboard Score: 3/6
+[Link to their rubric](https://drive.google.com/file/d/1so2WKNMi5vONuFCWZFFUqq8gVWNe_jCS/view)
+
+### Reflection
+- 

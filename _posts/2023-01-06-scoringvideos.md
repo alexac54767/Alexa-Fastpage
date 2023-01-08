@@ -25,6 +25,7 @@ categories: [week 17, recourses, collegeboard]
 - Row 3 (Managing Complexity): The student also didn't get the point for row 3 since he met <u>none</u> of the critera.
     - This score was shocking to me. This entire class I have seen lists as easier and usually always helpful. When I looked at this project, I believed that the list was very smart and effective. However, apparently it doesn't contribute to managing complexity. This was also a good warning to me that I need to make sure that my list is actually helping to manage complexity (not all lists are useful)
 
+<hr>
 
 ## Submission #2
 
@@ -38,6 +39,8 @@ categories: [week 17, recourses, collegeboard]
 - Row 5 (Algorithm Implentation): I scored differently than college board on one the the critera here. I thought that the student didn't describe the code enough that one would be able to re-create it. However, that probably just reflects my current abilities in coding (especically compared to an expert working for collegeboard.)
 - I believe that this student did a wonderful job. I really love how they put text boxes within the images of code to describe it as they went. It made it much more organized and easier to follow. 
 - The student was also very thorough with all their explanations. It's good to keep in mind that quality really matters here (have more than you need)
+
+<hr>
 
 # Performance Task Scoring 2
 
@@ -65,6 +68,8 @@ categories: [week 17, recourses, collegeboard]
     - the description of the program was brief and doesn't allow for someone to recreate it
 - What I've learned with this project and scoring is that I will need to follow the directions completely when I do my project.
 
+<hr>
+
 ## Submission #2
 
 ### My Score: 6/6
@@ -77,6 +82,8 @@ categories: [week 17, recourses, collegeboard]
 - This submission got a perfect score from both me and Collegeboard
 - All the descriptions were well thought-out and detailed, with correct corresponding images.
 -  It is a <mark>great example</mark> to use as reference in the future for my project. 
+
+<hr>
 
 ## Submission #3
 
@@ -92,6 +99,7 @@ categories: [week 17, recourses, collegeboard]
     - This one surprised me because when I read the purpose, it satisfied what I thought was the critera. However , it must not actually define a purpose
 - other than the purpose, this is another <mark>good example</mark> to go back to and use as reference for my project 
 
+<hr>
 
 ## Submission #4
 

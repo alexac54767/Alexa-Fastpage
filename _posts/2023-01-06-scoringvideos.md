@@ -65,6 +65,19 @@ categories: [week 17, recourses, collegeboard]
     - the description of the program was brief and doesn't allow for someone to recreate it
 - What I've learned with this project and scoring is that I will need to follow the directions completely when I do my project.
 
+## Submission #2
+
+### My Score: 
+[Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/20)
+
+### Collegeboard Score: 6/6
+[Link to their rubric](https://drive.google.com/file/d/1bzSueMdVVt3QVmkMCSKEkIVd9mZ3hQBP/view)
+
+### Reflection
+- This submission got a perfect score from both me and Collegeboard
+- All the descriptions were well thought-out and detailed, with correct corresponding images.
+-  It is a <mark>great example</mark> to use as reference in the future for my project. 
+
 
 ## Submission #4
 

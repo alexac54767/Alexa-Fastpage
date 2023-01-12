@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Model and Object-Oriented Programming Hack | Alexa’s Fastpage</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Model and Object-Oriented Programming Hack" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Just a girl figuring out her way through APCSP" />
+<meta property="og:description" content="Just a girl figuring out her way through APCSP" />
+<link rel="canonical" href="https://alexac54767.github.io/Alexa-Fastpage/oop/mob/classes/objects/attributes/2023/01/11/OOPhack.html" />
+<meta property="og:url" content="https://alexac54767.github.io/Alexa-Fastpage/oop/mob/classes/objects/attributes/2023/01/11/OOPhack.html" />
+<meta property="og:site_name" content="Alexa’s Fastpage" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-01-11T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Model and Object-Oriented Programming Hack" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-11T00:00:00-06:00","datePublished":"2023-01-11T00:00:00-06:00","description":"Just a girl figuring out her way through APCSP","headline":"Model and Object-Oriented Programming Hack","mainEntityOfPage":{"@type":"WebPage","@id":"https://alexac54767.github.io/Alexa-Fastpage/oop/mob/classes/objects/attributes/2023/01/11/OOPhack.html"},"url":"https://alexac54767.github.io/Alexa-Fastpage/oop/mob/classes/objects/attributes/2023/01/11/OOPhack.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Alexa-Fastpage/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://alexac54767.github.io/Alexa-Fastpage/feed.xml" title="Alexa's Fastpage" /><link rel="shortcut icon" type="image/x-icon" href="/Alexa-Fastpage/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/Alexa-Fastpage/">Alexa&#39;s Fastpage</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/Alexa-Fastpage/frontend/overview">Frontend</a><a class="page-link" href="/Alexa-Fastpage/api/overview">API</a><a class="page-link" href="/Alexa-Fastpage/my_work">My Work</a><a class="page-link" href="/Alexa-Fastpage/resources">Extra Resources</a><a class="page-link" href="/Alexa-Fastpage/about/">About Me</a><a class="page-link" href="/Alexa-Fastpage/search/">Search</a><a class="page-link" href="/Alexa-Fastpage/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Model and Object-Oriented Programming Hack</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-01-11T00:00:00-06:00" itemprop="datePublished">
+        Jan 11, 2023
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/Alexa-Fastpage/categories/#OOP">OOP</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/Alexa-Fastpage/categories/#MOB">MOB</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/Alexa-Fastpage/categories/#classes">classes</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/Alexa-Fastpage/categories/#objects">objects</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/Alexa-Fastpage/categories/#attributes">attributes</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/alexac54767/Alexa-Fastpage/tree/master/_notebooks/2023-01-11-OOPhack.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/Alexa-Fastpage/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/alexac54767/Alexa-Fastpage/master?filepath=_notebooks%2F2023-01-11-OOPhack.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/Alexa-Fastpage/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/alexac54767/Alexa-Fastpage/blob/master/_notebooks/2023-01-11-OOPhack.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/Alexa-Fastpage/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Falexac54767%2FAlexa-Fastpage%2Fblob%2Fmaster%2F_notebooks%2F2023-01-11-OOPhack.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/Alexa-Fastpage/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2023-01-11-OOPhack.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># A gateway in necessary as a web server cannot communicate directly with Python.</span>
+<span class="c1"># In this case, imports are focused on generating hash code to protect passwords.</span>
+<span class="kn">from</span> <span class="nn">werkzeug.security</span> <span class="kn">import</span> <span class="n">generate_password_hash</span><span class="p">,</span> <span class="n">check_password_hash</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+<span class="c1"># Define a User Class/Template</span>
+<span class="c1"># -- A User represents the data we want to manage</span>
+<span class="k">class</span> <span class="nc">User</span><span class="p">:</span>    
+    <span class="c1"># constructor of a User object, initializes the instance variables within object (self)</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">uid</span><span class="p">,</span> <span class="n">password</span><span class="p">,</span> <span class="n">gradCLASS</span><span class="p">,</span> <span class="n">dob</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_name</span> <span class="o">=</span> <span class="n">name</span>    <span class="c1"># variables with self prefix become part of the object, </span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_uid</span> <span class="o">=</span> <span class="n">uid</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_gradCLASS</span> <span class="o">=</span> <span class="n">gradCLASS</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dob</span> <span class="o">=</span> <span class="n">dob</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_age</span> <span class="o">=</span> <span class="n">age</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_password</span><span class="p">(</span><span class="n">password</span><span class="p">)</span>
+
+    <span class="c1"># a name getter method, extracts name from object</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_name</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@name</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_name</span> <span class="o">=</span> <span class="n">name</span>
+    
+    <span class="c1"># a getter method, extracts email from object</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">uid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_uid</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@uid</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">uid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uid</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_uid</span> <span class="o">=</span> <span class="n">uid</span>
+        
+    <span class="c1"># check if uid parameter matches user id in object, return boolean</span>
+    <span class="k">def</span> <span class="nf">is_uid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uid</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_uid</span> <span class="o">==</span> <span class="n">uid</span>
+
+
+    <span class="c1"># a name getter method, extracts name from object</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">gradCLASS</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_gradCLASS</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@name</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">gradCLASS</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">gradCLASS</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_gradCLASS</span> <span class="o">=</span> <span class="n">gradCLASS</span>
+    
+    <span class="c1"># a name getter method, extracts name from object</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_age</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@name</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">age</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_age</span> <span class="o">=</span> <span class="n">age</span>
+    
+    <span class="c1"># a name getter method, extracts name from object</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">dob</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dob</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@name</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">dob</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dob</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dob</span> <span class="o">=</span> <span class="n">dob</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">password</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_password</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"..."</span> <span class="c1"># because of security only show 1st characters</span>
+
+    <span class="c1"># update password, this is conventional setter</span>
+    <span class="k">def</span> <span class="nf">set_password</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
+        <span class="sd">"""Create a hashed password."""</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_password</span> <span class="o">=</span> <span class="n">generate_password_hash</span><span class="p">(</span><span class="n">password</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">'sha256'</span><span class="p">)</span>
+
+    <span class="c1"># check password parameter versus stored/encrypted password</span>
+    <span class="k">def</span> <span class="nf">is_password</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
+        <span class="sd">"""Check against hashed password."""</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">check_password_hash</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_password</span><span class="p">,</span> <span class="n">password</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+    
+    <span class="c1"># output content using str(object) in human readable form, uses getter</span>
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s1">'name: "</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s1">", id: "</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">uid</span><span class="si">}</span><span class="s1">", psw: "</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">password</span><span class="si">}</span><span class="s1">"'</span>
+
+    <span class="c1"># output command to recreate the object, uses attribute directly</span>
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s1">'Person(name=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">_name</span><span class="si">}</span><span class="s1">, uid=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">_uid</span><span class="si">}</span><span class="s1">, password=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">_password</span><span class="si">}</span><span class="s1">)'</span>
+    
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
+
+<span class="k">def</span> <span class="nf">calculate_age</span><span class="p">(</span><span class="n">born</span><span class="p">):</span>
+    <span class="n">today</span> <span class="o">=</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">today</span><span class="o">.</span><span class="n">year</span> <span class="o">-</span> <span class="n">born</span><span class="o">.</span><span class="n">year</span> <span class="o">-</span> <span class="p">((</span><span class="n">today</span><span class="o">.</span><span class="n">month</span><span class="p">,</span> <span class="n">today</span><span class="o">.</span><span class="n">day</span><span class="p">)</span> <span class="o">&lt;</span> <span class="p">(</span><span class="n">born</span><span class="o">.</span><span class="n">month</span><span class="p">,</span> <span class="n">born</span><span class="o">.</span><span class="n">day</span><span class="p">))</span>
+
+
+<span class="c1"># tester method to print users</span>
+<span class="k">def</span> <span class="nf">tester</span><span class="p">(</span><span class="n">users</span><span class="p">,</span> <span class="n">uid</span><span class="p">,</span> <span class="n">psw</span><span class="p">,</span> <span class="n">gradCLASS</span><span class="p">,</span> <span class="n">dob</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">users</span><span class="p">:</span>
+        <span class="c1"># test for match in database</span>
+        <span class="k">if</span> <span class="n">user</span><span class="o">.</span><span class="n">uid</span> <span class="o">==</span> <span class="n">uid</span> <span class="ow">and</span> <span class="n">user</span><span class="o">.</span><span class="n">is_password</span><span class="p">(</span><span class="n">psw</span><span class="p">):</span>  <span class="c1"># check for match</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"* "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="n">user</span>
+        <span class="c1"># print using __str__ method</span>
+        <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">user</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">result</span>
+        
+
+<span class="c1"># place tester code inside of special if!  This allows include without tester running</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+
+    <span class="c1"># define user objects</span>
+    <span class="n">u1</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Dylan Carlson'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'dylan'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123dylan'</span><span class="p">,</span> <span class="n">gradCLASS</span><span class="o">=</span><span class="s1">'2020'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="p">(</span><span class="mi">2001</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">15</span><span class="p">),</span> <span class="n">age</span><span class="o">=</span><span class="n">calculate_age</span><span class="p">(</span><span class="n">date</span><span class="p">(</span><span class="mi">2001</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">15</span><span class="p">)))</span>
+    <span class="n">u2</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Grant Carlson'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'grant'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123grant'</span><span class="p">,</span> <span class="n">gradCLASS</span><span class="o">=</span><span class="s1">'2022'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="p">(</span><span class="mi">2004</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">24</span><span class="p">),</span> <span class="n">age</span><span class="o">=</span><span class="n">calculate_age</span><span class="p">(</span><span class="n">date</span><span class="p">(</span><span class="mi">2004</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">24</span><span class="p">)))</span>
+    <span class="n">u3</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Neil Carlson'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'neil'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123neil'</span><span class="p">,</span> <span class="n">gradCLASS</span><span class="o">=</span><span class="s1">'1988'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="p">(</span><span class="mi">1970</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">age</span><span class="o">=</span><span class="n">calculate_age</span><span class="p">(</span><span class="n">date</span><span class="p">(</span><span class="mi">1970</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="p">)))</span>
+    <span class="n">u4</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Leslie Carlson'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'les'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123les'</span><span class="p">,</span> <span class="n">gradCLASS</span><span class="o">=</span><span class="s1">'1988'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="p">(</span><span class="mi">1970</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="n">age</span><span class="o">=</span><span class="n">calculate_age</span><span class="p">(</span><span class="n">date</span><span class="p">(</span><span class="mi">1970</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">7</span><span class="p">)))</span>
+    <span class="n">u5</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Ava Carlson'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'ava'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123ava'</span><span class="p">,</span> <span class="n">gradCLASS</span><span class="o">=</span><span class="s1">'2024'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="p">(</span><span class="mi">2006</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">16</span><span class="p">),</span> <span class="n">age</span><span class="o">=</span><span class="n">calculate_age</span><span class="p">(</span><span class="n">date</span><span class="p">(</span><span class="mi">2006</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">16</span><span class="p">)))</span>
+
+    <span class="c1"># put user objects in list for convenience</span>
+    <span class="n">users</span> <span class="o">=</span> <span class="p">[</span><span class="n">u1</span><span class="p">,</span> <span class="n">u2</span><span class="p">,</span> <span class="n">u3</span><span class="p">,</span> <span class="n">u4</span><span class="p">,</span> <span class="n">u5</span><span class="p">]</span>
+
+    <span class="c1"># Find user</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Test 1, find user 3"</span><span class="p">)</span>
+    <span class="n">u</span> <span class="o">=</span> <span class="n">tester</span><span class="p">(</span><span class="n">users</span><span class="p">,</span> <span class="n">u3</span><span class="o">.</span><span class="n">uid</span><span class="p">,</span> <span class="s2">"123neil"</span><span class="p">,</span> <span class="n">u3</span><span class="o">.</span><span class="n">gradCLASS</span><span class="p">,</span> <span class="n">u3</span><span class="o">.</span><span class="n">dob</span><span class="p">,</span> <span class="n">u3</span><span class="o">.</span><span class="n">age</span><span class="p">)</span>
+
+
+    <span class="c1"># Change user</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Test 2, change user 3"</span><span class="p">)</span>
+    <span class="n">u</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">"John Mortensen"</span>
+    <span class="n">u</span><span class="o">.</span><span class="n">uid</span> <span class="o">=</span> <span class="s2">"jm1021"</span>
+    <span class="n">u</span><span class="o">.</span><span class="n">set_password</span><span class="p">(</span><span class="s2">"123qwerty"</span><span class="p">)</span>
+    <span class="n">u</span><span class="o">.</span><span class="n">gradyear</span> <span class="o">=</span> <span class="s1">'2024'</span>
+    <span class="n">dob</span> <span class="o">=</span> <span class="s1">'11-2-16'</span>
+    <span class="n">u</span> <span class="o">=</span> <span class="n">tester</span><span class="p">(</span><span class="n">users</span><span class="p">,</span> <span class="n">u</span><span class="o">.</span><span class="n">uid</span><span class="p">,</span> <span class="s2">"123qwerty"</span><span class="p">,</span> <span class="n">u</span><span class="o">.</span><span class="n">gradCLASS</span><span class="p">,</span> <span class="n">u</span><span class="o">.</span><span class="n">dob</span><span class="p">,</span> <span class="n">u</span><span class="o">.</span><span class="n">age</span><span class="p">)</span>
+
+
+    <span class="c1"># Make dictionary</span>
+    <span class="sd">''' </span>
+<span class="sd">    The __dict__ in Python represents a dictionary or any mapping object that is used to store the attributes of the object. </span>
+<span class="sd">    Every object in Python has an attribute that is denoted by __dict__. </span>
+<span class="sd">    Use the json.dumps() method to convert the list of Users to a JSON string.</span>
+<span class="sd">    '''</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Test 3, make a dictionary"</span><span class="p">)</span>
+    <span class="n">json_string</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">([</span><span class="n">user</span><span class="o">.</span><span class="vm">__dict__</span> <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">users</span><span class="p">])</span> 
+    <span class="nb">print</span><span class="p">(</span><span class="n">json_string</span><span class="p">)</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Test 4, make a dictionary"</span><span class="p">)</span>
+    <span class="n">json_string</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">([</span><span class="nb">vars</span><span class="p">(</span><span class="n">user</span><span class="p">)</span> <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">users</span><span class="p">])</span> 
+    <span class="nb">print</span><span class="p">(</span><span class="n">json_string</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Test 1, find user 3
+name: "Dylan Carlson", id: "dylan", psw: "sha256$JWe..."
+name: "Grant Carlson", id: "grant", psw: "sha256$LLH..."
+* name: "Neil Carlson", id: "neil", psw: "sha256$hWi..."
+name: "Leslie Carlson", id: "les", psw: "sha256$AOR..."
+name: "Ava Carlson", id: "ava", psw: "sha256$ojT..."
+Test 2, change user 3
+name: "Dylan Carlson", id: "dylan", psw: "sha256$JWe..."
+name: "Grant Carlson", id: "grant", psw: "sha256$LLH..."
+* name: "John Mortensen", id: "jm1021", psw: "sha256$56Q..."
+name: "Leslie Carlson", id: "les", psw: "sha256$AOR..."
+name: "Ava Carlson", id: "ava", psw: "sha256$ojT..."
+Test 3, make a dictionary
+[{"_name": "Dylan Carlson", "_uid": "dylan", "_gradCLASS": "2020", "_dob": [2001, 8, 15], "_age": 21, "_password": "sha256$JWeAJptp9PSrGDHh$bf77d7274d5617e01ffbf6b5eef1197021ac57793f05a7d72f2736d46f800e0b"}, {"_name": "Grant Carlson", "_uid": "grant", "_gradCLASS": "2022", "_dob": [2004, 3, 24], "_age": 18, "_password": "sha256$LLHjz54c4Z0Zk0EE$762f47a0f91683da1fe32984477d0fcb5f96fd09ecae9701648b0089766628d8"}, {"_name": "John Mortensen", "_uid": "jm1021", "_gradCLASS": "1988", "_dob": [1970, 7, 3], "_age": 52, "_password": "sha256$56QoJEaC2oolBB1a$c0683696fd0dbe0b5c4f127f75403a567a6fb7f2bfa9591f54b2cf70c6da6b7b", "gradyear": "2024"}, {"_name": "Leslie Carlson", "_uid": "les", "_gradCLASS": "1988", "_dob": [1970, 9, 7], "_age": 52, "_password": "sha256$AORK7WxAIvIKVsYQ$ec575b4ad218befd4a8d657488824c05927ac7a477652779b36b05241508eb1b"}, {"_name": "Ava Carlson", "_uid": "ava", "_gradCLASS": "2024", "_dob": [2006, 5, 16], "_age": 16, "_password": "sha256$ojT9wsZOGsSwsvHZ$8d45c4ba3ede4f94ef9448575ee5d494a5d3b161ce2ccb9f9fea6d1ca537ec45"}]
+Test 4, make a dictionary
+[{"_name": "Dylan Carlson", "_uid": "dylan", "_gradCLASS": "2020", "_dob": [2001, 8, 15], "_age": 21, "_password": "sha256$JWeAJptp9PSrGDHh$bf77d7274d5617e01ffbf6b5eef1197021ac57793f05a7d72f2736d46f800e0b"}, {"_name": "Grant Carlson", "_uid": "grant", "_gradCLASS": "2022", "_dob": [2004, 3, 24], "_age": 18, "_password": "sha256$LLHjz54c4Z0Zk0EE$762f47a0f91683da1fe32984477d0fcb5f96fd09ecae9701648b0089766628d8"}, {"_name": "John Mortensen", "_uid": "jm1021", "_gradCLASS": "1988", "_dob": [1970, 7, 3], "_age": 52, "_password": "sha256$56QoJEaC2oolBB1a$c0683696fd0dbe0b5c4f127f75403a567a6fb7f2bfa9591f54b2cf70c6da6b7b", "gradyear": "2024"}, {"_name": "Leslie Carlson", "_uid": "les", "_gradCLASS": "1988", "_dob": [1970, 9, 7], "_age": 52, "_password": "sha256$AORK7WxAIvIKVsYQ$ec575b4ad218befd4a8d657488824c05927ac7a477652779b36b05241508eb1b"}, {"_name": "Ava Carlson", "_uid": "ava", "_gradCLASS": "2024", "_dob": [2006, 5, 16], "_age": 16, "_password": "sha256$ojT9wsZOGsSwsvHZ$8d45c4ba3ede4f94ef9448575ee5d494a5d3b161ce2ccb9f9fea6d1ca537ec45"}]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/Alexa-Fastpage/oop/mob/classes/objects/attributes/2023/01/11/OOPhack.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/Alexa-Fastpage/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://alexac54767.github.io/Alexa-Fastpage/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/Alexa-Fastpage/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Just a girl figuring out her way through APCSP</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/alexac54767" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/Alexa-Fastpage/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

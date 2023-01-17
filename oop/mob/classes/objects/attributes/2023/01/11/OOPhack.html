@@ -280,7 +280,7 @@ window.onload = wrap_img;
         
 
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
-    <span class="n">u1</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Thomas Edison'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'toby'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123toby'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="n">date</span><span class="p">(</span><span class="mi">1847</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="p">),</span> <span class="n">gradCLASS</span><span class="o">=</span><span class="s1">'1868'</span><span class="p">)</span>
+    <span class="n">u1</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Alexa Carlson'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'Alexa'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123lex'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="n">date</span><span class="p">(</span><span class="mi">2006</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">16</span><span class="p">),</span> <span class="n">gradCLASS</span><span class="o">=</span><span class="s1">'2024'</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"JSON ready string:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">u1</span><span class="p">,</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span> 
     <span class="nb">print</span><span class="p">(</span><span class="s2">"Raw Variables of object:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="nb">vars</span><span class="p">(</span><span class="n">u1</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span> 
     <span class="nb">print</span><span class="p">(</span><span class="s2">"Raw Attributes and Methods of object:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="nb">dir</span><span class="p">(</span><span class="n">u1</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
@@ -297,10 +297,10 @@ window.onload = wrap_img;
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>JSON ready string:
- {"name": "Thomas Edison", "uid": "toby", "dob": "02-11-1847", "age": 175, "class": "1868"} 
+ {"name": "Alexa Carlson", "uid": "Alexa", "dob": "05-16-2006", "age": 16, "class": "2024"} 
 
 Raw Variables of object:
- {'_name': 'Thomas Edison', '_uid': 'toby', '_password': 'sha256$trmly4FEkHTDxvaa$d2e4b9970c3c4eb47b5995fc977507147bd5a016ca165e862e8d6e17082f0fd7', '_dob': datetime.date(1847, 2, 11), '_gradCLASS': '1868'} 
+ {'_name': 'Alexa Carlson', '_uid': 'Alexa', '_password': 'sha256$i3nt7xnDShgB7u0k$79d6f53a2c632be582905ee6b063e552040518d0f99eed993e553d373924ddf5', '_dob': datetime.date(2006, 5, 16), '_gradCLASS': '2024'} 
 
 Raw Attributes and Methods of object:
  ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_dob', '_gradCLASS', '_name', '_password', '_uid', 'age', 'dictionary', 'dob', 'gradCLASS', 'is_password', 'is_uid', 'name', 'set_password', 'uid'] 

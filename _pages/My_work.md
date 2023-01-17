@@ -46,3 +46,4 @@ title: My Work
 | 2 | 17 | [Scoring Previous CollegeBoard Submissions](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/submissions) |
 | 2 | 17 | Customized Mort's Family Reunion Page |
 | 2 | 18 | [Object Oriented Programming (backend) hack](https://alexac54767.github.io/Alexa-Fastpage/oop/mob/classes/objects/attributes/2023/01/11/OOPhack.html) |
+| 2 | 18 | [Project Planning (frontend to backend)](https://srihitakott1213.github.io/TeamBaddies/lesson/week18)|

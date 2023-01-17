@@ -144,3 +144,20 @@ categories: [week 17, recourses, collegeboard]
     - the response does not describe how this procedure contributes to the overall functionality 
     - this statement is too brief: “allows for the program to execute smoothly.”
     - it is better to have detail with Collegeboard
+
+<hr>
+
+# Submission #2
+
+### My Score: 6/6
+[Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/23)
+
+### Collegeboard Score: 6/6
+[Link to their rubric](https://drive.google.com/file/d/1KNzEy7woRmvGmEE0LPJ24FwDhoyWDU7_/view)
+
+### Reflection
+- this student recieved a perfect 6/6 from both Collegeboard and I
+- this project is a <mark>great example</mark> of a project to refrence in the future
+- the student was very thorough and made sure to answer every question with detail
+
+<hr>

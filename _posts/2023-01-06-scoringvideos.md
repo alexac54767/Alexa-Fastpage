@@ -161,3 +161,30 @@ categories: [week 17, recourses, collegeboard]
 - the student was very thorough and made sure to answer every question with detail
 
 <hr>
+
+# Submission #3
+
+### My Score: /6
+[Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/24)
+
+### Collegeboard Score: /6
+[Link to their rubric](https://drive.google.com/file/d/1q5N1F_6NA7NLB2wkp6wqC8jLxHuxFm7Z/view)
+
+### Reflection
+- Row 2 (Data Abstraction): Both Collogeboard and I gave a 0 for this section.
+    - the first image does not show the provided list, only the second image
+    - the description of what the list stores is inaccurate
+- Row 3 (Managing Complexity): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - the list does manage complexity, but the student didn't explain how it could be written withot it
+    - the description is very breif and needs to be more detailed
+- Row 4 (Procedural Abstraction): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - the image of code provided does not contain a parameter and is also never called in the second image
+    - the student also inaccurately described the functionality of the code
+- Row 5 (Algorithm Implentation): Both Collogeboard and I gave a 0 for this section.
+    - this program includes sequencing and selection, but does not use iteration
+    - the student forgot to mention a key part of the program when describing how it works
+- Row 6 (Testing): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - the two calls are not specific, and are from the procedure (not to the procedure)
+    - the conditions provided aren't actully being tested, but instead are operations done by the user
+    - student didn't provide what the acutal results would be with the calls, only what would appear on the screen
+- I have learned a lot from this example. I need to b e very specific ith my descriptions, but I also have to be careful that they are correct. I need to understand my code completely to ensure that I am answering every question thoroughly and correctly.

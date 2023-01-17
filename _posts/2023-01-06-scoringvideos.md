@@ -119,3 +119,28 @@ categories: [week 17, recourses, collegeboard]
 - Row 6 (Testing): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
     - The response gives the conditions being tested rather than two different arguments that cause a different segment of code to execute. Arguments should be specific values used in the call to the procedure.
     - this is the first time I've seen this score for section 6. I need to make sure to follow Collegeboard's critera for what an argument is (and not just test conditions)
+
+<hr>
+
+# Performance Task Scoring 3
+
+## Submission #1
+
+### My Score: 5/6
+[Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/22)
+
+### Collegeboard Score: 3/6
+[Link to their rubric](https://drive.google.com/file/d/19KBDJTwn0DPSKhBUz2bFSMEtnNcnpEZx/view)
+
+### Reflection
+- Row 2 (Data Abstraction): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - data stored in the list is mot being used in the second image
+    - this seems to be a common mistake to make, so I need to make sure I am careful to follow the directions exactly
+- Row 3 (Managing Complexity): Both Collogeboard and I gave a 0 for this section.
+    - the student does use a list, but it doesn't really manage any complexity. 
+    - they wrote about how the use of randomly generated numbers could work as well (just as simple)
+    - this also seems to be common among projects that don't get great scores: I need to make sure that my list will actually simplify my program
+- Row 4 (Procedural Abstraction): The student recieved a 0 on this section from Collegeboard, but I gave it a 1.
+    - the response does not describe how this procedure contributes to the overall functionality 
+    - this statement is too brief: “allows for the program to execute smoothly.”
+    - it is better to have detail with Collegeboard

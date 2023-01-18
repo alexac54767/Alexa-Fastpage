@@ -6,7 +6,7 @@ title: Scoring Previous Collegeboard Submissions
 description: Going through and scoring past submissions and comparing the scores to what Collegeboard gave.
 permalink: /collegeboard/submissions
 image: /images/collegeboardscoring.jpg
-categories: [week 17, recourses, collegeboard]
+categories: [week 17, week 18, week 19, recourses, collegeboard]
 ---
 # Performance Task Scoring 1
 

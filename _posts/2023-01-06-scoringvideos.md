@@ -193,10 +193,10 @@ categories: [week 17, recourses, collegeboard]
 
 # Submission #4
 
-### My Score: /6
+### My Score: 5/6
 [Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/25)
 
-### Collegeboard Score: /6
+### Collegeboard Score: 5/6
 [Link to their rubric](https://drive.google.com/file/d/1c-w31AwXb-m1E5A4OKiRC6SezoB8JDuK/view)
 
 ### Reflection

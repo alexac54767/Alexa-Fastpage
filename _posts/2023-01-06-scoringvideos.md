@@ -188,3 +188,15 @@ categories: [week 17, recourses, collegeboard]
     - the conditions provided aren't actully being tested, but instead are operations done by the user
     - student didn't provide what the acutal results would be with the calls, only what would appear on the screen
 - I have learned a lot from this example. I need to b e very specific ith my descriptions, but I also have to be careful that they are correct. I need to understand my code completely to ensure that I am answering every question thoroughly and correctly.
+
+<hr>
+
+# Submission #4
+
+### My Score: /6
+[Link to my rubric](https://github.com/alexac54767/Alexa-Fastpage/issues/25)
+
+### Collegeboard Score: /6
+[Link to their rubric](https://drive.google.com/file/d/1c-w31AwXb-m1E5A4OKiRC6SezoB8JDuK/view)
+
+### Reflection

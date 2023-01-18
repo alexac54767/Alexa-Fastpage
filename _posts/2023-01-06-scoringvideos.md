@@ -200,3 +200,9 @@ categories: [week 17, recourses, collegeboard]
 [Link to their rubric](https://drive.google.com/file/d/1c-w31AwXb-m1E5A4OKiRC6SezoB8JDuK/view)
 
 ### Reflection
+- Collegeboard and I both gave this student a 5/6. 
+- Row 6 (Testing): Both Collegeboard and I gave scored this section a 0
+    - the student was not specific in the arguments that are passed through the parameters
+    - the conditions the student provided don't match the parameters in the program
+    - described the code rather than the result
+- this student did a great job on their project. Beside not understanding the testing section (make sure to understand exactly what they are asking for), this is a <mark>good example</mark> to reference in the future.

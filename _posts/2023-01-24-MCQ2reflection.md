@@ -25,11 +25,18 @@ categories: [week 20, recourses, collegeboard]
 ## Corrections
 ### My Score: 46/50
 
-- Question 13: 
 ![Q13]({{site.baseurl}}/images/Q13.jpg)
-- Question 22:
+- Question 13: 
+    - this question
+
 ![Q22]({{site.baseurl}}/images/Q22.jpg)
-- Question 24:
+- Question 22:
+    - 
+
 ![Q24]({{site.baseurl}}/images/Q24.jpg)
-- Question 30:
+- Question 24:
+    - 
+
 ![Q30]({{site.baseurl}}/images/Q30.jpg)
+- Question 30:
+    - 

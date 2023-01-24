@@ -47,3 +47,6 @@ title: My Work
 | 2 | 17 | Customized Mort's Family Reunion Page |
 | 2 | 18 | [Object Oriented Programming (backend) hack](https://alexac54767.github.io/Alexa-Fastpage/oop/mob/classes/objects/attributes/2023/01/11/OOPhack.html) |
 | 2 | 18 | [Project Planning (frontend to backend)](https://srihitakott1213.github.io/TeamBaddies/lesson/week18)|
+| 2 | 19 | [Project Database Video](https://youtu.be/pqDMjfex9Ng) |
+| 2 | 19 | [Project API Video](https://www.youtube.com/watch?v=kJERKmdej_8) |
+| 2 | 20 | [CollegeBoard MCQ #2 Reflection]() |

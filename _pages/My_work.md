@@ -49,4 +49,4 @@ title: My Work
 | 2 | 18 | [Project Planning (frontend to backend)](https://srihitakott1213.github.io/TeamBaddies/lesson/week18)|
 | 2 | 19 | [Project Database Video](https://youtu.be/pqDMjfex9Ng) |
 | 2 | 19 | [Project API Video](https://www.youtube.com/watch?v=kJERKmdej_8) |
-| 2 | 20 | [CollegeBoard MCQ #2 Reflection]() |
+| 2 | 20 | [CollegeBoard MCQ #2 Reflection](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/MCQ2) |

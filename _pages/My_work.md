@@ -52,3 +52,4 @@ title: My Work
 | 2 | 20 | [CollegeBoard MCQ #2 Reflection](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/MCQ2) |
 | 2 | 20 | [Team Baddies Project Approval Presentation](https://srihitakott1213.github.io/TeamBaddies/projectproposal/TeamBaddies) |
 | 2 | 20 | [My Role in the Group Project](https://alexac54767.github.io/Alexa-Fastpage/project/myrole#pre-view-of-materials-required-for-college-board) |
+| 2 | 20 | [5.1 and 5.2 Lecture Notes]() |

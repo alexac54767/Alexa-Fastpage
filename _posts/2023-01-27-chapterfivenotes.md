@@ -4,7 +4,7 @@ comments: true
 layout: post
 title: 5.1 and 5.2 (beneficial/harmful effects of tech) Notes/Reflection
 description: Taking notes and reflecting on the 5.1 and 5.2 lessons.
-permalink: /collegeboard/5
+permalink: /collegeboard/chapterfive
 categories: [week 20, technology]
 ---
 ## Lesson Notes

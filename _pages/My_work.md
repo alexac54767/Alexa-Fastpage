@@ -50,3 +50,5 @@ title: My Work
 | 2 | 19 | [Project Database Video](https://youtu.be/pqDMjfex9Ng) |
 | 2 | 19 | [Project API Video](https://www.youtube.com/watch?v=kJERKmdej_8) |
 | 2 | 20 | [CollegeBoard MCQ #2 Reflection](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/MCQ2) |
+| 2 | 20 | [Team Baddies Project Approval Presentation](https://srihitakott1213.github.io/TeamBaddies/projectproposal/TeamBaddies) |
+| 2 | 20 | [My Role in the Group Project](https://alexac54767.github.io/Alexa-Fastpage/project/myrole#pre-view-of-materials-required-for-college-board) |

@@ -147,15 +147,16 @@ window.onload = wrap_img;
     <ul>
       <li>First call: user inputs a workout into the form and clicks submit
         <ul>
+          <li>conditions being tested: checks if data is valid and if it can be added to the database</li>
           <li>result: data will appear in the table below with the corresponding grade</li>
         </ul>
       </li>
-      <li>Second call: user refreshes page
+      <li>Second call: user enters invalid (garbage) data into the field: “number of hours completed”
         <ul>
-          <li>result: since data is stored in a database, the data remains in the table</li>
+          <li>Conditions being tested: checks if the data inputted is valid (numerical number) to be put in the database</li>
+          <li>result: the program will return the message “please enter a valid number”</li>
         </ul>
       </li>
-      <li>Conditions being tested ?</li>
     </ul>
   </li>
 </ul>

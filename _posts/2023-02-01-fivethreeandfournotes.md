@@ -50,8 +50,8 @@ categories: [week 21, collegeboard, notes]
 - What would you or should you do to produce a better outcome? 
     - They need to test <u>all groups</u> (diverse people working on the project) to ensure it is equal over all groups
 
-## Hacks
-Write summary/thoughts/conclusions from each of the exercises above. Focus on avoiding Bias in algorithms or code you write.
+## Conclusion
+There are biases everywere. In technology, in developing, in testing, and there are even biases in our subconcsiousness. They are hard to avoid, however, we can attempt to counteract them by considering how we can incoorporate all (or as many as we can) groups and perspectives. Also, using diversity and our differences for good can be a great thing. It can increase business, make our experiences with technology better, and allow us to be more unique.
 
 
 # 5.4
@@ -68,8 +68,11 @@ Write summary/thoughts/conclusions from each of the exercises above. Focus on av
 ## Hacks
 
 - CompSci has 150 ish principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+    - A crowdsource idea that may be successful in our APCSP enviornment is a group notepad. I take personal notes during lectures with helpful things like vocab and code that we commonly use (like html or markdown syntax). Maybe we could create a notepad that the entire class can access/edit.
 
 - What about Del Norte crowdsourcing? Could your project be better with crowdsourcing?
+    - Crowdsourcing at Del Norte for our project is a great idea. Since our project is about fitness, we can get data and feedback from lots of different student at DNHS. That way, we can test the project and get more diverse data. (ex: more sports options for the sports workouts page)
 
 - What kind of data could you capture at N@tM to make evening interesting? Perhaps use this data to impress Teachers during finals week.
+    - At N@TM, I could go around asking everyone what sport they play/activities they do to help their fitness. If they did a workout recently, they could log it on our site. Also, they could use our "sports workout" page to input what they do to workout. That way, we have more options for other users to choose from when trying to decide how to workout.
 

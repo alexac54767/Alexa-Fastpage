@@ -8,6 +8,8 @@ permalink: /collegeboard/chapterfive2
 categories: [week 21, collegeboard, notes]
 --- 
 
+# 5.3
+
 ## Intentional or Purposeful bias
 
 ### Facebook vs Tiktok
@@ -47,4 +49,27 @@ categories: [week 21, collegeboard, notes]
     - Yes, I think that HP should (maybe already did) correct this issue right away. 
 - What would you or should you do to produce a better outcome? 
     - They need to test <u>all groups</u> (diverse people working on the project) to ensure it is equal over all groups
+
+## Hacks
+Write summary/thoughts/conclusions from each of the exercises above. Focus on avoiding Bias in algorithms or code you write.
+
+
+# 5.4
+
+## Obtaining Data via Crowdsourcing
+- pro: includes many different perspevtives
+- con: may have incorrect data
+- We have used APIs about Covid data and other facts
+- these APIs may have biased or outdated facts
+- however, there are lots of APIs available from numerous groups/companies
+- Github allows us to to have many recources and to look into people's backgrounds
+- The biggest discovery I have found in Github was that you can see the repositories and commits that every user has worked on. It is very personal and can show many details
+
+## Hacks
+
+- CompSci has 150 ish principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+
+- What about Del Norte crowdsourcing? Could your project be better with crowdsourcing?
+
+- What kind of data could you capture at N@tM to make evening interesting? Perhaps use this data to impress Teachers during finals week.
 

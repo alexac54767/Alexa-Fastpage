@@ -44,6 +44,7 @@ categories: [week 22, collegeboard, notes]
     - phishing attacks
     - identity theft
     - stolen information (passwords, credit cards, bank accounts)
+    - Personal Identifiable Information (PII) can be beneficial or harmful
 - encription:
     - two-factor authentication (2FA)
     - ^ ex: sending email with code/link
@@ -51,8 +52,19 @@ categories: [week 22, collegeboard, notes]
 ## Hacks
 
 - Describe PII you have seen on project in CompSci Principles.
+    - In APCSP, I have seen PII. I think the most common are our names, github usernames, and information that we put in our projects (such as tester data that is our actual information).
+
 - What are your feelings about PII and your personal exposure?
+    - I always feel a little nervous about having my information out. But, I do put myself out there with things like social media so my name and some basic info (such as DNHS, class of 2024, my cheerleading organization/team) are open to the world to see. I realize that is probably a little more risky, however, it allows others to connect with me (like if a cheerleader from the same organization found my account). Also, my common email happens to be my first, middle, and last name all in one. I have been told that it is dumb to be giving out that information, but I have yet to stop using that email.
+
 - Describe good and bad passwords? What is another step that is used to assist in authentication.
+    - a good password is one that has many characters, both letters and numbers, and symbols. It is more difficult to guess and come up with. Bad passwords are either very common and not intricate, or contain personal information. For example, if I made my password alexac, it would be very bad since my name is very accessible (PII).
+
 - Try to describe Symmetric and Asymmetric encryption.
+    - Symmetric encryption only uses one key to encrypt/decrypt. It is a form of security, but isn't as strong as Asymmetric encryption. Asymmetric encryption uses two different keys, a public and secret key, to encrypt and decrypt. 
+
 - Provide an example of encryption we used in AWS deployment.
+    - When creating and deploying our projects in AWS, we used Asymmetric encryption. We had to generate the public and secret keys and then add them to our repositories. 
+
 - Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
+    - There have been many phising schemes on instagram lately. The hackers try to sound personal and like your friend. There was one I fell for a long time ago where one of my "friends" on insta direct messaged me a link that they claimed had a "bad photo" of me. Theyt made it sound urgent and I was curious. In order to "view the photos" you had to sign into your instagram account. I tried to multiple times, but lucklily forgot my password. Ava then pointed out to me that it was clearly a scheme, and that I should avoid clicking on anything suspicious on instagram dms.

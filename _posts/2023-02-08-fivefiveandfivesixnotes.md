@@ -21,9 +21,16 @@ categories: [week 22, collegeboard, notes]
 ### Summary:
 > Every company needs to make a living. With capitalism, one of the best ways to do that is with closed source licenses. However, open sourced licenses allow for the code to be more community based. There are more contributions and the code is more useful. However, if you use open sourced code, you cannot sell your product. Similarly, there are digital rights. Every time you accept terms and conditions on your phone/comupter, you are accepting digital rights. Another example of digital rights is licensing to music on your phone. If I pirate music from Beyonce, I am not following her digital rights and she gets less money.
 
+- Flask/Backend License:
 ![flask license]({{site.baseurl}}/images/flasklicense.jpg)
+
+- Frontend License:
 ![project license]({{site.baseurl}}/images/Fitness4Baddieslicense.jpg)
+
+- Team Fastpage license:
 ![team fastpage license]({{site.baseurl}}/images/teambaddieslicense.jpg)
+
+- Personal Fastpage license:
 ![personal license]({{site.baseurl}}/images/personallicense.jpg)
 
 - My team and I chose the open source MIT patent for all our projects. 

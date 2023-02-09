@@ -33,7 +33,7 @@ categories: [week 22, collegeboard, notes]
 - Personal Fastpage license:
 ![personal license]({{site.baseurl}}/images/personallicense.jpg)
 
-- My team and I chose the open source MIT patent for all our projects. 
+- My team and I chose the open source MIT license for all our projects and for our personals. However, our frontend repository already had the "Apache" license so we left that one in place. The MIT license allows anyone to edit, ditribute, or use it personally or commercially, as long as they give us credit. We believe this is the best option for us since we are not working on anything top secret, and we would love community input and support.
 
 
 

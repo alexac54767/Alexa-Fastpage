@@ -54,3 +54,4 @@ title: My Work
 | 2 | 20 | [My Role in the Group Project](https://alexac54767.github.io/Alexa-Fastpage/project/myrole#pre-view-of-materials-required-for-college-board) |
 | 2 | 20 | [5.1 and 5.2 Lecture Notes](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/chapterfive) |
 | 2 | 21 | [5.3 and 5.4 Lecture Notes](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/chapterfive2) |
+| 2 | 22 | [5.5 and 5.6 Lecture Notes](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/chapterfive3) |

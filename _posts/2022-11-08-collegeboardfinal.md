@@ -6,7 +6,7 @@ title: Collegebaord Final Reflection/Night at the Museum
 description: The Process/Corrections of Taking my Collegebaord Final as well as aspects of Night at the Museum
 permalink: /final/collegeboard
 image: /images/collegeboardfinal.jpg
-categories: [week 12]
+categories: [week 12, N@TM, notes]
 ---
 
 ## Taking the Final

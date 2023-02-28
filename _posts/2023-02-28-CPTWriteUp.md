@@ -12,7 +12,7 @@ categories: [week 24, CPT project, role, collegeboard]
 
 <br>
 
-## [My video](https://youtu.be/bKV45YoNChM)
+## [My video](https://youtu.be/R2Yak3EbTwM)
 
 - Row 1 (Program Purpose and Function): 
     - the purpose of my program is to aid ISPE students to stay organized and ensure they get credit for their class

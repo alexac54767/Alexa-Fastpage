@@ -30,15 +30,16 @@ categories: [week 24, CPT project, role, collegeboard]
 
 ![data is used]({{site.baseurl}}/images/usedrow2CPT.jpg)
 <br>
-    - name of collection type (database class): ISPE
-    - data in this class is the data (workouts) that the user inputed
+
+- name of collection type (database class): ISPE
+- data in this class is the data (workouts) that the user inputed
 
 
 - Row 3 (Managing Complexity):
 ![ISPE Class]({{site.baseurl}}/images/howrow2CPT.jpg)
 <br>
 
-    - without the use of the class in the database, the inputed data would be very unorganized in a list and would only be stored locally. However, I could store the data in a list and use a rest API to connect the frontend and backend. However, it would be very tedious since I would have to manually add data to the backend. It would be much more difficult to update, debug, and add data.
+- without the use of the class in the database, the inputed data would be very unorganized in a list and would only be stored locally. However, I could store the data in a list and use a rest API to connect the frontend and backend. However, it would be very tedious since I would have to manually add data to the backend. It would be much more difficult to update, debug, and add data.
 
 
 - Row 4 (Procedural Abstraction): 
@@ -48,7 +49,7 @@ categories: [week 24, CPT project, role, collegeboard]
 ![Create funtion used]({{site.baseurl}}/images/ISPEcreateCPT.jpg)
 <br>
 
-    - This function "create_ISPE" takes the iputted data (parameter) and iterates through the variables that the user inputs (name, date, duration, grade). It then defines them as constants, posts them, and autogenerates them into the table diplayed on frontend. This allows the data inputed by the user to actually show up in the table, carrying out the purpose of the program.
+- This function "create_ISPE" takes the iputted data (parameter) and iterates through the variables that the user inputs (name, date, duration, grade). It then defines them as constants, posts them, and autogenerates them into the table diplayed on frontend. This allows the data inputed by the user to actually show up in the table, carrying out the purpose of the program.
 
 
 - Row 5 (Algorithm Implentation):
@@ -58,7 +59,7 @@ categories: [week 24, CPT project, role, collegeboard]
 ![frontend using data from class_read]({{site.baseurl}}/images/readISPECPTrow5.jpg)
 <br>
 
-    - This class in my API is defining a get funtion that recieves the data from the frontend, and jsonifies the data. It does this by going through a sequence where it first extracts all the exisiting data, reads it, and then rewrites it as a JSON format. The second piece of code pictured then fetches the data that is in JSON format by using GET methods. This frontend uses the funtion read_ISPE to refrense the class_read function in the backend. In order to do this, it goes through a series of conditionals (selection), to determine if the data is valid and ready to be added to the database. If it produces a response error, then the funtion is returned. If the data is valid and in the correct format, then it will be added to the table which will be displayed to the user.
+- This class in my API is defining a get funtion that recieves the data from the frontend, and jsonifies the data. It does this by going through a sequence where it first extracts all the exisiting data, reads it, and then rewrites it as a JSON format. The second piece of code pictured then fetches the data that is in JSON format by using GET methods. This frontend uses the funtion read_ISPE to refrense the class_read function in the backend. In order to do this, it goes through a series of conditionals (selection), to determine if the data is valid and ready to be added to the database. If it produces a response error, then the funtion is returned. If the data is valid and in the correct format, then it will be added to the table which will be displayed to the user.
 
 
 - Row 6 (Testing): 

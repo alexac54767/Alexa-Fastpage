@@ -10,6 +10,10 @@ categories: [week 24, CPT project, role, collegeboard]
 
 ## Based on this [Collegeboard rubric](https://apcentral.collegeboard.org/media/pdf/ap22-sg-computer-science-principles.pdf)
 
+<br>
+
+## [My video](https://youtu.be/bKV45YoNChM)
+
 - Row 1 (Program Purpose and Function): 
     - the purpose of my program is to aid ISPE students to stay organized and ensure they get credit for their class
     - my program works (functionality) by allowing users to input their workouts and corresponding grade, and see the following inputs on the page in an organized table

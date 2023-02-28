@@ -58,9 +58,9 @@ categories: [week 24, CPT project, role, collegeboard]
 
 
 - Row 6 (Testing): 
-    - First call: The user inputs the workout, "Micheal Jackson, 1/27/2023, 2, A" (valid data) into the form and clicks submit
+    - First call: The user inputs the workout, "John Doe, 1/27/2023, 2, A" (valid data) into the form and clicks submit
         - conditions being tested: checks if data is valid and if it can be added to the database
         - result: data will appear in the table below with the corresponding data
-    - Second call: user enters the invalid data "A" into the field: "name"
+    - Second call: user enters the invalid data "B" into the field: "name"
         - Conditions being tested: checks if the data inputted is valid (more than 2 characters) to be put in the database
         - result: the program will alert the user "Name is missing, or is less than 2 characters, please refresh and enter a valid name"

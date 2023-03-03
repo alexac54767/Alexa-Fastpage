@@ -27,13 +27,13 @@ categories: [week 23, recourses, collegeboard]
 
 ![Q35 pt 1]({{site.baseurl}}/images/Q35pt1.jpg)
 ![Q35 pt 2]({{site.baseurl}}/images/Q35pt2.jpg)
-- Question 13: 
-    - This question stumped me a little. To me, all three options seem like they would work and are reasonable. However, I think in order for the expressions to evaluate to false, there needs to be a "NOT" included. That would be why option 1 doesn't fit the critera.
+- Question 35: 
+    - On this question, I failed to consider all the options. I had assumed that all options would work, however, I failed to consider one order of scores. When I tested out Team C and Team A having the highest score, the program was correct. Although, I didn't realize that if Team B had the highest score but Team C had a higher score than Team A, then team C was incorrectly ruled the winner.
 
 ![Q50]({{site.baseurl}}/images/Q50.jpg)
-- Question 22:
-    - I believe that I read this question incorrectly and needed to read it slower so that I could get every detail. On algorithm A, I read "student adds his or her height to the value on the card" and thought it meant that they only write their height on the card (rather than adding their height to the previous height). I can now see why both of these algorithms would calculate the correct average. 
+- Question 50:
+    - I should have looked at this queston more throughly, and thought of options for values past the provided table. I thought this question was "too easy", since I directly looked at the number of steps when the list size was 5, and chose the options with the lowest number. However, if I looked more carefully, I would've seen that algorithm B grows at an exponential rate. Sure, at a list size of 5 it has the least steps, but it also grows the fastest. 
 
 
 ## Improve for Next Time:
-- The next time I take an MCQ test, I want to run more situations through my head. For example, with question number 35, if I thought about all the situations with scores, I could've discovered that option D was faulty.
+- The next time I take an MCQ test, I want to run more situations through my head. For example, with question number 35, if I thought about all the situations and orders with scores, I could've discovered that option D was faulty.

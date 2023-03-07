@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://alexac54767.github.io/Alexa-Fastpage/jupyter/2020/02/20/test.html</loc>
+<loc>https://alexac54767.github.io/Alexa-Fastpage/2020/02/20/test.html</loc>
 <lastmod>2020-02-20T00:00:00-06:00</lastmod>
 </url>
 <url>
@@ -229,6 +229,10 @@
 <lastmod>2023-01-11T00:00:00-06:00</lastmod>
 </url>
 <url>
+<loc>https://alexac54767.github.io/Alexa-Fastpage/frontend/css/javascript/html/forms/2023/01/12/PBL-view.html</loc>
+<lastmod>2023-01-12T00:00:00-06:00</lastmod>
+</url>
+<url>
 <loc>https://alexac54767.github.io/Alexa-Fastpage/collegeboard/MCQ2</loc>
 <lastmod>2023-01-24T00:00:00-06:00</lastmod>
 </url>
@@ -266,15 +270,15 @@
 </url>
 <url>
 <loc>https://alexac54767.github.io/Alexa-Fastpage/notebooks/myjupyternotebook</loc>
-<lastmod>2023-03-05T00:00:00-06:00</lastmod>
+<lastmod>2023-03-06T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://alexac54767.github.io/Alexa-Fastpage/notebooks/toolchecks</loc>
-<lastmod>2023-03-05T00:00:00-06:00</lastmod>
+<lastmod>2023-03-06T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://alexac54767.github.io/Alexa-Fastpage/notebooks/myquiz</loc>
-<lastmod>2023-03-05T00:00:00-06:00</lastmod>
+<lastmod>2023-03-06T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://alexac54767.github.io/Alexa-Fastpage/frontend/overview</loc>

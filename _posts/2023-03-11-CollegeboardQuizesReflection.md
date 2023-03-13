@@ -9,3 +9,22 @@ image: /images/MCQ3.jpg
 categories: [week 25, recourses, collegeboard]
 ---
 
+## Using Programs with Data Quiz
+### Score: 6/6
+![Using Programs Quiz]({{site.baseurl}}/images/UsingProgramsQuiz.jpg)
+
+## Data Compression Quiz
+### Score: 2/3
+![Data Compression Quiz]({{site.baseurl}}/images/DataCompressionQuiz.jpg)
+
+### Corrections:
+![Q 1]({{site.baseurl}}/images/DCQ1.jpg)
+- I think I wronly assumed when I read this question. It was the first question of the quiz, and I think I read it too quickly and didn't fully pay attention to detail. I didn't realize that my answer was refering to security, and not the loss of data during compression.
+
+## Extracting Information from Data Quiz
+### Score: 6/6
+![Extracting Information from Data Quiz]({{site.baseurl}}/images/DataInfoQuiz.jpg)
+
+## Binary Numbers Quiz
+### Score: 6/6
+![Binary Numbers Quiz]({{site.baseurl}}/images/BinaryNumbersQuiz.jpg)

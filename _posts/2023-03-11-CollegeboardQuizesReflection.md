@@ -15,7 +15,7 @@ categories: [week 25, recourses, collegeboard]
 
 ## Data Compression Quiz
 ### Score: 2/3
-![Data Compression Quiz]({{site.baseurl}}/images/DataCompressionQuiz.jpg)
+![Data Compression Quiz]({{site.baseurl}}/images/DataCompessionQuiz.jpg)
 
 ### Corrections:
 ![Q 1]({{site.baseurl}}/images/DCQ1.jpg)

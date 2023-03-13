@@ -28,3 +28,6 @@ categories: [week 25, recourses, collegeboard]
 ## Binary Numbers Quiz
 ### Score: 6/6
 ![Binary Numbers Quiz]({{site.baseurl}}/images/BinaryNumbersQuiz.jpg)
+
+
+- Overall, I think I have learned a lot about these topics. There were definitely a few questions that stumped me and I had to ask the people in my team. However, I generally feel pretty confident in these topics and like I could be much better/more efficient if I were to take the quizes again.

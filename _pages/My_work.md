@@ -58,3 +58,6 @@ title: My Work
 | 2 | 22 | [N@TM Blog](https://alexac54767.github.io/Alexa-Fastpage/reflection/N@TM) |
 | 2 | 22 | [CPT Write-Up](https://alexac54767.github.io/Alexa-Fastpage/project/CPTwriteup) |
 | 2 | 23 | [MCQ3 Reflection](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/MCQ3) |
+| 2 | 25 | [2.2 Data Compressions/Images](https://alexac54767.github.io/Alexa-Fastpage/2023/03/07/AP-unit2-2.html) |
+| 2 | 25 | [2.3 Extracting Information from Data/Pandas](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/2023/03/09/AP-unit2-3.html) |
+| 2 | 25 | [Collegeboard 2.2/2.3 Quizes Reflection](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/quizesreflection) |

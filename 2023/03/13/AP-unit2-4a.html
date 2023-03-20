@@ -13,14 +13,12 @@
 <link rel="canonical" href="https://alexac54767.github.io/Alexa-Fastpage/2023/03/13/AP-unit2-4a.html" />
 <meta property="og:url" content="https://alexac54767.github.io/Alexa-Fastpage/2023/03/13/AP-unit2-4a.html" />
 <meta property="og:site_name" content="Alexa’s Fastpage" />
-<meta property="og:image" content="https://alexac54767.github.io/Alexa-Fastpage/images/python.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-03-13T00:00:00-05:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://alexac54767.github.io/Alexa-Fastpage/images/python.png" />
+<meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unit 2.4a Using Programs with Data, SQLAlchemy" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-13T00:00:00-05:00","datePublished":"2023-03-13T00:00:00-05:00","description":"Using Programs with Data is focused on SQL and database actions. Part A focuses on SQLAlchemy and an OOP programming style,","headline":"Unit 2.4a Using Programs with Data, SQLAlchemy","image":"https://alexac54767.github.io/Alexa-Fastpage/images/python.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://alexac54767.github.io/Alexa-Fastpage/2023/03/13/AP-unit2-4a.html"},"url":"https://alexac54767.github.io/Alexa-Fastpage/2023/03/13/AP-unit2-4a.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-13T00:00:00-05:00","datePublished":"2023-03-13T00:00:00-05:00","description":"Using Programs with Data is focused on SQL and database actions. Part A focuses on SQLAlchemy and an OOP programming style,","headline":"Unit 2.4a Using Programs with Data, SQLAlchemy","mainEntityOfPage":{"@type":"WebPage","@id":"https://alexac54767.github.io/Alexa-Fastpage/2023/03/13/AP-unit2-4a.html"},"url":"https://alexac54767.github.io/Alexa-Fastpage/2023/03/13/AP-unit2-4a.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Alexa-Fastpage/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://alexac54767.github.io/Alexa-Fastpage/feed.xml" title="Alexa's Fastpage" /><link rel="shortcut icon" type="image/x-icon" href="/Alexa-Fastpage/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -990,7 +988,7 @@ Created new item Bananas
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Created
- {'id': 7, 'item': 'Cookies', 'storename': 'Costco', 'quantity': '3 boxes', 'price': 15.43}
+ {'id': 7, 'item': 'Cookies', 'storename': 'Costco', 'quantity': '3 boxes', 'price': 14.56}
 </pre>
 </div>
 </div>
@@ -1030,13 +1028,18 @@ Created new item Bananas
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[{'id': 2,
+<pre>[{'id': 1,
+  'item': 'Milk',
+  'storename': 'Vons',
+  'quantity': '1 gallon',
+  'price': 4.38},
+ {'id': 2,
   'item': 'Hamburger Buns',
   'storename': 'Costco',
   'quantity': '3 bags',
   'price': 14.34},
  {'id': 3,
-  'item': 'Orange Juice',
+  'item': 'Juice',
   'storename': 'Albertsons',
   'quantity': '1 jug',
   'price': 3.23},
@@ -1059,14 +1062,7 @@ Created new item Bananas
   'item': 'Cookies',
   'storename': 'Costco',
   'quantity': '3 boxes',
-  'price': 15.43},
- {'id': 8,
-  'item': 'Soup',
-  'storename': 'Vons',
-  'quantity': '1 can',
-  'price': 2},
- {'id': 9, 'item': '', 'storename': '', 'quantity': '', 'price': ''},
- {'id': 10, 'item': '', 'storename': '', 'quantity': '', 'price': ''}]</pre>
+  'price': 14.56}]</pre>
 </div>
 
 </div>
@@ -1107,7 +1103,7 @@ Created new item Bananas
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Deleted item: Cookies
+<pre>Deleted item: Soup
 </pre>
 </div>
 </div>
@@ -1126,7 +1122,7 @@ Created new item Bananas
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">updateitem</span><span class="p">():</span>
-    <span class="n">useritem</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the id of the item you want to update: "</span><span class="p">)</span>
+    <span class="n">useritem</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the item you want to update: "</span><span class="p">)</span>
     <span class="k">with</span> <span class="n">app</span><span class="o">.</span><span class="n">app_context</span><span class="p">():</span>
         <span class="n">item</span> <span class="o">=</span> <span class="n">Shop</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">filter_by</span><span class="p">(</span><span class="n">_item</span><span class="o">=</span><span class="n">useritem</span><span class="p">)</span><span class="o">.</span><span class="n">first</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">item</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
@@ -1163,7 +1159,7 @@ Created new item Bananas
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Updated item: {"id": 11, "item": "Doritos", "storename": "Sprouts", "quantity": "3 bags", "price": 4.56}
+<pre>Updated item: {"id": 7, "item": "Oatmeal Cookies", "storename": "Costco", "quantity": "3 boxes", "price": 14.56}
 </pre>
 </div>
 </div>
@@ -1275,7 +1271,7 @@ Created new item Bananas
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Updated item: {"id": 11, "item": "Lays", "storename": "Sprouts", "quantity": "3 bags", "price": 4.56}
+<pre>Deleted item: 
 </pre>
 </div>
 </div>

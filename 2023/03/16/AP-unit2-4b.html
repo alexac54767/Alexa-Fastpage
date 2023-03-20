@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      8 min read
     
 </span></p>
 
@@ -126,7 +126,11 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#Delete-a-User-in-table-in-Sqlite.db">Delete a User in table in Sqlite.db </a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h1"><a href="#Menu-Interface-to-CRUD-operations">Menu Interface to CRUD operations </a></li>
+<li class="toc-entry toc-h1"><a href="#Menu-Interface-to-CRUD-operations">Menu Interface to CRUD operations </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Does-this-implementation-have-procedural-abstraction?">Does this implementation have procedural abstraction? </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h1"><a href="#Hacks">Hacks </a></li>
 </ul><!--
 #################################################
@@ -164,10 +168,22 @@ window.onload = wrap_img;
 <p>Uses PRAGMA statement to read schema.</p>
 </blockquote>
 <p>Describe Schema, here is resource <a href="https://www.sqlite.org/index.html">Resource</a>- What is a database schema?</p>
+
+<pre><code>- Database schema is the structure and how the data is organized and defined.
+</code></pre>
 <ul>
-<li>What is the purpose of identity Column in SQL database?</li>
-<li>What is the purpose of a primary key in SQL database?</li>
-<li>What are the Data Types in SQL table?</li>
+<li>What is the purpose of identity Column in SQL database?<ul>
+<li>An identity column in SQL database makes it so it can easily identify objects, as well as keep track of them, edit, and delete them. This way, the database is more organized.</li>
+</ul>
+</li>
+<li>What is the purpose of a primary key in SQL database?<ul>
+<li>The primary key in an SQL database is to uniquely label/identify rows in the table</li>
+</ul>
+</li>
+<li>What are the Data Types in SQL table?<ul>
+<li>string, numeric, date/time</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -222,9 +238,19 @@ window.onload = wrap_img;
 <p>Uses SQL SELECT statement to read data</p>
 </blockquote>
 <ul>
-<li>What is a connection object?  After you google it, what do you think it does?</li>
-<li>Same for cursor object?</li>
-<li>Look at conn object and cursor object in VSCode debugger.  What attributes are in the object?:The database schema (ex: id, name, uid, passowrd, dob)- Is "results" an object?  How do you know?</li>
+<li>What is a connection object?  After you google it, what do you think it does?<ul>
+<li>A connection object is a unique session with a data source. I think this means that every time SQl connects, it has data specific to the database. This is what creates a conn that connects to the database.</li>
+</ul>
+</li>
+<li>Same for cursor object?<ul>
+<li>A cursor object is "a mechanism that enables traversal over the records in a database". I think these objects allow for the database to take inputs from the user.</li>
+</ul>
+</li>
+<li>Look at conn object and cursor object in VSCode debugger.  What attributes are in the object?<ul>
+<li>The database schema are the attricutes in the object (ex:id, name, uid, passowrd, dob)- Is "results" an object?  How do you know?</li>
+<li>Yes, results is an object. I know this since it has variables and functions.</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -272,14 +298,23 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>(1, 'Thomas Edison', 'toby', 'sha256$XITeTXzsxV68ozMW$825b9f14309be04898d6f76a8860c79e925b881d4cfe3f1e7e21d543b813f14b', '1847-02-11')
-(2, 'Nikola Tesla', 'niko', 'sha256$kg8lHwaDeOA48dMN$ff80fc91756a7addc4498b3bb424d918cce4e47d506c22c27f8e9769eaa1d194', '2023-03-16')
-(3, 'Alexander Graham Bell', 'lex', 'sha256$kR9RUETdeMTfI0uP$dc9902b9af4c5ea80c44f72432c3479d454bea005a377f299f42df786d755caa', '2023-03-16')
-(4, 'Eli Whitney', 'whit', 'sha256$rsBHniWeCQkYSt4r$2ef59dfdc5379cd69a2ce892d806a6729cb03556725173e4957c8b52e2431323', '2023-03-16')
-(5, 'Indiana Jones', 'indi', 'sha256$yNItMMrtWJflBBvq$36107d0c38a28c6f71b652e96c9a743aea82ab2b089314ca2c9dcbb84255ff43', '1920-10-21')
-(6, 'Marion Ravenwood', 'raven', 'sha256$ON3lJkHviEhTo5ES$9a25e2d251e63a1ef98e2d93afb619204fa7841ffe2f8d096e43392fdd8b241b', '1921-10-21')
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">OperationalError</span>                          Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb Cell 6</span> in <span class="ansi-cyan-fg">&lt;cell line: 24&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=20'&gt;21&lt;/a&gt;</span>     cursor.close()
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=21'&gt;22&lt;/a&gt;</span>     conn.close()
+<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=23'&gt;24&lt;/a&gt;</span> read()
+
+<span class="ansi-green-intense-fg ansi-bold">/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb Cell 6</span> in <span class="ansi-cyan-fg">read</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=7'&gt;8&lt;/a&gt;</span> cursor = conn.cursor()
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=9'&gt;10&lt;/a&gt;</span> # Execute a SELECT statement to retrieve data from a table
+<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=10'&gt;11&lt;/a&gt;</span> results = cursor.execute('SELECT * FROM users').fetchall()
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=12'&gt;13&lt;/a&gt;</span> # Print the results
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/alexac54767/vscode/Alexa-Fastpage/_notebooks/2023-03-16-AP-unit2-4b.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D?line=13'&gt;14&lt;/a&gt;</span> if len(results) == 0:
+
+<span class="ansi-red-fg">OperationalError</span>: no such table: users</pre>
 </div>
 </div>
 
@@ -298,8 +333,14 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses SQL INSERT to add row</p>
 <ul>
-<li>Compore create() in both SQL lessons.  What is better or worse in the two implementations?</li>
-<li>Explain purpose of SQL INSERT.   Is this the same as User <strong>init</strong>?</li>
+<li>Compore create() in both SQL lessons.  What is better or worse in the two implementations?<ul>
+<li>I like the OOP programming create() funciton better. It is more efficient and is in fewer lines. However, it does require that you defined all your setters and getters previously.</li>
+</ul>
+</li>
+<li>Explain purpose of SQL INSERT.   Is this the same as User <strong>init</strong>?<ul>
+<li>SQL INSERT is a command that will add the data into the database table. It is "activated" seperately, versus the init in the OOP model runs all the functions under init.</li>
+</ul>
+</li>
 </ul>
 </blockquote>
 
@@ -362,9 +403,18 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses SQL UPDATE to modify password</p>
 <ul>
-<li>What does the hacked part do?</li>
-<li>Explain try/except, when would except occur?</li>
-<li>What code seems to be repeated in each of these examples to point, why is it repeated?</li>
+<li>What does the hacked part do?<ul>
+<li>The hacked part makes it so if a user types in a paswword that is less then 2 characters, they will get a message that says the have been hacked and will set their password to "gothackednewpassword123".</li>
+</ul>
+</li>
+<li>Explain try/except, when would except occur?<ul>
+<li>The try/except act as conditionals where they will attempt to pursue code, and then if those conditions aren't met/fail, it will run the except code.</li>
+</ul>
+</li>
+<li>What code seems to be repeated in each of these examples to point, why is it repeated?<ul>
+<li>It seems that defining conn and cursor before the try and except is repeated everytime. Also, the cursor.clos() and the conn.close. I think this may be becuase the connection object, and how the connection is unique everytime.</li>
+</ul>
+</li>
 </ul>
 </blockquote>
 
@@ -431,8 +481,14 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses a delete function to remove a user based on a user input of the id.</p>
 <ul>
-<li>Is DELETE a dangerous operation?  Why?</li>
-<li>In the print statemements, what is the "f" and what does {uid} do?</li>
+<li>Is DELETE a dangerous operation?  Why?<ul>
+<li>Yes, DELETE is a dangerous opertation since it cannot be reversed. The record is gone forever.</li>
+</ul>
+</li>
+<li>In the print statemements, what is the "f" and what does {uid} do?<ul>
+<li>the "f" and {} form formatted string literals. They allow the uid to be replaced with specific data to the situation.</li>
+</ul>
+</li>
 </ul>
 </blockquote>
 
@@ -492,8 +548,14 @@ window.onload = wrap_img;
 <blockquote>
 <p>CRUD and Schema interactions from one location by running menu. Observe input at the top of VSCode, observe output underneath code cell.</p>
 <ul>
-<li>Why does the menu repeat?</li>
-<li>Could you refactor this menu?  Make it work with a List?</li>
+<li>Why does the menu repeat?<ul>
+<li>The menu repeats so it can perform multiple CRUD operations.</li>
+</ul>
+</li>
+<li>Could you refactor this menu?  Make it work with a List?<ul>
+<li>I'm not exactly sure how I could refactor this menu. Maybe I could put all the CRUD operation functions into a list, and then iterate through the list to call the functions. I could name it CRUD = ['create()', 'read()', 'update()', 'delete()', 'schema()']. This would make the code more efficient.</li>
+</ul>
+</li>
 </ul>
 </blockquote>
 
@@ -552,6 +614,19 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Does-this-implementation-have-procedural-abstraction?">
+<a class="anchor" href="#Does-this-implementation-have-procedural-abstraction?" aria-hidden="true"><span class="octicon octicon-link"></span></a>Does this implementation have procedural abstraction?<a class="anchor-link" href="#Does-this-implementation-have-procedural-abstraction?"> </a>
+</h3>
+<ul>
+<li>Yes, this imperative style has procedural abstraction. This style uses recoursion, which is similar to a while loop, but is not a while loop. However, it still acts as iteration, with improved timing and efficiency. </li>
+</ul>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">

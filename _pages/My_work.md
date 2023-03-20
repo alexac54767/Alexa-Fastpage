@@ -63,4 +63,4 @@ title: My Work
 | 3 | 25 | [Collegeboard 2.2/2.3 Quizes Reflection](https://alexac54767.github.io/Alexa-Fastpage/collegeboard/quizesreflection) |
 | 3 | 26 | [Unit 2.4 a Notebook (my own database with CRUD)](https://alexac54767.github.io/Alexa-Fastpage/2023/03/13/AP-unit2-4a.html) |
 | 3 | 26 | [Unit 2.4 b Notebook](https://alexac54767.github.io/Alexa-Fastpage/2023/03/16/AP-unit2-4b.html) |
-| 3 | 26 | [Debugging example for 2.4 database]() |
+| 3 | 26 | [Debugging example for 2.4 database](https://alexac54767.github.io/Alexa-Fastpage/debugging/crud) |

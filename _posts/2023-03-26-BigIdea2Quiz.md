@@ -6,7 +6,7 @@ title: CollegeBoard Big Idea 2 Quiz Reflection
 description: Reflecting on my mistakes/challenges with the Big Idea 2 MC Quiz.
 permalink: /collegeboard/BigIdea2reflection
 image: /images/BigIdeaQuiz2.jpg
-categories: [week 26, recourses, collegeboard]
+categories: [week 27, recourses, collegeboard]
 ---
 
 ## My Score: 25/25

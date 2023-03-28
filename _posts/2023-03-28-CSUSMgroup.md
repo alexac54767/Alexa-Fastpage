@@ -2,9 +2,9 @@
 toc: true
 comments: true
 layout: post
-title: CUCSM Ambassador Group 
-description: Notes from the CUCSM group
-permalink: /computerscience/CUCSM
+title: CSUSM Ambassador Group 
+description: Notes from the CSUSM group
+permalink: /computerscience/CSUSM
 categories: [week 28, recourses]
 ---
 ## Cal State San Marcos
@@ -13,7 +13,7 @@ categories: [week 28, recourses]
 - national leader in social mobility (internship opportunities)
 - ^ rags to riches!
 - Chemistry, Biochemistry, Physics, Applied Physics (experimental) Biological Sciences, Computer Science, Cyber Security, Computer Engineering, Engineering (electrical, software), Math
-- at CUCSM can switch majors easily (won't loose much progress)
+- at CSUSM can switch majors easily (won't loose much progress)
 - lots of clubs (STEM opportunities!)
 
 ### Internships

@@ -26,16 +26,19 @@ categories: [week 28, recourses, collegeboard]
 
 ![Q20]({{site.baseurl}}/images/Q20.jpg)
 - Question 20: 
-    - On this question, I failed to consider all the options. I had assumed that all options would work, however, I failed to consider one order of scores. When I tested out Team C and Team A having the highest score, the program was correct. Although, I didn't realize that if Team B had the highest score but Team C had a higher score than Team A, then team C was incorrectly ruled the winner.
+    - On this question, I misunderstood option 3. I thought that the metadeta wouldn't include the actual "name" of the criminals, only the phone number. However, I think they only meant for the list to be of the phone numbers, making both options 2 and 3 correct.
 
 ![Q37]({{site.baseurl}}/images/Q37.jpg)
 - Question 37:
-    - I should have looked at this queston more throughly, and thought of options for values past the provided table. I thought this question was "too easy", since I directly looked at the number of steps when the list size was 5, and chose the options with the lowest number. However, if I looked more carefully, I would've seen that algorithm B grows at an exponential rate. Sure, at a list size of 5 it has the least steps, but it also grows the fastest. 
+    - I actually got the correct algorithim efficiency for this question. However, I thouight that n^2 was inefficicent. Apparently is is said to run in a reasonable amount of time. 
 
 ![Q49]({{site.baseurl}}/images/Q49.jpg)
 - Question 49:
-    - I should have looked at this queston more throughly, and thought of options for values past the provided table. I thought this question was "too easy", since I directly looked at the number of steps when the list size was 5, and chose the options with the lowest number. However, if I looked more carefully, I would've seen that algorithm B grows at an exponential rate. Sure, at a list size of 5 it has the least steps, but it also grows the fastest. 
+    - My answer to this question does correctly compare the student scores to the maximum possible score, however, it fails to check the last element on the list. That is why option A is correct, setting the variable "len" to the length of the scores -1.
 
 
 ## Improve for Next Time:
-- I think I need to watch the collegeboard videos/research more about the following activities:
+- I think I need to watch the collegeboard videos/research more about the following topics:
+    - binary searches
+    - data transmissions
+    - algorithm efficiency

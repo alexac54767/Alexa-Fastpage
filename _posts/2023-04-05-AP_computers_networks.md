@@ -18,10 +18,10 @@ week: 29
 > As we have learned, a computer needs aa program to do something smart.  The sequence of a program initiates a series of actions with the computers Central Processing Unit (CPU). This component is essentially a binary machine focussing on program instructions provided.  The CPU retrieives and stores the data it acts upon in Random Access Memory (RAM). Between the CPU, RAM, and Storage Devices a computer can work with many programs and large amounts of data.
 
 List specification of your Computer, or Computers if working as Pair/Trio
-- Processor GHz:
-- Memory in GB:
-- Storage in GB:
-- OS:
+- Processor GHz: 2.50 GHz
+- Memory in GB: 8.00 GB
+- Storage in GB: 237 GB
+- OS: Windows build: 19045.2728
 
 Define or describe usage of Computer using Computer Programs. Pictures are preferred over a lot of text.  Use your experience.
 - Input devices
@@ -30,7 +30,10 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 - Program Code
 - Processes
 - Ports
-- Data File
+- Data File:
+    - one format of a data file is a csv file (comma seperated values)
+    - this is a csv file I have used previously in this calss
+    -  ![csv file example]({{site.baseurl}}/images/csvfileexample.png)
 - Inspect Running Code
 - Inspect Variables
 

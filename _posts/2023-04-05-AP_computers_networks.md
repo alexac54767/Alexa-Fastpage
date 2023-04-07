@@ -28,14 +28,15 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 - Output devices
 - Program File
 - Program Code
-- Processes
-- Ports
+    - ![definitions of input, output, file, code]({{site.baseurl}}/images/definitions1.png)
+- Processes:
+- Ports: 
 - Data File:
     - one format of a data file is a csv file (comma seperated values)
     - this is a csv file I have used previously in this calss
     -  ![csv file example]({{site.baseurl}}/images/csvfileexample.png)
-- Inspect Running Code
-- Inspect Variables
+- Inspect Running Code: 
+- Inspect Variables: 
 
 
 ![Computer Hardware]({{site.baseurl}}/images/cpu.jpg)

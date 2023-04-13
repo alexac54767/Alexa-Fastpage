@@ -4,7 +4,7 @@ comments: true
 layout: post
 title: Computers and Networks (Unit 4)
 description: Add Definitions from Unit 4 Computer Systems and Networks
-categories: []
+categories: [networks, week 29, computers]
 type: ap
 week: 29
 ---

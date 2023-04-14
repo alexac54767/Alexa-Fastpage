@@ -48,21 +48,21 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 
 - Essential Knowledge
     - A  <span style="color: red;">computing device</span> is a physical artifact that can run a program. Some examples include computers, tablets, servers, routers, and smart sensors.
-    - A computing system is a group of computing devices and programs working together for a common purpose.
-    - A computer network is a group of interconnected computing devices capable of sending or receiving data.
-    - A computer network is a type of computing system. 
-    - A path between two computing devices on a computer network (a sender and a receiver) is a sequence of directly connected computing devices that begins at the sender and ends at the receiver.
-    - Routing is the process of finding a path from sender to receiver.
-    - The bandwidth of a computer network is the maximum amount of data that can be sent in a fixed amount of time.
-    - Bandwidth is usually measured in bits per second
+    - A <span style="color: blue;">computing system</span> is a group of computing devices and programs working together for a common purpose.
+    - A <span style="color: orange;">computer network</span> is a group of interconnected computing devices capable of sending or receiving data.
+    - A <span style="color: orange;">computer network</span> is a type of computing system. 
+    - A <span style="color: green;">path</span> between two computing devices on a computer network (a sender and a receiver) is a sequence of directly connected computing devices that begins at the sender and ends at the receiver.
+    - <span style="color: purple;">Routing</span> is the process of finding a path from sender to receiver.
+    - The <span style="color: pink;">bandwidth</span> of a computer network is the maximum amount of data that can be sent in a fixed amount of time.
+    - <span style="color: pink;">Bandwidth</span> is usually measured in bits per second
 
 - Complete Vocabulary Matching Activity.  Incorporate this into your learnings from year.  To analyze measure path and latency use `traceroute` and `ping` commands from Linux Terminal.  
-    - Path 
-    - Route
-    - Computer System
+    - <span style="color: green;">Path</span> 
+    - <span style="color: purple;">Route</span> 
+    - <span style="color: blue;">Computer System</span>
     - <span style="color: red;">Computer Device</span>
-    - Bandwidth
-    - Computer Network
+    - <span style="color: pink;">Bandwidth</span>
+    - <span style="color: orange;">Computer Network</span>
 
 > Watch/review College Board Daily Video 4.1.2
 

@@ -47,7 +47,7 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 > Watch/review College Board Daily Video for 4.1.1
 
 - Essential Knowledge
-    - A computing device is a physical artifact that can run a program. Some examples include computers, tablets, servers, routers, and smart sensors.
+    - A  <span style="color: red;">computing device</span> is a physical artifact that can run a program. Some examples include computers, tablets, servers, routers, and smart sensors.
     - A computing system is a group of computing devices and programs working together for a common purpose.
     - A computer network is a group of interconnected computing devices capable of sending or receiving data.
     - A computer network is a type of computing system. 
@@ -60,7 +60,7 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - Path 
     - Route
     - Computer System
-    - Computer Device
+    - <span style="color: red;">Computer Device</span>
     - Bandwidth
     - Computer Network
 

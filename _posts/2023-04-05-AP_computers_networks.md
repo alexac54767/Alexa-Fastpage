@@ -5,7 +5,6 @@ layout: post
 title: Computers and Networks (Unit 4)
 description: Add Definitions from Unit 4 Computer Systems and Networks
 categories: [networks, week 29, computers]
-type: ap
 week: 29
 ---
 
@@ -28,14 +27,17 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 - Program File
 - Program Code
     - ![definitions of input, output, file, code]({{site.baseurl}}/images/definitions1.png)
-- Processes:
-- Ports: 
+- Processes: instances of a program running in a computer
+- Ports: virtual points where network connections start and end
+    - For example, here are the ports in my dockerfile that this page runs on when I run localhost
+    - ![port example]({{site.baseurl}}/images/exports.jpg)
 - Data File:
     - one format of a data file is a csv file (comma seperated values)
     - this is a csv file I have used previously in this calss
     -  ![csv file example]({{site.baseurl}}/images/csvfileexample.png)
-- Inspect Running Code: 
-- Inspect Variables: 
+- Inspect Running Code: using the debugger feature to see what is going on in your code, step by step
+- Inspect Variables: using the debugger feature to see when a variable is created, used, and what is assigned to it
+- [My debugging example from the 2.4 lecture](https://alexac54767.github.io/Alexa-Fastpage/debugging/crud)
 
 
 ![Computer Hardware]({{site.baseurl}}/images/cpu.jpg)

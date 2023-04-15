@@ -67,6 +67,7 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 > Watch/review College Board Daily Video 4.1.2
 
 - Complete True of False Questions
+    - ![4.1.2 True/False Questions]({{site.baseurl}}/images/4.1.2TrueFalse.jpg)
 
 - Essential Knowledge
     - The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.

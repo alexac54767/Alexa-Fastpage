@@ -124,6 +124,16 @@ The "network" layer is responsible for ***routing data packets between networks*
 > Watch both Daily videos for 4.2
 
 - Complete the network activity, summarize your understanding of fault tolerance.
+    - Example 1:
+        - ![Fault Tolerance ex 1]({{site.baseurl}}/images/FT1.jpg)
+        - This example is fault tolerant since there are at least 2 paths to every letter. That way, if one path would go out, the network would still have ways to access the letter.
+    - Example 2:
+        - ![Fault Tolerance ex 2]({{site.baseurl}}/images/FT2.jpg)
+        - This example is not fault tolerant. The letter F only has one path to access it. That means that if it goes out, F would be cut off completely, making the network is not fault tolerant.
+    - Example 3:
+        - ![Fault Tolerance ex 3]({{site.baseurl}}/images/FT3.jpg)
+        - This example is not fault tolerant since A to G only has one path. If it were to go out, the letter A would be competely cut off. This means that the network is not fault tolerant. 
+    - I have learned that when looking to see if a network is fault tolerant, you have to investigate all of the parts. In both of these examples that aren't fault tolerant, only one letter is the issue. Every other piece has multiple paths to it. So, you have to look carefully to ensure a network is in fact, fault tolerant.
 
 
 ### Parallel and Distributed Computing

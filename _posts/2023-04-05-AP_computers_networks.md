@@ -85,9 +85,13 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - HTTP is a protocol used by the world wide web
     - The world wide web uses the internet
 
-- Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highligh vocabulary by illustration. The below illustration have some ideas
+- Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highlight vocabulary by illustration. The below illustration have some ideas
 
 ![Full Stack]({{site.baseurl}}/images/fullstack.png)
+
+- My diagram:
+    - ![My diagram]({{site.baseurl}}/images/TheInternet.png)
+
 
 
 - Often we draw pictures of machines communicating over the Internet with arrows.  However, the real communication goes through protocol layers and the machine and then is trasported of the network.   For College Board and future Computer Knowledge you should become familiar with the following ...

@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      8 min read
     
 </span></p>
 
@@ -265,21 +265,47 @@ window.onload = wrap_img;
 </blockquote>
 
 <ul>
-  <li>Complete the network activity, summarize your understanding of fault tolerance.</li>
+  <li>Complete the network activity, summarize your understanding of fault tolerance.
+    <ul>
+      <li>Example 1:
+        <ul>
+          <li><img src="/Alexa-Fastpage/images/FT1.jpg" alt="Fault Tolerance ex 1"></li>
+          <li>This example is fault tolerant since there are at least 2 paths to every letter. That way, if one path would go out, the network would still have ways to access the letter.</li>
+        </ul>
+      </li>
+      <li>Example 2:
+        <ul>
+          <li><img src="/Alexa-Fastpage/images/FT2.jpg" alt="Fault Tolerance ex 2"></li>
+          <li>This example is not fault tolerant. The letter F only has one path to access it. That means that if it goes out, F would be cut off completely, making the network is not fault tolerant.</li>
+        </ul>
+      </li>
+      <li>Example 3:
+        <ul>
+          <li><img src="/Alexa-Fastpage/images/FT3.jpg" alt="Fault Tolerance ex 3"></li>
+          <li>This example is not fault tolerant since A to G only has one path. If it were to go out, the letter A would be competely cut off. This means that the network is not fault tolerant.</li>
+        </ul>
+      </li>
+      <li>I have learned that when looking to see if a network is fault tolerant, you have to investigate all of the parts. In both of these examples that aren’t fault tolerant, only one letter is the issue. Every other piece has multiple paths to it. So, you have to look carefully to ensure a network is in fact, fault tolerant.</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="parallel-and-distributed-computing">
 <a class="anchor" href="#parallel-and-distributed-computing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Parallel and Distributed Computing</h3>
 <blockquote>
-  <p>Review previous lecture on Parallel Computing and watch Daily vidoe 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks…</p>
+  <p>Review previous lecture on Parallel Computing and watch Daily video 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks…</p>
 </blockquote>
 
 <ul>
-  <li>
-    <p>What is naturally Distributed in Frontend/Backend archeticture?</p>
+  <li>What is naturally Distributed in Frontend/Backend archeticture?
+    <ul>
+      <li>Data is naturally distributed between Frontend and Backend architecture. The frontend focuses on the user experience while the backend makes that happen (makes it work).</li>
+    </ul>
   </li>
-  <li>
-    <p>Analyze this command in Docker: <code class="language-plaintext highlighter-rouge">ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"</code>.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an <a href="https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7">article</a></p>
+  <li>Analyze this command in Docker: <code class="language-plaintext highlighter-rouge">ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"</code>.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an <a href="https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7">article</a>
+    <ul>
+      <li>in order to incorporate parallel computing, I could increase the amount of workers. As long as the amount of workers is less than or equal to 2 times the CPU plus one. Adding more workers allows for more for python applications to be opened at once, therefore using parallel computing.</li>
+    </ul>
   </li>
 </ul>
 

@@ -137,11 +137,13 @@ The "network" layer is responsible for ***routing data packets between networks*
 
 
 ### Parallel and Distributed Computing
-> Review previous lecture on Parallel Computing and watch Daily vidoe 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks...
+> Review previous lecture on Parallel Computing and watch Daily video 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks...
 
 - What is naturally Distributed in Frontend/Backend archeticture?  
+    - Data is naturally distributed between Frontend and Backend architecture. The frontend focuses on the user experience while the backend makes that happen (makes it work).
 
 - Analyze this command in Docker: ```ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"```.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an [article](https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7)
+    - in order to incorporate parallel computing, I could increase the amount of workers. As long as the amount of workers is less than or equal to 2 times the CPU plus one. Adding more workers allows for more for python applications to be opened at once, therefore using parallel computing.
 
 
 > Last week we discussed parallel computing on local machine.  There are many options.  Here is something to get parallel computing work with a tool called Ray.

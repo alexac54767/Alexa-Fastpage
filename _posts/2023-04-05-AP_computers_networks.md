@@ -134,7 +134,12 @@ The "network" layer is responsible for ***routing data packets between networks*
         - ![Fault Tolerance ex 3]({{site.baseurl}}/images/FT3.jpg)
         - This example is not fault tolerant since A to G only has one path. If it were to go out, the letter A would be competely cut off. This means that the network is not fault tolerant. 
     - I have learned that when looking to see if a network is fault tolerant, you have to investigate all of the parts. In both of these examples that aren't fault tolerant, only one letter is the issue. Every other piece has multiple paths to it. So, you have to look carefully to ensure a network is in fact, fault tolerant.
-
+    - Question 1:
+        - ![Fault Tolerance question 1]({{site.baseurl}}/images/FTq1.jpg)
+        - No matter how many paths are available for data to take in a network, it will only end up using one. This means having a fault tolerant network is "unecessary" in this situation (nothing goes wrong, fragile netowrk).
+    - Question 2:
+        - ![Fault Tolerance question 2]({{site.baseurl}}/images/FTq2.jpg)
+        - Adding a connection between A and B would allow A to have more than 1 path, making the network fault-tolerant.
 
 ### Parallel and Distributed Computing
 > Review previous lecture on Parallel Computing and watch Daily video 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks...

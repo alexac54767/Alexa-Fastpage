@@ -91,6 +91,7 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 
 - My diagram:
     - ![My diagram]({{site.baseurl}}/images/TheInternet.png)
+    - ![Group's Diagram]({{site.baseurl}}/images/CSP Full Stack Diagram.png)
 
 
 

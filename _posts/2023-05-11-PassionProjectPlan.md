@@ -16,6 +16,8 @@ categories: [week 33, passion project]
 
 > This project will be focused on music. We are planning on focusing on generating song recommenations and concert availability. Users will hopefully be able to search for songs with certian aspects (such as genre or artist) and look for concerts for specific artists in their area.
 
+![duo]({{site.baseurl}}/images/Maniac Music Team.png)
+
 ### Incoorporating a Sorting Algorithm
 > Spotify
 - We will be using an API (going to try Spotify) to fetch songs and their meta data.

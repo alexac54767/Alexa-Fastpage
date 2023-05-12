@@ -5,14 +5,16 @@ layout: post
 title: Passion Project Plan 
 description: Planning our passion project.
 permalink: /passionproject/plan
-image: /images/MCQ2021.png
+image: /images/projectplanhome.png
 categories: [week 33, passion project]
 ---
+![Home page of our site]({{site.baseurl}}/images/projectplanhome.png)
 
+## Name: Maniac Music
 ## Topic: Music
 ## Members: Ava and Alexa Carlson (the iconic duo)
-## Name: Maniac Music
-> This project will be about everything music. We are planning on focusing on generating song recommenations and concert availability. Users will hopefully be able to search for songs with certian aspects (such as genre or artist) and look for concerts for specific artists in their area.
+
+> This project will be focused on music. We are planning on focusing on generating song recommenations and concert availability. Users will hopefully be able to search for songs with certian aspects (such as genre or artist) and look for concerts for specific artists in their area.
 
 ### Incoorporating a Sorting Algorithm
 > Spotify
@@ -36,3 +38,8 @@ categories: [week 33, passion project]
     1. Coldplay
     2. Within 200 miles
     3. On a weekend
+
+### Passion:
+> The Carlson twins have always loved music 
+- We have a Spotify playlist with over 2.5k saves #lowkey music influencers ;)
+- Concerts are some of our favorite memories. They are the most surreal and amazing things we have ever been to.

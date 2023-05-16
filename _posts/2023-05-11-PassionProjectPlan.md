@@ -45,3 +45,6 @@ categories: [week 33, passion project]
 > The Carlson twins have always loved music 
 - We have a Spotify playlist with over 2.5k saves #lowkey music influencers ;)
 - Concerts are some of our favorite memories. They are the most surreal and amazing things we have ever been to.
+
+## Ideas: song sorting format (concert API will be similar)
+![wire frame]({{site.baseurl}}/images/Sorting Songs Wire Frame.png)

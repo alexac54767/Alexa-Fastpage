@@ -41,6 +41,9 @@ categories: [week 33, passion project]
     2. Within 200 miles
     3. On a weekend
 
+### Favorite Song Database
+- We are planning on creating our own database that will hold "community favorites". Users of our program will be able to add their favorite songs (also delete, update, etc <- CRUD) 
+
 ### Passion:
 > The Carlson twins have always loved music 
 - We have a Spotify playlist with over 2.5k saves #lowkey music influencers ;)

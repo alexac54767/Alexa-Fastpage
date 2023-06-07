@@ -81,3 +81,5 @@ title: My Work
 | 3 | 33+ | [Progress Tracking Issue](https://github.com/avac54765/ManiacMusic/issues/1) |
 | 3 | 34 | [Sorting Lecture/Hacks](https://alexac54767.github.io/Alexa-Fastpage/sorting/week%2034/2023/05/15/DS-sorting.html) |
 | 3 | 34 | [Animation Lecture/Hacks](https://alexac54767.github.io/Alexa-Fastpage/animation/week%2034/2023/05/16/DS-arrays_lab.html) |
+| 3 | 36 | [Our Final Project](https://github.com/avac54765/ManiacMusic/issues/6) |
+| 3 | 36 | [My CSP Reflection](https://github.com/alexac54767/Alexa-Fastpage/issues/39) |
